@@ -1,0 +1,32 @@
+{
+    "name": "ibexa/commerce",
+    "type": "metapackage",
+    "license": "proprietary",
+    "description": "A meta package for installing Ibexa DXP Commerce edition",
+    "require": {
+        "php": "^7.3",
+        "ibexa/experience": "^3.3",
+        "ezsystems/apache-tika-bundle": "^2.0",
+        "ezsystems/comment-bundle": "^3.1",
+        "ezsystems/ezcommerce-admin-ui": "^1.2@dev",
+        "ezsystems/ezcommerce-base-design": "^3.3@dev",
+        "ezsystems/ezcommerce-checkout": "^1.0@dev",
+        "ezsystems/ezcommerce-erp-admin": "^3.3@dev",
+        "ezsystems/ezcommerce-fieldtypes": "^1.2@dev",
+        "ezsystems/ezcommerce-order-history": "^3.3@dev",
+        "ezsystems/ezcommerce-page-builder": "^1.2@dev",
+        "ezsystems/ezcommerce-price-engine": "^3.3@dev",
+        "ezsystems/ezcommerce-shop": "^3.3@dev",
+        "ezsystems/ezcommerce-shop-ui": "^1.1@dev",
+        "ezsystems/ezmigrationbundle": "^1.0@dev",
+        "ezsystems/job-queue-bundle": "^4.0",
+        "ezsystems/payment-core-bundle": "^3.0",
+        "ezsystems/stash-bundle": "^0.8",
+        "gregwar/captcha-bundle": "^2.1"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.3.x-dev"
+        }
+    }
+}
