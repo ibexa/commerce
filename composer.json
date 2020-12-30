@@ -3,9 +3,12 @@
     "type": "metapackage",
     "license": "proprietary",
     "description": "A meta package for installing Ibexa DXP Commerce edition",
+    "repositories": [
+        {"type": "composer", "url": "https://updates.ibexa.co"}
+    ],
     "require": {
         "php": "^7.3",
-        "ibexa/experience": "^3.3",
+        "ibexa/experience": "^3.3.x-dev",
         "ezsystems/apache-tika-bundle": "^2.0",
         "ezsystems/comment-bundle": "^3.1",
         "ezsystems/ezcommerce-admin-ui": "^1.2.x-dev",
