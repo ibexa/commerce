@@ -13,7 +13,7 @@
         "ezsystems/ezcommerce-erp-admin": "^3.3.x-dev",
         "ezsystems/ezcommerce-order-history": "^3.3.x-dev",
         "ezsystems/ezcommerce-page-builder": "^1.2.x-dev",
-        "ezsystems/ezcommerce-transaction": "^1.0.x-dev",
+        "ezsystems/ezcommerce-transaction": "^1.0.x-dev"
     },
     "extra": {
         "branch-alias": {
