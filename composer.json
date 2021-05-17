@@ -13,6 +13,7 @@
         "ezsystems/ezcommerce-erp-admin": "^4.0.x-dev",
         "ezsystems/ezcommerce-order-history": "^4.0.x-dev",
         "ezsystems/ezcommerce-page-builder": "^2.0.x-dev",
+        "ezsystems/ezcommerce-rest": "^4.0.x-dev",
         "ezsystems/ezcommerce-transaction": "^2.0.x-dev"
     },
     "extra": {
