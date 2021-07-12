@@ -8,13 +8,13 @@
     ],
     "require": {
         "php": "^7.3",
-        "ibexa/experience": "^3.3.x-dev",
-        "ezsystems/ezcommerce-admin-ui": "^1.2.x-dev",
-        "ezsystems/ezcommerce-erp-admin": "^3.3.x-dev",
-        "ezsystems/ezcommerce-order-history": "^3.3.x-dev",
-        "ezsystems/ezcommerce-page-builder": "^1.2.x-dev",
-        "ezsystems/ezcommerce-rest": "^3.0.x-dev",
-        "ezsystems/ezcommerce-transaction": "^1.0.x-dev"
+        "ibexa/experience": "~3.3.6",
+        "ezsystems/ezcommerce-admin-ui": "~1.2.5",
+        "ezsystems/ezcommerce-erp-admin": "~3.3.1",
+        "ezsystems/ezcommerce-order-history": "~3.3.1",
+        "ezsystems/ezcommerce-page-builder": "~1.2.0",
+        "ezsystems/ezcommerce-rest": "~3.3.3",
+        "ezsystems/ezcommerce-transaction": "~1.0.3"
     },
     "extra": {
         "branch-alias": {
