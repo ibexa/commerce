@@ -9,12 +9,12 @@
     "require": {
         "php": "^7.3",
         "ibexa/experience": "^4.0.x-dev",
-        "ezsystems/ezcommerce-admin-ui": "^2.0.x-dev",
+        "ezsystems/ezcommerce-admin-ui": "^4.0.x-dev",
         "ezsystems/ezcommerce-erp-admin": "^4.0.x-dev",
         "ezsystems/ezcommerce-order-history": "^4.0.x-dev",
-        "ezsystems/ezcommerce-page-builder": "^2.0.x-dev",
+        "ezsystems/ezcommerce-page-builder": "^4.0.x-dev",
         "ezsystems/ezcommerce-rest": "^4.0.x-dev",
-        "ezsystems/ezcommerce-transaction": "^2.0.x-dev"
+        "ezsystems/ezcommerce-transaction": "^4.0.x-dev"
     },
     "extra": {
         "branch-alias": {
