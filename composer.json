@@ -6,15 +6,17 @@
     "repositories": [
         {"type": "composer", "url": "https://updates.ibexa.co"}
     ],
+    "minimum-stability": "alpha",
+    "prefer-stable": true,
     "require": {
         "php": "^7.3",
-        "ibexa/experience": "^4.0.x-dev",
-        "ezsystems/ezcommerce-admin-ui": "^4.0.x-dev",
-        "ezsystems/ezcommerce-erp-admin": "^4.0.x-dev",
-        "ezsystems/ezcommerce-order-history": "^4.0.x-dev",
-        "ezsystems/ezcommerce-page-builder": "^4.0.x-dev",
-        "ezsystems/ezcommerce-rest": "^4.0.x-dev",
-        "ezsystems/ezcommerce-transaction": "^4.0.x-dev"
+        "ibexa/experience": "~4.0.0@alpha",
+        "ezsystems/ezcommerce-admin-ui": "~4.0.0@alpha",
+        "ezsystems/ezcommerce-erp-admin": "~4.0.0@alpha",
+        "ezsystems/ezcommerce-order-history": "~4.0.0@alpha",
+        "ezsystems/ezcommerce-page-builder": "~4.0.0@alpha",
+        "ezsystems/ezcommerce-rest": "~4.0.0@alpha",
+        "ezsystems/ezcommerce-transaction": "~4.0.0@alpha"
     },
     "extra": {
         "branch-alias": {
