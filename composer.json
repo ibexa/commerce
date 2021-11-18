@@ -8,7 +8,7 @@
     ],
     "require": {
         "php": "^7.3",
-        "ibexa/experience": "dev-rebranding",
+        "ibexa/experience": "^4.0.x-dev",
         "ibexa/commerce-admin-ui": "^4.0.x-dev",
         "ibexa/commerce-erp-admin": "^4.0.x-dev",
         "ibexa/commerce-order-history": "^4.0.x-dev",
