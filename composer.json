@@ -3,6 +3,8 @@
     "type": "metapackage",
     "license": "proprietary",
     "description": "A meta package for installing Ibexa DXP Commerce edition",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "repositories": [
         {"type": "composer", "url": "https://updates.ibexa.co"}
     ],
@@ -15,6 +17,9 @@
         "ezsystems/ezcommerce-page-builder": "^1.2.x-dev",
         "ezsystems/ezcommerce-rest": "^3.0.x-dev",
         "ezsystems/ezcommerce-transaction": "^1.0.x-dev"
+    },
+    "require-dev": {
+        "ibexa/ci-scripts": "^0.1@dev"
     },
     "extra": {
         "branch-alias": {
