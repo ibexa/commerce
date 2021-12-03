@@ -109,12 +109,6 @@
     },
     {
         "requirement": "dev-ibx-1334-cross-rebranding as 4.0.x-dev",
-        "repositoryUrl": "https://github.com/ibexa/core",
-        "package": "ibexa/core",
-        "shouldBeAddedAsVCS": false
-    },
-    {
-        "requirement": "dev-ibx-1334-cross-rebranding as 4.0.x-dev",
         "repositoryUrl": "https://github.com/ibexa/cron",
         "package": "ibexa/cron",
         "shouldBeAddedAsVCS": false
@@ -238,12 +232,6 @@
         "repositoryUrl": "https://github.com/ibexa/personalization",
         "package": "ibexa/personalization",
         "shouldBeAddedAsVCS": true
-    },
-    {
-        "requirement": "dev-ibx-1334-cross-rebranding as 4.0.x-dev",
-        "repositoryUrl": "https://github.com/ibexa/post-install",
-        "package": "ibexa/post-install",
-        "shouldBeAddedAsVCS": false
     },
     {
         "requirement": "dev-ibx-1334-cross-rebranding as 4.0.x-dev",
