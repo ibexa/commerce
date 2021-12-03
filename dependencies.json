@@ -1,12 +1,6 @@
 [
     {
         "requirement": "dev-ibx-1334-cross-rebranding as 4.0.x-dev",
-        "repositoryUrl": "https://github.com/ibexa/admin-ui-assets",
-        "package": "ibexa/admin-ui-assets",
-        "shouldBeAddedAsVCS": false
-    },
-    {
-        "requirement": "dev-ibx-1334-cross-rebranding as 4.0.x-dev",
         "repositoryUrl": "https://github.com/ibexa/admin-ui",
         "package": "ibexa/admin-ui",
         "shouldBeAddedAsVCS": false
