@@ -14,7 +14,7 @@ jobs:
         with:
             project-edition: "commerce"
             project-version: "dev-rebranding"
-            test-suite: "--profile=regression --suite=commerce"
+            test-suite: "--profile=regression --suite=commerce --mode=standard"
             test-setup-phase-1: "--profile=regression --suite=setup-commerce --tags=~@part2 --mode=standard"
             test-setup-phase-2: "--profile=regression --suite=setup-commerce --tags=@part2 --mode=standard"
             setup: "doc/docker/base-dev.yml:doc/docker/db-postgresql.yml:doc/docker/varnish.yml:doc/docker/redis.yml:doc/docker/selenium.yml"
@@ -31,7 +31,7 @@ jobs:
         with:
             project-edition: "commerce"
             project-version: "dev-rebranding"
-            test-suite: "--profile=regression --suite=commerce"
+            test-suite: "--profile=regression --suite=commerce --mode=standard"
             test-setup-phase-1: "--profile=regression --suite=setup-commerce --tags=~@part2 --mode=standard"
             test-setup-phase-2: "--profile=regression --suite=setup-commerce --tags=@part2 --mode=standard"
             setup: "doc/docker/base-dev.yml:doc/docker/selenium.yml"
