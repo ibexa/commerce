@@ -1,0 +1,20 @@
+[
+    {
+        "requirement": "dev-IBX-978_Verifying_productpage_on_frontend_site_main2 as 4.0.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/commerce-shop",
+        "package": "ibexa/commerce-shop",
+        "shouldBeAddedAsVCS": true
+    },
+    {
+        "requirement": "dev-IBX-978_Verifying_productpage_on_frontend_site_main2 as 4.0.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/admin-ui",
+        "package": "ibexa/admin-ui",
+        "shouldBeAddedAsVCS": false
+    },
+    {
+        "requirement": "dev-IBX-978_Verifying_productpage_on_frontend_site_master as 9.0.x-dev",
+        "repositoryUrl": "https://github.com/ezsystems/BehatBundle",
+        "package": "ezsystems/behatbundle",
+        "shouldBeAddedAsVCS": false
+    }
+]
