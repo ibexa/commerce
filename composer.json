@@ -19,7 +19,7 @@
         "ibexa/commerce-transaction": "^4.0.x-dev"
     },
     "require-dev": {
-        "ibexa/ci-scripts": "^0.2@dev"
+        "ibexa/ci-scripts": "dev-adding-dependencies-speedup as 0.2.x-dev"
     },
     "extra": {
         "branch-alias": {
