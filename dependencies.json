@@ -6,6 +6,12 @@
         "shouldBeAddedAsVCS": false
     },
     {
+        "requirement": "dev-change-ez-to-ibexa as 9.0.x-dev",
+        "repositoryUrl": "https://github.com/ezsystems/BehatBundle",
+        "package": "ezsystems/behatbundle",
+        "shouldBeAddedAsVCS": false
+    },
+    {
         "requirement": "dev-IBX-1689-rename-ez-to-ibexa-front as 4.0.x-dev",
         "repositoryUrl": "https://github.com/ibexa/calendar",
         "package": "ibexa/calendar",
