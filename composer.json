@@ -9,7 +9,7 @@
         {"type": "composer", "url": "https://updates.ibexa.co"}
     ],
     "require": {
-        "php": "^7.3",
+        "php": "^7.3 || ^8.0",
         "ibexa/experience": "^3.3.x-dev",
         "ezsystems/ezcommerce-admin-ui": "^1.2.x-dev",
         "ezsystems/ezcommerce-erp-admin": "^3.3.x-dev",
