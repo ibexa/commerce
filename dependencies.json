@@ -10,5 +10,11 @@
         "repositoryUrl": "https://github.com/ezsystems/ezplatform-admin-ui",
         "package": "ezsystems/ezplatform-admin-ui",
         "shouldBeAddedAsVCS": false
+    },
+    {
+        "requirement": "dev-ibx-1090-date-always-in-utc as 3.3.x-dev",
+        "repositoryUrl": "https://github.com/ezsystems/ezcommerce-base-design",
+        "package": "ezsystems/ezcommerce-base-design",
+        "shouldBeAddedAsVCS": true
     }
 ]
