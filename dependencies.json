@@ -1,0 +1,8 @@
+[
+    {
+        "requirement": "dev-ibx-2295-fix-scope-change-subscriber as 1.3.x-dev",
+        "repositoryUrl": "https://github.com/ezsystems/ezplatform-kernel",
+        "package": "ezsystems/ezplatform-kernel",
+        "shouldBeAddedAsVCS": false
+    }
+]
