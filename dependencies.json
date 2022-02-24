@@ -4,5 +4,11 @@
         "repositoryUrl": "https://github.com/ibexa/graphql",
         "package": "ibexa/graphql",
         "shouldBeAddedAsVCS": false
+    },
+    {
+        "requirement": "0.14.2",
+        "repositoryUrl": "https://github.com/overblog/GraphQLBundle",
+        "package": "overblog/graphql-bundle",
+        "shouldBeAddedAsVCS": false
     }
 ]
