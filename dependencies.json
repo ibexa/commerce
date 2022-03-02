@@ -13,6 +13,12 @@
     },
     {
         "requirement": "dev-rebrand-behatbundle as 4.0.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/commerce-page-builder",
+        "package": "ibexa/commerce-page-builder",
+        "shouldBeAddedAsVCS": true
+    },
+    {
+        "requirement": "dev-rebrand-behatbundle as 4.0.x-dev",
         "repositoryUrl": "https://github.com/ibexa/commerce-shop",
         "package": "ibexa/commerce-shop",
         "shouldBeAddedAsVCS": true
