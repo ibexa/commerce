@@ -1,0 +1,74 @@
+[
+    {
+        "requirement": "dev-rebrand-behatbundle as 4.0.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/admin-ui",
+        "package": "ibexa/admin-ui",
+        "shouldBeAddedAsVCS": false
+    },
+    {
+        "requirement": "dev-rebrand-behatbundle as 4.0.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/page-builder",
+        "package": "ibexa/page-builder",
+        "shouldBeAddedAsVCS": true
+    },
+    {
+        "requirement": "dev-rebrand-behatbundle as 4.0.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/commerce-shop",
+        "package": "ibexa/commerce-shop",
+        "shouldBeAddedAsVCS": true
+    },
+    {
+        "requirement": "dev-rebrand-behatbundle as 4.0.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/content-forms",
+        "package": "ibexa/content-forms",
+        "shouldBeAddedAsVCS": false
+    },
+    {
+        "requirement": "dev-rebrand-behatbundle as 4.0.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/commerce-admin-ui",
+        "package": "ibexa/commerce-admin-ui",
+        "shouldBeAddedAsVCS": true
+    },
+    {
+        "requirement": "dev-rebrand-behatbundle as 4.0.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/fieldtype-page",
+        "package": "ibexa/fieldtype-page",
+        "shouldBeAddedAsVCS": true
+    },
+    {
+        "requirement": "dev-rebrand-behatbundle as 4.0.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/form-builder",
+        "package": "ibexa/form-builder",
+        "shouldBeAddedAsVCS": true
+    },
+    {
+        "requirement": "dev-rebrand-behatbundle as 4.0.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/http-cache",
+        "package": "ibexa/http-cache",
+        "shouldBeAddedAsVCS": false
+    },
+    {
+        "requirement": "dev-rebrand-behatbundle as 4.0.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/scheduler",
+        "package": "ibexa/scheduler",
+        "shouldBeAddedAsVCS": true
+    },
+    {
+        "requirement": "dev-rebrand-behatbundle as 4.0.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/site-factory",
+        "package": "ibexa/site-factory",
+        "shouldBeAddedAsVCS": true
+    },
+    {
+        "requirement": "dev-rebrand-behatbundle as 4.0.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/user",
+        "package": "ibexa/user",
+        "shouldBeAddedAsVCS": false
+    },
+    {
+        "requirement": "dev-rebrand-behatbundle as 4.0.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/workflow",
+        "package": "ibexa/workflow",
+        "shouldBeAddedAsVCS": true
+    }
+]
