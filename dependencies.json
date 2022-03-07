@@ -1,0 +1,8 @@
+[
+    {
+        "requirement": "dev-fix_imagick as 4.0.x-dev",
+        "repositoryUrl": "https://github.com/emodric/core",
+        "package": "ibexa/core",
+        "shouldBeAddedAsVCS": true
+    }
+]
