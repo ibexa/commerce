@@ -1,0 +1,8 @@
+[
+    {
+        "requirement": "dev-ibx-2475-missing-paypalpayment-autoloading as 1.0.x-dev",
+        "repositoryUrl": "https://github.com/ezsystems/ezcommerce-transaction",
+        "package": "ezsystems/ezcommerce-transaction",
+        "shouldBeAddedAsVCS": true
+    }
+]
