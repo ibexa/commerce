@@ -1,0 +1,8 @@
+[
+    {
+        "requirement": "dev-ibx-2467-generate-schema-command-sudo as 4.0.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/graphql",
+        "package": "ibexa/graphql",
+        "shouldBeAddedAsVCS": false
+    }
+]
