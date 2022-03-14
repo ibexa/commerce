@@ -1,0 +1,8 @@
+[
+    {
+        "requirement": "dev-test-bisect as 4.0.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/behat",
+        "package": "ibexa/behat",
+        "shouldBeAddedAsVCS": false
+    }
+]
