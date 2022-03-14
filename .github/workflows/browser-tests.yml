@@ -34,9 +34,9 @@ jobs:
             project-edition: "commerce"
             project-version: "^4.0.x-dev"
             test-suite: "--profile=regression --suite=commerce"
+            setup: "doc/docker/base-dev.yml:doc/docker/redis.yml:doc/docker/selenium.yml"
             test-setup-phase-1: "--profile=regression --suite=setup-commerce --tags=~@part2 --mode=standard"
             test-setup-phase-2: "--profile=regression --suite=setup-commerce --tags=@part2 --mode=standard"
-            setup: "doc/docker/base-dev.yml:doc/docker/selenium.yml"
             # use-compatibility-layer: true
             multirepository: true
             timeout: 120
