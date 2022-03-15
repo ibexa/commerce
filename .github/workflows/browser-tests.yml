@@ -16,9 +16,7 @@ jobs:
             project-version: "^4.0.x-dev"
             test-suite: "--profile=regression --suite=commerce"
             setup: "doc/docker/base-dev.yml:doc/docker/varnish.yml:doc/docker/selenium.yml"
-            # multirepository: true
             timeout: 120
-            php-image: "ezsystems/php:7.4-v2-node14"
             ci-scripts-branch: add-reset-flag
         secrets:
             SATIS_NETWORK_KEY: ${{ secrets.SATIS_NETWORK_KEY }}
@@ -32,9 +30,8 @@ jobs:
             project-edition: "commerce"
             project-version: "^4.0.x-dev"
             test-suite: "--profile=regression --suite=commerce"
-            # multirepository: true
+            setup: "doc/docker/base-dev.yml:doc/docker/varnish.yml:doc/docker/selenium.yml"
             timeout: 120
-            php-image: "ezsystems/php:7.4-v2-node14"
             ci-scripts-branch: add-reset-flag
         secrets:
             SATIS_NETWORK_KEY: ${{ secrets.SATIS_NETWORK_KEY }}
