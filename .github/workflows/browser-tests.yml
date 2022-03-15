@@ -29,8 +29,8 @@ jobs:
         with:
             project-edition: "commerce"
             project-version: "^4.0.x-dev"
-            test-suite: "--profile=regression --suite=commerce --mode=standard"
-            setup: "doc/docker/base-dev.yml:doc/docker/varnish.yml:doc/docker/selenium.yml"
+            test-suite: "--profile=regression --suite=commerce"
+            setup: "doc/docker/base-dev.yml:doc/docker/selenium.yml"
             timeout: 120
             ci-scripts-branch: add-reset-flag
         secrets:
