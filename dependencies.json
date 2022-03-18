@@ -1,0 +1,8 @@
+[
+    {
+        "requirement": "dev-patch-1 as 4.0.x-dev",
+        "repositoryUrl": "https://github.com/emodric/admin-ui",
+        "package": "ibexa/admin-ui",
+        "shouldBeAddedAsVCS": true
+    }
+]
