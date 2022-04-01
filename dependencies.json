@@ -1,0 +1,8 @@
+[
+    {
+        "requirement": "dev-IBX-590_add_support_for_migration as 4.0.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/segmentation",
+        "package": "ibexa/segmentation",
+        "shouldBeAddedAsVCS": true
+    }
+]
