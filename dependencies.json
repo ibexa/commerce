@@ -1,0 +1,20 @@
+[
+    {
+        "requirement": "dev-content-tree-forms as 4.1.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/content-tree",
+        "package": "ibexa/content-tree",
+        "shouldBeAddedAsVCS": true
+    },
+    {
+        "requirement": "dev-content-tree-forms as 4.1.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/admin-ui",
+        "package": "ibexa/admin-ui",
+        "shouldBeAddedAsVCS": false
+    },
+    {
+        "requirement": "dev-content-tree-forms as 4.1.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/scheduler",
+        "package": "ibexa/scheduler",
+        "shouldBeAddedAsVCS": true
+    }
+]
