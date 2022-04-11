@@ -1,0 +1,8 @@
+[
+    {
+        "requirement": "dev-ibx-2663-implement-no-hash-in-image-normalization as 1.3.x-dev",
+        "repositoryUrl": "https://github.com/ezsystems/ezplatform-kernel",
+        "package": "ezsystems/ezplatform-kernel",
+        "shouldBeAddedAsVCS": false
+    }
+]
