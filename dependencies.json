@@ -1,0 +1,14 @@
+[
+    {
+        "requirement": "dev-IBX-2737-fix-old-pb-widget-styling as 4.0.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/segmentation",
+        "package": "ibexa/segmentation",
+        "shouldBeAddedAsVCS": true
+    },
+    {
+        "requirement": "dev-IBX-2736-fix-embed-widget-block-styling as 4.0.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/page-builder",
+        "package": "ibexa/page-builder",
+        "shouldBeAddedAsVCS": true
+    }
+]
