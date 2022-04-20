@@ -10,20 +10,20 @@
     ],
     "require": {
         "php": "^7.4 || ^8.0",
-        "ibexa/experience": "~4.1.x-dev",
-        "ibexa/commerce-admin-ui": "~4.1.x-dev",
-        "ibexa/commerce-erp-admin": "~4.1.x-dev",
-        "ibexa/commerce-order-history": "~4.1.x-dev",
-        "ibexa/commerce-page-builder": "~4.1.x-dev",
-        "ibexa/commerce-rest": "~4.1.x-dev",
-        "ibexa/commerce-transaction": "~4.1.x-dev"
+        "ibexa/experience": "~4.2.x-dev",
+        "ibexa/commerce-admin-ui": "~4.2.x-dev",
+        "ibexa/commerce-erp-admin": "~4.2.x-dev",
+        "ibexa/commerce-order-history": "~4.2.x-dev",
+        "ibexa/commerce-page-builder": "~4.2.x-dev",
+        "ibexa/commerce-rest": "~4.2.x-dev",
+        "ibexa/commerce-transaction": "~4.2.x-dev"
     },
     "require-dev": {
         "ibexa/ci-scripts": "^0.2@dev"
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "4.1.x-dev"
+            "dev-master": "4.2.x-dev"
         }
     }
 }
