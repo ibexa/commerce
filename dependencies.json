@@ -1,0 +1,14 @@
+[
+    {
+        "requirement": "dev-ibx-2728-di-block-layout-definitions-interfaces as 2.3.x-dev",
+        "repositoryUrl": "https://github.com/ezsystems/ezplatform-page-builder",
+        "package": "ezsystems/ezplatform-page-builder",
+        "shouldBeAddedAsVCS": true
+    },
+    {
+        "requirement": "dev-ibx-2728-interfaces-definitions-services as 2.3.x-dev",
+        "repositoryUrl": "https://github.com/ezsystems/ezplatform-page-fieldtype",
+        "package": "ezsystems/ezplatform-page-fieldtype",
+        "shouldBeAddedAsVCS": true
+    }
+]
