@@ -1,0 +1,26 @@
+[
+    {
+        "requirement": "dev-IBX-2557-fix-badges as 4.1.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/admin-ui",
+        "package": "ibexa/admin-ui",
+        "shouldBeAddedAsVCS": false
+    },
+    {
+        "requirement": "dev-IBX-2557-fix-badges as 4.1.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/commerce-shop",
+        "package": "ibexa/commerce-shop",
+        "shouldBeAddedAsVCS": true
+    },
+    {
+        "requirement": "dev-IBX-2557-fix-badges as 4.1.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/workflow",
+        "package": "ibexa/workflow",
+        "shouldBeAddedAsVCS": true
+    },
+    {
+        "requirement": "dev-IBX-2557-fix-badges as 4.1.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/scheduler",
+        "package": "ibexa/scheduler",
+        "shouldBeAddedAsVCS": true
+    }
+]
