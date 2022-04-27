@@ -1,0 +1,116 @@
+[
+    {
+        "requirement": "dev-IBX-2677-eslint-prettier as 4.0.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/fieldtype-richtext",
+        "package": "ibexa/fieldtype-richtext",
+        "shouldBeAddedAsVCS": false
+    },
+    {
+        "requirement": "dev-IBX-2677-eslint-prettier as 4.0.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/workflow",
+        "package": "ibexa/workflow",
+        "shouldBeAddedAsVCS": true
+    },
+    {
+        "requirement": "dev-IBX-2677-eslint-prettier as 4.0.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/version-comparison",
+        "package": "ibexa/version-comparison",
+        "shouldBeAddedAsVCS": true
+    },
+    {
+        "requirement": "dev-IBX-2677-eslint-prettier as 4.0.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/tree-builder",
+        "package": "ibexa/tree-builder",
+        "shouldBeAddedAsVCS": true
+    },
+    {
+        "requirement": "dev-IBX-2677-eslint-prettier as 4.0.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/taxonomy",
+        "package": "ibexa/taxonomy",
+        "shouldBeAddedAsVCS": true
+    },
+    {
+        "requirement": "dev-IBX-2677-eslint-prettier as 4.0.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/site-factory",
+        "package": "ibexa/site-factory",
+        "shouldBeAddedAsVCS": true
+    },
+    {
+        "requirement": "dev-IBX-2677-eslint-prettier as 4.0.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/segmentation",
+        "package": "ibexa/segmentation",
+        "shouldBeAddedAsVCS": true
+    },
+    {
+        "requirement": "dev-IBX-2677-eslint-prettier as 4.0.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/scheduler",
+        "package": "ibexa/scheduler",
+        "shouldBeAddedAsVCS": true
+    },
+    {
+        "requirement": "dev-IBX-2677-eslint-prettier as 4.0.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/product-catalog",
+        "package": "ibexa/product-catalog",
+        "shouldBeAddedAsVCS": true
+    },
+    {
+        "requirement": "dev-IBX-2677-eslint-prettier as 4.0.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/personalization",
+        "package": "ibexa/personalization",
+        "shouldBeAddedAsVCS": true
+    },
+    {
+        "requirement": "dev-IBX-2677-eslint-prettier as 4.0.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/page-builder",
+        "package": "ibexa/page-builder",
+        "shouldBeAddedAsVCS": true
+    },
+    {
+        "requirement": "dev-IBX-2677-eslint-prettier as 4.0.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/image-editor",
+        "package": "ibexa/image-editor",
+        "shouldBeAddedAsVCS": true
+    },
+    {
+        "requirement": "dev-IBX-2677-eslint-prettier as 4.0.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/form-builder",
+        "package": "ibexa/form-builder",
+        "shouldBeAddedAsVCS": true
+    },
+    {
+        "requirement": "dev-IBX-2677-eslint-prettier as 4.0.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/fieldtype-page",
+        "package": "ibexa/fieldtype-page",
+        "shouldBeAddedAsVCS": true
+    },
+    {
+        "requirement": "dev-IBX-2677-eslint-prettier as 4.0.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/fieldtype-matrix",
+        "package": "ibexa/fieldtype-matrix",
+        "shouldBeAddedAsVCS": false
+    },
+    {
+        "requirement": "dev-IBX-2677-eslint-prettier as 4.0.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/content-tree",
+        "package": "ibexa/content-tree",
+        "shouldBeAddedAsVCS": true
+    },
+    {
+        "requirement": "dev-IBX-2677-eslint-prettier as 4.0.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/connector-dam",
+        "package": "ibexa/connector-dam",
+        "shouldBeAddedAsVCS": true
+    },
+    {
+        "requirement": "dev-IBX-2677-eslint-prettier as 4.0.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/calendar",
+        "package": "ibexa/calendar",
+        "shouldBeAddedAsVCS": true
+    },
+    {
+        "requirement": "dev-IBX-2677-eslint-prettier as 4.0.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/admin-ui",
+        "package": "ibexa/admin-ui",
+        "shouldBeAddedAsVCS": false
+    }
+]
