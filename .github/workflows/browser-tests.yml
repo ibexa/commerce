@@ -37,7 +37,7 @@ jobs:
             test-setup-phase-2: "--profile=regression --suite=setup-commerce --tags=@part2 --mode=standard"
             setup: "doc/docker/base-dev.yml:doc/docker/selenium.yml"
             multirepository: true
-            job-count: 4
+            job-count: 3
             php-image: "ezsystems/php:7.3-v2-node14"
             timeout: 120
         secrets:
