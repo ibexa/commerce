@@ -10,7 +10,7 @@ on:
 jobs:
     regression-commerce-setup1:
         name: "PHP 7.4/PostgreSQL/Varnish/Redis/Multirepository"
-        uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@main
+        uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@parallel-regression-tests
         with:
             project-edition: "commerce"
             project-version: "^3.3.x-dev"
@@ -19,6 +19,7 @@ jobs:
             test-setup-phase-2: "--profile=regression --suite=setup-commerce --tags=@part2 --mode=standard"
             setup: "doc/docker/base-dev.yml:doc/docker/db-postgresql.yml:doc/docker/varnish.yml:doc/docker/redis.yml:doc/docker/selenium.yml"
             multirepository: true
+            job-count: 5
             timeout: 120
         secrets:
             SATIS_NETWORK_KEY: ${{ secrets.SATIS_NETWORK_KEY }}
@@ -27,7 +28,7 @@ jobs:
             SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
     regression-commerce-setup2:
         name: "PHP 7.3/MySQL/Multirepository"
-        uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@main
+        uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@parallel-regression-tests
         with:
             project-edition: "commerce"
             project-version: "^3.3.x-dev"
@@ -36,6 +37,7 @@ jobs:
             test-setup-phase-2: "--profile=regression --suite=setup-commerce --tags=@part2 --mode=standard"
             setup: "doc/docker/base-dev.yml:doc/docker/selenium.yml"
             multirepository: true
+            job-count: 4
             php-image: "ezsystems/php:7.3-v2-node14"
             timeout: 120
         secrets:
@@ -45,7 +47,7 @@ jobs:
             SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
     regression-commerce-setup3:
         name: "PHP 8.1/MySQL/Multirepository"
-        uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@main
+        uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@parallel-regression-tests
         with:
             project-edition: "commerce"
             project-version: "^3.3.x-dev"
@@ -55,6 +57,7 @@ jobs:
             setup: "doc/docker/base-dev.yml:doc/docker/selenium.yml"
             multirepository: true
             php-image: "ezsystems/php:8.1-v2-node16"
+            job-count: 6
             timeout: 120
         secrets:
             SATIS_NETWORK_KEY: ${{ secrets.SATIS_NETWORK_KEY }}
