@@ -48,6 +48,12 @@
             "repositoryUrl": "https://github.com/ibexa/commerce-admin-ui",
             "package": "ibexa/commerce-admin-ui",
             "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-2803-update-react as 4.2.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/admin-ui-assets",
+            "package": "ibexa/admin-ui-assets",
+            "shouldBeAddedAsVCS": true
         }
     ]
 }
