@@ -60,6 +60,12 @@
             "repositoryUrl": "https://github.com/ibexa/behat",
             "package": "ibexa/behat",
             "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-2803-update-react as 4.2.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/commerce-shop",
+            "package": "ibexa/commerce-shop",
+            "shouldBeAddedAsVCS": true
         }
     ]
 }
