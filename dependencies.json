@@ -1,0 +1,17 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx-2844-fix-history-alias-invalidation as 1.3.x-dev",
+            "repositoryUrl": "https://github.com/ezsystems/ezplatform-kernel",
+            "package": "ezsystems/ezplatform-kernel",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "v3.3.10",
+            "repositoryUrl": "https://github.com/twigphp/twig",
+            "package": "twig/twig",
+            "shouldBeAddedAsVCS": false
+        }
+    ]
+}
