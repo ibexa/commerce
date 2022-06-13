@@ -1,0 +1,41 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-fix-doctrine-fqcn-references as 3.3.x-dev",
+            "repositoryUrl": "https://github.com/ezsystems/ezcommerce-shop",
+            "package": "ezsystems/ezcommerce-shop",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-fix-doctrine-fqcn-references as 1.0.x-dev",
+            "repositoryUrl": "https://github.com/ezsystems/ezcommerce-checkout",
+            "package": "ezsystems/ezcommerce-checkout",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-fix-doctrine-fqcn-references as 1.2.x-dev",
+            "repositoryUrl": "https://github.com/ezsystems/ezcommerce-fieldtypes",
+            "package": "ezsystems/ezcommerce-fieldtypes",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-fix-doctrine-fqcn-references as 1.0.x-dev",
+            "repositoryUrl": "https://github.com/ezsystems/ezcommerce-transaction",
+            "package": "ezsystems/ezcommerce-transaction",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-fix-doctrine-fqcn-references as 3.3.x-dev",
+            "repositoryUrl": "https://github.com/ezsystems/ezcommerce-price-engine",
+            "package": "ezsystems/ezcommerce-price-engine",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-fix-doctrine-fqcn-references as 4.0.x-dev",
+            "repositoryUrl": "https://github.com/ezsystems/JMSJobQueueBundle",
+            "package": "ezsystems/job-queue-bundle",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
