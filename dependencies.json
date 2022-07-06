@@ -1,0 +1,23 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx-2937-relation-children as 4.2.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/content-forms",
+            "package": "ibexa/content-forms",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-ibx-2937-relation-children as 4.2.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/core",
+            "package": "ibexa/core",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-ibx-2937-relation-children as 4.2.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/admin-ui",
+            "package": "ibexa/admin-ui",
+            "shouldBeAddedAsVCS": false
+        }
+    ]
+}
