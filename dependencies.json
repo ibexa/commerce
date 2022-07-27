@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-use-api-as-admin-by-default as 8.3.x-dev",
+            "repositoryUrl": "https://github.com/ezsystems/BehatBundle",
+            "package": "ezsystems/behatbundle",
+            "shouldBeAddedAsVCS": false
+        }
+    ]
+}
