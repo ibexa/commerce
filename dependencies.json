@@ -12,6 +12,12 @@
             "repositoryUrl": "https://github.com/ibexa/commerce-transaction",
             "package": "ibexa/commerce-transaction",
             "shouldBeAddedAsVCS": true
-        }
+        },
+        {
+             "requirement": "dev-temp-jquery as 4.2.x-dev",
+             "repositoryUrl": "https://github.com/ibexa/admin-ui-assets",
+             "package": "ibexa/admin-ui-assets",
+             "shouldBeAddedAsVCS": false
+       }
     ]
 }
