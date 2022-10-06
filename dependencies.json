@@ -1,0 +1,17 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-temp_3.3_to_4.2 as 4.2.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/commerce-shop",
+            "package": "ibexa/commerce-shop",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-temp_1.0_to_4.2 as 4.2.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/commerce-transaction",
+            "package": "ibexa/commerce-transaction",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
