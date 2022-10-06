@@ -1,0 +1,17 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx-3842-extend-product-tests as 4.2.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/product-catalog",
+            "package": "ibexa/product-catalog",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-ibx-3842-extend-product-tests as 4.2.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/admin-ui",
+            "package": "ibexa/admin-ui",
+            "shouldBeAddedAsVCS": false
+        }
+    ]
+}
