@@ -18,6 +18,12 @@
              "repositoryUrl": "https://github.com/ibexa/admin-ui-assets",
              "package": "ibexa/admin-ui-assets",
              "shouldBeAddedAsVCS": false
+       },
+       {
+             "requirement": "dev-IBX-3922-dropdown-in-modal-fixes as 4.2.x-dev",
+             "repositoryUrl": "https://github.com/ibexa/admin-ui",
+             "package": "ibexa/admin-ui",
+             "shouldBeAddedAsVCS": false
        }
     ]
 }
