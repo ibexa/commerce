@@ -29,6 +29,7 @@ jobs:
             multirepository: true
             timeout: 120
             php-image: "ezsystems/php:7.4-v2-node14"
+            ci-scripts-branch: test-limits
         secrets:
             SATIS_NETWORK_KEY: ${{ secrets.SATIS_NETWORK_KEY }}
             SATIS_NETWORK_TOKEN: ${{ secrets.SATIS_NETWORK_TOKEN }}
