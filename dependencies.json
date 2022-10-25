@@ -18,6 +18,18 @@
             "repositoryUrl": "https://github.com/ibexa/commerce-shop",
             "package": "ibexa/commerce-shop",
             "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-ibx-3729-update-tests as 4.3.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/admin-ui",
+            "package": "ibexa/admin-ui",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-ibx-3729-udpate-tests as 4.3.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/commerce-admin-ui",
+            "package": "ibexa/commerce-admin-ui",
+            "shouldBeAddedAsVCS": true
         }
     ]
 }
