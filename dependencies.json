@@ -1,0 +1,23 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-IBX-4085-form-fields-design-issues as 4.2.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/admin-ui",
+            "package": "ibexa/admin-ui",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-4085-form-fields-design-issues as 4.2.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/form-builder",
+            "package": "ibexa/form-builder",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-4085-form-fields-design-issues as 4.2.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/product-catalog",
+            "package": "ibexa/product-catalog",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
