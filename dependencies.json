@@ -1,0 +1,47 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-IBX-3973-disabled-edit-form-fields as 4.2.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/admin-ui",
+            "package": "ibexa/admin-ui",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-3973-disabled-edit-form-fields as 4.2.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/fieldtype-matrix",
+            "package": "ibexa/fieldtype-matrix",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-3973-disabled-edit-form-fields as 4.2.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/fieldtype-richtext",
+            "package": "ibexa/fieldtype-richtext",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-3973-disabled-edit-form-fields as 4.2.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/measurement",
+            "package": "ibexa/measurement",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-3973-disabled-edit-form-fields as 4.2.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/fieldtype-address",
+            "package": "ibexa/fieldtype-address",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-3973-disabled-edit-form-fields as 4.2.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/form-builder",
+            "package": "ibexa/form-builder",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-3973-disabled-edit-form-fields as 4.2.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/image-editor",
+            "package": "ibexa/image-editor",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
