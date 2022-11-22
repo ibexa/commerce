@@ -1,0 +1,53 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx_1294 as 4.4.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/commerce-admin-ui",
+            "package": "ibexa/commerce-admin-ui",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-ibx_1294 as 4.4.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/commerce-checkout",
+            "package": "ibexa/commerce-checkout",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-ibx_1294 as 4.4.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/commerce-rest",
+            "package": "ibexa/commerce-rest",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-ibx_1294 as 4.4.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/commerce-shop",
+            "package": "ibexa/commerce-shop",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-ibx_1294 as 4.4.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/fieldtype-page",
+            "package": "ibexa/fieldtype-page",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-ibx_1294 as 4.4.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/fieldtype-query",
+            "package": "ibexa/fieldtype-query",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-ibx_1294 as 4.4.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/form-builder",
+            "package": "ibexa/form-builder",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-ibx_1294 as 4.4.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/page-builder",
+            "package": "ibexa/page-builder",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
