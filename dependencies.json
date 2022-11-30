@@ -1,0 +1,17 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-IBX-4324-selected-items-sidebar as 4.2.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/admin-ui",
+            "package": "ibexa/admin-ui",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-4324-selected-items-sidebar as 4.2.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/icons",
+            "package": "ibexa/icons",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
