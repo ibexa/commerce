@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx-4480-register-group-config as 4.3.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/commerce-shop",
+            "package": "ibexa/commerce-shop",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
