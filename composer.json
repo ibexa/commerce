@@ -12,6 +12,8 @@
         "php": "^7.4 || ^8.0",
         "ibexa/experience": "~4.4.x-dev",
         "ibexa/cart": "~4.4.x-dev",
+        "ibexa/checkout": "~4.4.x-dev",
+        "ibexa/storefront": "~4.4.x-dev",
         "ibexa/commerce-admin-ui": "~4.4.x-dev",
         "ibexa/commerce-erp-admin": "~4.4.x-dev",
         "ibexa/commerce-order-history": "~4.4.x-dev",
