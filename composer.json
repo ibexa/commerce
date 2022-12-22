@@ -10,7 +10,7 @@
     ],
     "require": {
         "php": "^7.4 || ^8.0",
-        "ibexa/experience": "dev-ibx-3815-commerce-cleanup as 4.4",
+        "ibexa/experience": "~4.4.x-dev",
         "ibexa/cart": "~4.4.x-dev"
     },
     "require-dev": {
