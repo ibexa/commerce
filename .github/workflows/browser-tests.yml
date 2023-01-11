@@ -14,23 +14,9 @@ on:
     pull_request: ~
 
 jobs:
-    token:
-        runs-on: ubuntu-latest
-        outputs:
-            token: ${{ steps.generate_token.outputs.token }}
-        steps:
-            - name: Generate token
-              id: generate_token
-              uses: tibdex/github-app-token@v1
-              with:
-                app_id: ${{ secrets.AUTOMATION_CLIENT_ID }}
-                installation_id: ${{ secrets.AUTOMATION_CLIENT_INSTALLATION }}
-                private_key: ${{ secrets.AUTOMATION_CLIENT_SECRET }}
-        
     regression-commerce-setup1:
         name: "PHP 7.4/Node 14/PostgreSQL/Varnish/Redis/Multirepository"
-        needs: token
-        uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@compatibility-layer-cache
+        uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@switch-gh-app-token
         with:
             project-edition: "commerce"
             project-version: "4.4.x-dev"
@@ -44,14 +30,16 @@ jobs:
             timeout: 120
             php-image: "ezsystems/php:7.4-v2-node14"
         secrets:
+            AUTOMATION_CLIENT_ID: ${{ secrets.AUTOMATION_CLIENT_ID }}
+            AUTOMATION_CLIENT_INSTALLATION: ${{ secrets.AUTOMATION_CLIENT_INSTALLATION }}
+            AUTOMATION_CLIENT_SECRET: ${{ secrets.AUTOMATION_CLIENT_SECRET }}
             SATIS_NETWORK_KEY: ${{ secrets.SATIS_NETWORK_KEY }}
             SATIS_NETWORK_TOKEN: ${{ secrets.SATIS_NETWORK_TOKEN }}
-            TRAVIS_GITHUB_TOKEN: ${{ needs.token.outputs.token }}
+            TRAVIS_GITHUB_TOKEN: ${{ secrets.TRAVIS_GITHUB_TOKEN }}
             SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
     regression-commerce-setup2:
         name: "PHP 8.1/Node 16/MySQL/Compatibility layer"
-        needs: token
-        uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@compatibility-layer-cache
+        uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@switch-gh-app-token
         with:
             project-edition: "commerce"
             project-version: "4.4.x-dev"
@@ -65,7 +53,10 @@ jobs:
             timeout: 120
             php-image: "ezsystems/php:8.1-v2-node16"
         secrets:
+            AUTOMATION_CLIENT_ID: ${{ secrets.AUTOMATION_CLIENT_ID }}
+            AUTOMATION_CLIENT_INSTALLATION: ${{ secrets.AUTOMATION_CLIENT_INSTALLATION }}
+            AUTOMATION_CLIENT_SECRET: ${{ secrets.AUTOMATION_CLIENT_SECRET }}
             SATIS_NETWORK_KEY: ${{ secrets.SATIS_NETWORK_KEY }}
             SATIS_NETWORK_TOKEN: ${{ secrets.SATIS_NETWORK_TOKEN }}
-            TRAVIS_GITHUB_TOKEN: ${{ needs.token.outputs.token }}
+            TRAVIS_GITHUB_TOKEN: ${{ secrets.TRAVIS_GITHUB_TOKEN }}
             SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
