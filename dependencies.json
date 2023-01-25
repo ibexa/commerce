@@ -2,7 +2,7 @@
     "recipesEndpoint": "",
     "packages": [
         {
-            "requirement": "dev-ibx-2748-shipping-costs as 4.3.x-dev",
+            "requirement": "dev-ibx-2748-shipping-costs-merge as 4.3.x-dev",
             "repositoryUrl": "https://github.com/ibexa/commerce-checkout",
             "package": "ibexa/commerce-checkout",
             "shouldBeAddedAsVCS": true
