@@ -25,7 +25,6 @@ jobs:
       - name: Whoami
         run: |
           echo Repo: ${{ github.event.repository.name }}
-          echo Dumping object: ${{ toJSON(github.event) }}
   
   action:
     needs: preparation
@@ -45,17 +44,40 @@ jobs:
 
       - uses: actions/checkout@v3
 
-      - name: Get the release file
+      - name: Get release information
+        uses: octokit/request-action@v2.x
+        id: release
+        with:
+          owner: ibexa
+          repo: release-maker
+          route: /repos/{owner}/{repo}/contents/${{ github.repository }}/releases/${{ inputs.version }}/release.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.TRAVIS_GITHUB_TOKEN }}
+
+      - name: Process release information
         run: |
-          echo "Hello world!"
-          echo "Converting release file to K/V"
+          cat > input.json <<'EOF'
+          ${{ steps.assignees.outputs.data }}
+          EOF
+          jq -r '.["content"]' input.json | base64 --decode | jq -c . > release.json
+          jq -s '[ .[][] | { (.packageName): (.targetVersion) } ] | add' release.json
 
       - name: Set minimum stability (only if beta/rc)
+        if: contains(inputs.version, '-beta') || contains(inputs.version, '-rc')
         run: |
 
-      - name: Patch parent version
+      - name: Patch parent version for OSS
         if: github.event.repository.name == 'oss'
-        run: |
+        run: jq '.require["ibexa/admin-ui-assets"] |= "${{ inputs.version }}"' composer.json | sponge composer.json
+      - name: Patch parent version for Content
+        if: github.event.repository.name == 'content'
+        run: jq '.require["ibexa/oss"] |= "${{ inputs.version }}"' composer.json | sponge composer.json
+      - name: Patch parent version for Experience
+        if: github.event.repository.name == 'experience'
+        run: jq '.require["ibexa/content"] |= "${{ inputs.version }}"' composer.json | sponge composer.json
+      - name: Patch parent version for Commerce
+        if: github.event.repository.name == 'commerce'
+        run: jq '.require["ibexa/experience"] |= "${{ inputs.version }}"' composer.json | sponge composer.json
 
       - name: Patch composer require versions
         run: |
