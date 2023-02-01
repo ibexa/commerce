@@ -18,13 +18,18 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check for release file
-        run: echo "Hello world!"
-      - name: Check for admin-ui-assets tag
-        run: echo "admin-ui-assets check for ${{ inputs.version }}"
-      - name: Whoami
+      - name: Install sponge
         run: |
-          echo Repo: ${{ github.event.repository.name }}
+          sudo apt-get install -y moreutils
+      - name: Check for admin-ui-assets tag
+        if: github.event.repository.name == 'oss'
+        uses: octokit/request-action@v2.x
+        with:
+          owner: ibexa
+          repo: admin-ui-assets
+          route: /repos/{owner}/{repo}/contents/package.json?ref=v${{ inputs.version }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.TRAVIS_GITHUB_TOKEN }}
   
   action:
     needs: preparation
