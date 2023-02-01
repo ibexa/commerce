@@ -87,6 +87,7 @@ jobs:
 
       - name: Patch composer require versions
         run: |
+          cat composer.json
           jq --argfile release release.json 'if (.require) then .require |= ( to_entries | map({(.key): ( if ($release[(.key)]) then $release[(.key)] else .value end ) }) | add ) else . end' composer.json > composer.tmp
           mv composer.tmp composer.json
 
