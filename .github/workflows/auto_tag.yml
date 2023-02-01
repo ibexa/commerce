@@ -66,7 +66,7 @@ jobs:
           ${{ steps.release.outputs.data }}
           EOF
           jq -r '.["content"]' input.json | base64 --decode | jq -c . > release.json
-          jq -s '[ .[][] | { (.packageName): (.targetVersion) } ] | add' release.json
+          jq -s '[ .[][] | { (.packageName): (.targetVersion) } ] | add' release.json | sponge release.json
 
       - name: Set minimum stability (only if beta/rc)
         if: contains(inputs.version, '-beta') || contains(inputs.version, '-rc')
