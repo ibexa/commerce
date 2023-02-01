@@ -28,6 +28,7 @@ jobs:
           echo Dumping object: ${{ toJSON(github.event) }}
   
   action:
+    needs: preparation
     runs-on: ubuntu-latest
     
     steps:
