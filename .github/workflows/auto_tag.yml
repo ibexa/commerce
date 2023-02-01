@@ -18,18 +18,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Install sponge
-        run: |
-          sudo apt-get install -y moreutils
-  
-  action:
-    needs: preparation
-    runs-on: ubuntu-latest
-    
-    steps:
-      - name: Inject slug/short variables
-        uses: rlespinasse/github-slug-action@v4
-
       - name: Check for admin-ui-assets tag
         if: github.event.repository.name == 'oss'
         uses: octokit/request-action@v2.x
@@ -39,6 +27,18 @@ jobs:
           route: /repos/{owner}/{repo}/contents/package.json?ref=v${{ inputs.version }}
         env:
           GITHUB_TOKEN: ${{ secrets.TRAVIS_GITHUB_TOKEN }}
+  
+  action:
+    needs: preparation
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Inject slug/short variables
+        uses: rlespinasse/github-slug-action@v4
+
+      - name: Install sponge
+        run: |
+          sudo apt-get install -y moreutils
 
       - name: Setup PHP Action
         uses: shivammathur/setup-php@v2
