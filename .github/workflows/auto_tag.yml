@@ -88,11 +88,12 @@ jobs:
       - name: debug
         run: |
           jq --version
+          cat composer.json
+          cat release.json
 
       - name: Patch composer require versions
         run: |
-          cat composer.json
-          jq --argfile release output.json '
+          jq --argfile release release.json '
             .require |= (
               to_entries | 
               map({
