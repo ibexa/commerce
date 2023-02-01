@@ -33,9 +33,6 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - name: Inject slug/short variables
-        uses: rlespinasse/github-slug-action@v4
-
       - name: Install sponge
         run: |
           sudo apt-get install -y moreutils
@@ -85,12 +82,6 @@ jobs:
         if: github.event.repository.name == 'commerce'
         run: jq '.require["ibexa/experience"] |= "${{ inputs.version }}"' composer.json | sponge composer.json
 
-      - name: debug
-        run: |
-          jq --version
-          cat composer.json
-          cat release.json
-
       - name: Patch composer require versions
         run: |
           jq --argfile release release.json '
@@ -107,19 +98,26 @@ jobs:
       - name: Reformat composer.json
         run: cat composer.json | unexpand -t2 | expand -t4 | sponge composer.json
 
-      - name: debug
+      - name: debug composer.json
         run: cat composer.json
 
-      - name: Commit files
+      - name: Perform other actions
+        run: |
+          echo For example we can do composer install here
+          echo or run some tests
+
+      - name: Commit files and tag
         if: inputs.real_op
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add .
           git commit -m "[composer] Set dependencies for ${{ inputs.version }} release + .lock"
+          git tag "v${{ inputs.version }}"
 
       - name: Push changes
         if: inputs.real_op
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          tags: true
