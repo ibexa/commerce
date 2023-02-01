@@ -87,15 +87,8 @@ jobs:
 
       - name: Patch composer require versions
         run: |
-          jq --argfile release release.json '
-            .require |= (
-              to_entries | 
-              map({
-                key: .key,
-                value: (if ($release[.key]) then $release[.key] else .value end)
-              }) | from_entries
-            )
-          ' composer.json | sponge composer.json
+          jq --argfile release release.json 'if (.require) then .require |= ( to_entries | map({(.key): ( if ($release[(.key)]) then $release[(.key)] else .value end ) }) | add ) else . end' composer.json > composer.tmp
+          mv composer.tmp composer.json
 
       - name: Reformat composer.json
         run: cat composer.json | unexpand -t2 | expand -t4 | sponge composer.json
