@@ -87,7 +87,7 @@ jobs:
 
       - name: Patch composer require versions
         run: |
-          jq --argfile release output.json '
+          jq --argfile release release.json '
             .require |= (
               to_entries | 
               map({
