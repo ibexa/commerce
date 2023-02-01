@@ -1,0 +1,86 @@
+name: Create Tag
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version to release (x.y.z-abcN e.g. 4.5.6-beta1)'
+        required: true
+      real_op:
+        description: 'Do the real work, not just preview'
+        type: boolean
+        default: false
+        required: true
+    
+
+jobs:
+  preparation:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check for release file
+        run: echo "Hello world!"
+      - name: Check for admin-ui-assets tag
+        run: echo "admin-ui-assets check for ${{ inputs.version }}"
+      - name: Whoami
+        run: |
+          echo Repo: ${{ github.event.repository.name }}
+          echo Dumping object: ${{ github.event }}
+  
+  action:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Inject slug/short variables
+        uses: rlespinasse/github-slug-action@v4
+
+      - name: Setup PHP Action
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: 7.4
+          coverage: none
+          extensions: pdo_sqlite, gd
+          tools: cs2pr
+
+      - uses: actions/checkout@v3
+
+      - name: Get the release file
+        run: |
+          echo "Hello world!"
+          echo "Converting release file to K/V"
+
+      - name: Set minimum stability (only if beta/rc)
+        run: |
+
+      - name: Patch parent version
+        if: github.event.repository.name == 'oss'
+        run: |
+
+      - name: Patch composer require versions
+        run: |
+          jq --argfile release output.json '
+            .require |= (
+              to_entries | 
+              map({
+                key: .key,
+                value: (if ($release[.key]) then $release[.key] else .value end)
+              }) | from_entries
+            )
+          ' composer.json | sponge composer.json
+
+      - name: Reformat composer.json
+        run: cat composer.json | unexpand -t2 | expand -t4 | sponge composer.json
+
+      - name: Commit files
+        if: inputs.real_op
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "[composer] Set dependencies for ${{ inputs.version }} release + .lock"
+
+      - name: Push changes
+        if: inputs.real_op
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
