@@ -50,7 +50,7 @@ jobs:
         with:
           owner: ibexa
           repo: release-maker
-          route: /repos/{owner}/{repo}/contents/${{ github.repository }}/releases/${{ inputs.version }}/release.json
+          route: /repos/{owner}/{repo}/contents/releases/${{ inputs.version }}/release.json
         env:
           GITHUB_TOKEN: ${{ secrets.TRAVIS_GITHUB_TOKEN }}
 
