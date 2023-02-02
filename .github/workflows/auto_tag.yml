@@ -69,7 +69,7 @@ jobs:
         run: |
           VERSION=$( echo ${{ inputs.version }} | cut -d '-' -f 2 )
           SET_STABILITY="composer config minimum-stability"
-          case $VERSION in:
+          case $VERSION in
             alpha*) $SET_STABILITY alpha ;;
             beta*) $SET_STABILITY beta ;;
             rc*) $SET_STABILITY rc ;;
