@@ -101,17 +101,16 @@ jobs:
       - name: debug composer.json
         run: cat composer.json
 
-      - name: Perform other actions
+      - name: Composer update
         run: |
-          echo For example we can do composer install here
-          echo or run some tests
+          composer update --no-scripts --no-plugins --no-install
 
-      - name: Commit files and tag
+      - name: Commit and tag
         if: inputs.real_op
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add .
+          git add composer.*
           git commit -m "[composer] Set dependencies for ${{ inputs.version }} release + .lock"
           git tag "v${{ inputs.version }}"
 
