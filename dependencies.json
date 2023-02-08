@@ -1,0 +1,23 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx-4978_fixed-shipping_costs_translations as 4.3.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/product-catalog",
+            "package": "ibexa/product-catalog",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-ibx-4928_fixed-vat-recalculation-during-checkout as 4.3.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/commerce-checkout",
+            "package": "ibexa/commerce-checkout",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-ibx-4928_fixed-vat-recalculation-during-checkout as 4.3.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/commerce-transaction",
+            "package": "ibexa/commerce-transaction",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
