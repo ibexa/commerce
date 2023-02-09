@@ -71,11 +71,11 @@ jobs:
           SET_STABILITY="composer config minimum-stability"
           $SET_STABILITY --unset 
           case $VERSION in
+            alpha*|beta*|rc*) composer config prefer-stable true ;;&
             alpha*) $SET_STABILITY alpha ;;
             beta*) $SET_STABILITY beta ;;
             rc*) $SET_STABILITY rc ;;
           esac;
-          composer config prefer-stable true
 
       - name: Patch parent version for OSS
         if: github.event.repository.name == 'oss'
