@@ -69,7 +69,8 @@ jobs:
         run: |
           VERSION=$( echo ${{ inputs.version }} | cut -d '-' -f 2 )
           SET_STABILITY="composer config minimum-stability"
-          $SET_STABILITY --unset 
+          $SET_STABILITY --unset
+          composer config prefer-stable --unset
           case $VERSION in
             alpha*|beta*|rc*) composer config prefer-stable true ;;&
             alpha*) $SET_STABILITY alpha ;;
