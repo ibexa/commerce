@@ -187,7 +187,7 @@ jobs:
           GIT_PUSH_ARGS: ${{ inputs.git_push_args }}
           ROBOT_TOKEN: ${{ secrets.EZROBOT_PAT }}
         run: |
-          git config --local user.email "ezrobot@ibexa.co"
+          git config --local user.email "681611+ezrobot@users.noreply.github.com"
           git config --local user.name "ezrobot"
           git remote set-url origin https://x-access-token:${{ env.ROBOT_TOKEN }}@github.com/${{ github.repository }}
           git add composer.*
