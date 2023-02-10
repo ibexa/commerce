@@ -130,7 +130,7 @@ jobs:
       - name: Commit, tag and push
         if: inputs.real_op
         env:
-          GIT_PUSH_ARGS: inputs.git_push_args
+          GIT_PUSH_ARGS: ${{ inputs.git_push_args }}
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
