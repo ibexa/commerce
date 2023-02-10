@@ -11,10 +11,11 @@ on:
         type: boolean
         default: false
         required: true
-      force_push:
-        description: 'Use --force'
-        type: boolean
-        default: false
+      git_push_args:
+        description: 'For example: --force-with-lease'
+        type: string
+        default: ''
+        required: false
 
 jobs:
   preparation:
@@ -110,7 +111,7 @@ jobs:
       - name: Reformat composer.json
         run: cat composer.json | unexpand -t2 | expand -t4 | sponge composer.json
 
-      - name: debug composer.json
+      - name: Preview composer.json
         run: cat composer.json
 
       - name: Add composer keys for private packagist
@@ -126,20 +127,14 @@ jobs:
         run: |
           composer update --no-scripts --no-plugins --no-install
 
-      - name: Commit and tag
+      - name: Commit, tag and push
         if: inputs.real_op
+        env:
+          GIT_PUSH_ARGS: inputs.git_push_args
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add composer.*
           git commit -m "[composer] Set dependencies for ${{ inputs.version }} release + .lock"
           git tag "v${{ inputs.version }}"
-
-      - name: Push changes
-        if: inputs.real_op
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: v${{ inputs.version }}
-          force: ${{ inputs.force_push }}
-          tags: true
+          git push origin "v${{ inputs.version }}" ${GIT_PUSH_ARGS}
