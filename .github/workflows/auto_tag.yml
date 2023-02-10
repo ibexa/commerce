@@ -35,6 +35,12 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.TRAVIS_GITHUB_TOKEN }}
 
+      # The jq command would return a zero exit status if it was able to filter the input JSON data and
+      # produce at least one matching object in the array, and a non-zero exit status if no matching object was found.
+      # This particular JQ filter expression:
+      # .packages."${{ env.PARENT }}"[]: accesses an array of objects in the packages object, with the key specified by the environment variable PARENT.
+      # select(.version == "${{ env.VVERSION }}"): filters the array to only include objects where the version property is equal to the value of the environment variable VVERSION.
+
       # No need to validate for oss version in satis
       - name: Validate satis for content version
         if: github.event.repository.name == 'experience'
@@ -45,7 +51,7 @@ jobs:
           VVERSION: v${{ inputs.version }}
         run: |
           for EXPONENTIAL_BACKOFF in {1..10}; do
-          curl https://updates.ibexa.co/p2/${PARENT}.json -s -u $SATIS_NETWORK_KEY:$SATIS_NETWORK_TOKEN | jq -e '.packages."${PARENT}"[] | select(.version == "${VVERSION}")' && break;
+          curl https://updates.ibexa.co/p2/${PARENT}.json -s -u $SATIS_NETWORK_KEY:$SATIS_NETWORK_TOKEN | jq -e '.packages."${{ env.PARENT }}"[] | select(.version == "${{ env.VVERSION }}")' && break;
             DELAY=$((2**$EXPONENTIAL_BACKOFF))
             echo "${PARENT}:${VVERSION} not yet available, sleeping for $DELAY seconds"
             sleep $DELAY
@@ -95,6 +101,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.TRAVIS_GITHUB_TOKEN }}
 
+      # The effect of this jq command is to take a JSON array of objects,
+      # transform each object into a new object using its packageName and targetVersion properties,
+      # and return the result as a single JSON object.
+      # The sponge command is used to pipe the output of jq back into the same file, effectively replacing its contents with the updated JSON data.
       - name: Process release information
         run: |
           cat > input.json <<'EOF'
@@ -129,6 +139,8 @@ jobs:
         if: github.event.repository.name == 'commerce'
         run: jq '.require["ibexa/experience"] |= "${{ inputs.version }}"' composer.json | sponge composer.json
 
+      # The effect of this jq command is to modify the require property of the input JSON object by using values from the $release object,
+      # if they exist, to update the values of the keys in the require object.
       - name: Patch composer require versions
         run: |
           jq --argfile release release.json '
@@ -148,14 +160,22 @@ jobs:
       - name: Preview composer.json
         run: cat composer.json
 
+      - name: Generate token
+        id: generate_token
+        uses: tibdex/github-app-token@v1
+        with:
+          app_id: ${{ secrets.AUTOMATION_CLIENT_ID }}
+          installation_id: ${{ secrets.AUTOMATION_CLIENT_INSTALLATION }}
+          private_key: ${{ secrets.AUTOMATION_CLIENT_SECRET }}
+
       - name: Add composer keys for private packagist
         run: |
           composer config http-basic.updates.ibexa.co $SATIS_NETWORK_KEY $SATIS_NETWORK_TOKEN
-          composer config github-oauth.github.com $TRAVIS_GITHUB_TOKEN
+          composer config github-oauth.github.com $APP_GITHUB_TOKEN
         env:
           SATIS_NETWORK_KEY: ${{ secrets.SATIS_NETWORK_KEY }}
           SATIS_NETWORK_TOKEN: ${{ secrets.SATIS_NETWORK_TOKEN }}
-          TRAVIS_GITHUB_TOKEN: ${{ secrets.TRAVIS_GITHUB_TOKEN }}
+          APP_GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
 
       - name: Composer update
         run: |
@@ -165,9 +185,9 @@ jobs:
         if: inputs.real_op
         env:
           GIT_PUSH_ARGS: ${{ inputs.git_push_args }}
+          ROBOT_TOKEN: ${{ secrets.EZROBOT_PAT }}
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git remote set-url origin https://x-access-token:${{ env.ROBOT_TOKEN }}@github.com/${{ env.GITHUB_REPOSITORY }}
           git add composer.*
           git commit -m "[composer] Set dependencies for ${{ inputs.version }} release + .lock"
           git tag "v${{ inputs.version }}"
