@@ -7,11 +7,14 @@ on:
         description: 'Version to release (x.y.z-abcN e.g. 4.5.6-beta1)'
         required: true
       real_op:
-        description: 'Do the real work, not just preview'
+        description: 'Push changes'
         type: boolean
         default: false
         required: true
-    
+      force_push:
+        description: 'Use --force'
+        type: boolean
+        default: false
 
 jobs:
   preparation:
@@ -137,5 +140,6 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ inputs.version }}
+          branch: v${{ inputs.version }}
+          force: ${{ inputs.force_push }}
           tags: true
