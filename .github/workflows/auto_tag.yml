@@ -189,7 +189,7 @@ jobs:
         run: |
           git config --local user.email "ezrobot@ibexa.co"
           git config --local user.name "ezrobot"
-          git remote set-url origin https://x-access-token:${{ env.ROBOT_TOKEN }}@github.com/${{ env.GITHUB_REPOSITORY }}
+          git remote set-url origin https://x-access-token:${{ env.ROBOT_TOKEN }}@github.com/${{ github.repository }}
           git add composer.*
           git commit -m "[composer] Set dependencies for ${{ inputs.version }} release + .lock"
           git tag "v${{ inputs.version }}"
