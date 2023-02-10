@@ -60,7 +60,7 @@ jobs:
           VVERSION: v${{ inputs.version }}
         run: |
           for EXPONENTIAL_BACKOFF in {1..10}; do
-          curl https://updates.ibexa.co/p2/${PARENT}.json -s -u $SATIS_NETWORK_KEY:$SATIS_NETWORK_TOKEN | jq -e '.packages."${PARENT}"[] | select(.version == "${VVERSION}")' && break;
+          curl https://updates.ibexa.co/p2/${PARENT}.json -s -u $SATIS_NETWORK_KEY:$SATIS_NETWORK_TOKEN | jq -e '.packages."${{ env.PARENT }}"[] | select(.version == "${{ env.VVERSION }}")' && break;
             DELAY=$((2**$EXPONENTIAL_BACKOFF))
             echo "${PARENT}:${VVERSION} not yet available, sleeping for $DELAY seconds"
             sleep $DELAY
