@@ -89,7 +89,17 @@ jobs:
           extensions: pdo_sqlite, gd
           tools: cs2pr
 
+      - name: Generate token
+        id: generate_token
+        uses: tibdex/github-app-token@v1
+        with:
+          app_id: ${{ secrets.AUTOMATION_CLIENT_ID }}
+          installation_id: ${{ secrets.AUTOMATION_CLIENT_INSTALLATION }}
+          private_key: ${{ secrets.AUTOMATION_CLIENT_SECRET }}
+
       - uses: actions/checkout@v3
+        with:
+          persist-credentials: false
 
       - name: Get release information
         uses: octokit/request-action@v2.x
@@ -99,7 +109,7 @@ jobs:
           repo: release-maker
           route: /repos/{owner}/{repo}/contents/releases/${{ inputs.version }}/release.json
         env:
-          GITHUB_TOKEN: ${{ secrets.TRAVIS_GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
 
       # The effect of this jq command is to take a JSON array of objects,
       # transform each object into a new object using its packageName and targetVersion properties,
@@ -159,14 +169,6 @@ jobs:
 
       - name: Preview composer.json
         run: cat composer.json
-
-      - name: Generate token
-        id: generate_token
-        uses: tibdex/github-app-token@v1
-        with:
-          app_id: ${{ secrets.AUTOMATION_CLIENT_ID }}
-          installation_id: ${{ secrets.AUTOMATION_CLIENT_INSTALLATION }}
-          private_key: ${{ secrets.AUTOMATION_CLIENT_SECRET }}
 
       - name: Add composer keys for private packagist
         run: |
