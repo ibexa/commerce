@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-5136-optimize-AbstractDateBasedStrategy as 4.3.x-dev",
+            "repositoryUrl": "https://github.com/ezsystems/date-based-publisher",
+            "package": "ezsystems/date-based-publisher",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
