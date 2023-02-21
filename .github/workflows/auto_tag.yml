@@ -182,6 +182,7 @@ jobs:
       - name: Composer update
         run: |
           composer update --no-scripts --no-plugins --no-install
+          composer validate
 
       - name: Commit, tag and push
         if: inputs.real_op
