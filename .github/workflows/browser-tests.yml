@@ -27,6 +27,7 @@ jobs:
             send-success-notification: ${{ github.event.inputs.send-success-notification != 'false' }}
             job-count: 4
             multirepository: true
+            ci-scripts-branch: test-slim-skeleton
             timeout: 120
         secrets:
             SATIS_NETWORK_KEY: ${{ secrets.SATIS_NETWORK_KEY }}
@@ -45,6 +46,7 @@ jobs:
             setup: "doc/docker/base-dev.yml:doc/docker/selenium.yml"
             send-success-notification: ${{ github.event.inputs.send-success-notification != 'false' }}
             job-count: 4
+            ci-scripts-branch: test-slim-skeleton
             multirepository: true
             php-image: "ezsystems/php:7.3-v2-node14"
             timeout: 120
@@ -59,6 +61,7 @@ jobs:
         with:
             project-edition: "commerce"
             project-version: "^3.3.x-dev"
+            ci-scripts-branch: test-slim-skeleton
             test-suite: "--profile=regression --suite=commerce"
             test-setup-phase-1: "--profile=regression --suite=setup-commerce --tags=~@part2 --mode=standard"
             test-setup-phase-2: "--profile=regression --suite=setup-commerce --tags=@part2 --mode=standard"
