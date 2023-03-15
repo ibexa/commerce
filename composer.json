@@ -13,7 +13,8 @@
         "ibexa/experience": "~4.5.x-dev",
         "ibexa/cart": "~4.5.x-dev",
         "ibexa/checkout": "~4.5.x-dev",
-        "ibexa/storefront": "~4.5.x-dev"
+        "ibexa/storefront": "~4.5.x-dev",
+        "ibexa/order-management": "~4.5.x-dev"
     },
     "require-dev": {
         "ibexa/ci-scripts": "^0.2@dev"
