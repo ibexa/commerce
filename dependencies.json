@@ -19,6 +19,12 @@
             "repositoryUrl": "https://github.com/ibexa/admin-ui",
             "package": "ibexa/admin-ui",
             "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-avoid-go-to-top as 4.5.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/version-comparison",
+            "package": "ibexa/version-comparison",
+            "shouldBeAddedAsVCS": true
         }
     ]
 }
