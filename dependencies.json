@@ -1,0 +1,17 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx-5050-fetch-errors-handle as 4.4.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/storefront",
+            "package": "ibexa/storefront",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-ibx-5050-fetch-errors-handle as 4.4.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/cart",
+            "package": "ibexa/cart",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
