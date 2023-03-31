@@ -1,0 +1,29 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-sa-resolve-cleanup as 4.5.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/site-factory",
+            "package": "ibexa/site-factory",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-address-block as 4.5.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/corporate-account",
+            "package": "ibexa/corporate-account",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-ibx-5121-streamlined-sa-resolver-interface as 4.5.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/admin-ui",
+            "package": "ibexa/admin-ui",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-siteaccess-resolver as 4.5.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/page-builder",
+            "package": "ibexa/page-builder",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
