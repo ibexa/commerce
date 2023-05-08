@@ -1,0 +1,17 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-collapse-toggler as 4.4.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/admin-ui",
+            "package": "ibexa/admin-ui",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-filter-collapse as 4.4.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/calendar",
+            "package": "ibexa/calendar",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
