@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-IBX-2597-removing-first-pesonalized-block-from-page-builder-editor-removes-both-previews as 2.1.x-dev",
+            "repositoryUrl": "https://github.com/ezsystems/ezrecommendation-client",
+            "package": "ezsystems/ezrecommendation-client",
+            "shouldBeAddedAsVCS": false
+        }
+    ]
+}
