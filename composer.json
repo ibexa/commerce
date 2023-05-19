@@ -10,20 +10,20 @@
     ],
     "require": {
         "php": "^7.4 || ^8.0",
-        "ibexa/experience": "~4.5.x-dev",
-        "ibexa/cart": "~4.5.x-dev",
-        "ibexa/checkout": "~4.5.x-dev",
-        "ibexa/storefront": "~4.5.x-dev",
-        "ibexa/order-management": "~4.5.x-dev",
-        "ibexa/payment": "~4.5.x-dev",
-        "ibexa/shipping": "~4.5.x-dev"
+        "ibexa/experience": "~4.6.x-dev",
+        "ibexa/cart": "~4.6.x-dev",
+        "ibexa/checkout": "~4.6.x-dev",
+        "ibexa/storefront": "~4.6.x-dev",
+        "ibexa/order-management": "~4.6.x-dev",
+        "ibexa/payment": "~4.6.x-dev",
+        "ibexa/shipping": "~4.6.x-dev"
     },
     "require-dev": {
         "ibexa/ci-scripts": "^0.2@dev"
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "4.5.x-dev"
+            "dev-master": "4.6.x-dev"
         }
     }
 }
