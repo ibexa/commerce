@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx_5858_elastic_search_swap_location_duplicates as 1.2.x-dev",
+            "repositoryUrl": "https://github.com/ezsystems/ezplatform-elastic-search-engine",
+            "package": "ezsystems/ezplatform-elastic-search-engine",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
