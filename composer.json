@@ -3,20 +3,21 @@
     "type": "metapackage",
     "license": "proprietary",
     "description": "A meta package for installing Ibexa DXP Commerce edition",
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "repositories": [
-        {"type": "composer", "url": "https://updates.ibexa.co"}
+        {
+            "type": "composer",
+            "url": "https://updates.ibexa.co"
+        }
     ],
     "require": {
         "php": "^7.4 || ^8.0",
-        "ibexa/experience": "~4.5.x-dev",
-        "ibexa/cart": "~4.5.x-dev",
-        "ibexa/checkout": "~4.5.x-dev",
-        "ibexa/storefront": "~4.5.x-dev",
-        "ibexa/order-management": "~4.5.x-dev",
-        "ibexa/payment": "~4.5.x-dev",
-        "ibexa/shipping": "~4.5.x-dev"
+        "ibexa/experience": "4.5.1",
+        "ibexa/cart": "4.5.1",
+        "ibexa/checkout": "4.5.1",
+        "ibexa/storefront": "4.5.1",
+        "ibexa/order-management": "4.5.1",
+        "ibexa/payment": "4.5.1",
+        "ibexa/shipping": "4.5.1"
     },
     "require-dev": {
         "ibexa/ci-scripts": "^0.2@dev"
