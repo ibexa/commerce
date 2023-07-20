@@ -1,0 +1,17 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-pc-product-edit as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/connector-dam",
+            "package": "ibexa/connector-dam",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-dam-integration as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/product-catalog",
+            "package": "ibexa/product-catalog",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
