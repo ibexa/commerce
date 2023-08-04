@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-IBX-5094_section_permission as 2.3.x-dev",
+            "repositoryUrl": "https://github.com/ezsystems/ezplatform-graphql",
+            "package": "ezsystems/ezplatform-graphql",
+            "shouldBeAddedAsVCS": false
+        }
+    ]
+}
