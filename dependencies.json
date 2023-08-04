@@ -1,0 +1,17 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx-6222-fix-request-parser as 4.5.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/rest",
+            "package": "ibexa/rest",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-payment_rest_api_fixes as 4.5.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/payment",
+            "package": "ibexa/payment",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
