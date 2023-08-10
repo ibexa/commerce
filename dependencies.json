@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx-5194-events-timezone-adjustment as 4.5.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/calendar",
+            "package": "ibexa/calendar",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
