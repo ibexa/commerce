@@ -42,6 +42,12 @@
             "repositoryUrl": "https://github.com/ibexa/version-comparison",
             "package": "ibexa/version-comparison",
             "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-ibx-6230-fix-selectors as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/page-builder",
+            "package": "ibexa/page-builder",
+            "shouldBeAddedAsVCS": true
         }
     ]
 }
