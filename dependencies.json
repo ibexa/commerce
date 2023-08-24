@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-IBX-6357-referenceCode-check-not-needed as 1.0.x-dev",
+            "repositoryUrl": "https://github.com/ezsystems/ezplatform-personalization",
+            "package": "ezsystems/ezplatform-personalization",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
