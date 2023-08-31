@@ -20,7 +20,7 @@
             "shouldBeAddedAsVCS": true
         },
         {
-            "requirement": "dev-simplify-action-in-edit-mode as 4.5.x-dev",
+            "requirement": "dev-simplify-action-in-edit-mode as 4.6.x-dev",
             "repositoryUrl": "https://github.com/ibexa/tree-builder",
             "package": "ibexa/tree-builder",
             "shouldBeAddedAsVCS": true
