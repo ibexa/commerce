@@ -3,18 +3,6 @@
     "packages": [
         {
             "requirement": "dev-fix-translations as 4.6.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/core",
-            "package": "ibexa/core",
-            "shouldBeAddedAsVCS": false
-        },
-        {
-            "requirement": "dev-fix-translations as 4.6.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/migrations",
-            "package": "ibexa/migrations",
-            "shouldBeAddedAsVCS": true
-        },
-        {
-            "requirement": "dev-fix-translations as 4.6.x-dev",
             "repositoryUrl": "https://github.com/ibexa/user",
             "package": "ibexa/user",
             "shouldBeAddedAsVCS": false
