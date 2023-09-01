@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-IBX-6451_language_list_scroll as 2.3.x-dev",
+            "repositoryUrl": "https://github.com/ezsystems/ezplatform-admin-ui",
+            "package": "ezsystems/ezplatform-admin-ui",
+            "shouldBeAddedAsVCS": false
+        }
+    ]
+}
