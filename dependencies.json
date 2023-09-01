@@ -123,12 +123,6 @@
         },
         {
             "requirement": "dev-fix-translations as 4.6.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/system-info",
-            "package": "ibexa/system-info",
-            "shouldBeAddedAsVCS": false
-        },
-        {
-            "requirement": "dev-fix-translations as 4.6.x-dev",
             "repositoryUrl": "https://github.com/ibexa/admin-ui",
             "package": "ibexa/admin-ui",
             "shouldBeAddedAsVCS": false
