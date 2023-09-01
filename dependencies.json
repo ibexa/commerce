@@ -109,6 +109,12 @@
             "package": "ibexa/payment",
             "shouldBeAddedAsVCS": true
         },
+	{
+            "requirement": "dev-fix-translations as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/segmentation",
+            "package": "ibexa/segmentation",
+            "shouldBeAddedAsVCS": true
+        },
         {
             "requirement": "dev-fix-translations as 4.6.x-dev",
             "repositoryUrl": "https://github.com/ibexa/scheduler",
