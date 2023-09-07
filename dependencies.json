@@ -26,6 +26,12 @@
             "shouldBeAddedAsVCS": true
         },
         {
+            "requirement": "dev-adjust-tests as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/scheduler",
+            "package": "ibexa/scheduler",
+            "shouldBeAddedAsVCS": true
+        },
+        {
             "requirement": "dev-simplify-action-in-edit-mode as 4.6.x-dev",
             "repositoryUrl": "https://github.com/ibexa/tree-builder",
             "package": "ibexa/tree-builder",
