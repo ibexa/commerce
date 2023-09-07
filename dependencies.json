@@ -2,7 +2,7 @@
     "recipesEndpoint": "",
     "packages": [
         {
-            "requirement": "dev-behat-simplify-actions-in-edit-mode as 4.6.x-dev",
+            "requirement": "dev-simplify-actions-in-edit-mode as 4.6.x-dev",
             "repositoryUrl": "https://github.com/ibexa/admin-ui",
             "package": "ibexa/admin-ui",
             "shouldBeAddedAsVCS": false
@@ -17,6 +17,12 @@
             "requirement": "dev-simplify-action-in-edit-mode as 4.6.x-dev",
             "repositoryUrl": "https://github.com/ibexa/content-tree",
             "package": "ibexa/content-tree",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-adapt-tests as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/form-builder",
+            "package": "ibexa/form-builder",
             "shouldBeAddedAsVCS": true
         },
         {
