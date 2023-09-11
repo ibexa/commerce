@@ -1,0 +1,23 @@
+ {
+    "recipesEndpoint": "",
+    "packages": [
+      {
+        "requirement": "dev-IBX-3698-tips-for-value-variants as 4.5.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/product-catalog",
+        "package": "ibexa/product-catalog",
+        "shouldBeAddedAsVCS": false
+      },
+      {
+        "requirement": "dev-IBX-3698-conditional-icon-form-help as 4.5.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/admin-ui",
+        "package": "ibexa/admin-ui",
+        "shouldBeAddedAsVCS": false
+      },
+      {
+        "requirement": "dev-ibx-3698-attribute-value-format-hint as 4.5.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/measurement",
+        "package": "ibexa/measurement",
+        "shouldBeAddedAsVCS": false
+      }
+    ]
+ }
