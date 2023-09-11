@@ -45,12 +45,6 @@
         },
         {
             "requirement": "dev-simplify-action-in-edit-mode as 4.6.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/scheduler",
-            "package": "ibexa/scheduler",
-            "shouldBeAddedAsVCS": true
-        },
-        {
-            "requirement": "dev-simplify-action-in-edit-mode as 4.6.x-dev",
             "repositoryUrl": "https://github.com/ibexa/taxonomy",
             "package": "ibexa/taxonomy",
             "shouldBeAddedAsVCS": true
