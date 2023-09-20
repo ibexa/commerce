@@ -1,0 +1,17 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx-5931-seo-types-normalization as 4.5.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/seo",
+            "package": "ibexa/seo",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-ibx-5931-field-settings-normalization as 4.5.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/migrations",
+            "package": "ibexa/migrations",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
