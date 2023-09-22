@@ -1,0 +1,11 @@
+ {
+    "recipesEndpoint": "",
+    "packages": [
+      {
+        "requirement": "dev-IBX-6544-console-error-typing-minimum-and-maximum-value as 4.5.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/measurement",
+        "package": "ibexa/measurement",
+        "shouldBeAddedAsVCS": false
+      }
+    ]
+ }
