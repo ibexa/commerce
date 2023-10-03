@@ -1,0 +1,23 @@
+{
+     "recipesEndpoint": "",
+     "packages": [
+         {
+             "requirement": "dev-IBX-6599-new-grid-item-design as 4.6.x-dev",
+             "repositoryUrl": "https://github.com/ibexa/site-factory",
+             "package": "ibexa/site-factory",
+             "shouldBeAddedAsVCS": false
+         },
+         {
+             "requirement": "dev-IBX-6599-new-grid-item-design as 4.6.x-dev",
+             "repositoryUrl": "https://github.com/ibexa/admin-ui",
+             "package": "ibexa/admin-ui",
+             "shouldBeAddedAsVCS": false
+         },
+         {
+             "requirement": "dev-IBX-6599-new-grid-item-design as 4.6.x-dev",
+             "repositoryUrl": "https://github.com/ibexa/personalization",
+             "package": "ibexa/personalization",
+             "shouldBeAddedAsVCS": false
+         }
+     ]
+ }
