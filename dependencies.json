@@ -1,0 +1,41 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-user-name as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/admin-ui",
+            "package": "ibexa/admin-ui",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-user-name as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/user",
+            "package": "ibexa/user",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-user-name as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/workflow",
+            "package": "ibexa/workflow",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-user-name as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/scheduler",
+            "package": "ibexa/scheduler",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-user-name as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/product-catalog",
+            "package": "ibexa/product-catalog",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-user_name as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/corporate-account",
+            "package": "ibexa/corporate-account",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
