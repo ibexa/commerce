@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx-6681-disable-edit-when-source as 1.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/image-editor",
+            "package": "ibexa/image-editor",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
