@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx-6740-fix-disable-state-no-location as 1.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/image-editor",
+            "package": "ibexa/image-editor",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
