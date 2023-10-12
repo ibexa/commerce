@@ -1,0 +1,11 @@
+{
+      "recipesEndpoint": "",
+      "packages": [
+          {
+              "requirement": "dev-ibx-6651-attributes-and-vat-sections-in-pt-view as 4.6.x-dev",
+              "repositoryUrl": "https://github.com/ibexa/product-catalog",
+              "package": "ibexa/product-catalog",
+              "shouldBeAddedAsVCS": false
+          }
+      ]
+  }
