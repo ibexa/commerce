@@ -1,0 +1,11 @@
+{
+      "recipesEndpoint": "",
+      "packages": [
+          {
+              "requirement": "dev-IBX-6955-filters-in-global-search-are-misaligned-for-long-content-type-name as 4.5.x-dev",
+              "repositoryUrl": "https://github.com/ibexa/admin-ui",
+              "package": "ibexa/admin-ui",
+              "shouldBeAddedAsVCS": false
+          }
+      ]
+  }
