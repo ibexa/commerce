@@ -24,6 +24,12 @@
             "repositoryUrl": "https://github.com/ibexa/fieldtype-richtext",
             "package": "ibexa/fieldtype-richtext",
             "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-6843-focus-mode as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/fieldtype-page",
+            "package": "ibexa/fieldtype-page",
+            "shouldBeAddedAsVCS": true
         }
     ]
 }
