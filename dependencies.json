@@ -1,0 +1,23 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-IBX-6547-added-modal-config as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/workflow",
+            "package": "ibexa/workflow",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-6547-modal-fix as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/taxonomy",
+            "package": "ibexa/taxonomy",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-6547-modal-fix-for-taxonomy-tests as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/page-builder",
+            "package": "ibexa/page-builder",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
