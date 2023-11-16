@@ -2,7 +2,7 @@
     "recipesEndpoint": "",
     "packages": [
         {
-            "requirement": "dev-IBX-6881 as 4.6.x-dev",
+            "requirement": "dev-IBX-6991-tag as 4.6.x-dev",
             "repositoryUrl": "https://github.com/ibexa/admin-ui-assets",
             "package": "ibexa/admin-ui-assets",
             "shouldBeAddedAsVCS": false
