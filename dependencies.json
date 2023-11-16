@@ -30,6 +30,12 @@
             "repositoryUrl": "https://github.com/ibexa/fieldtype-page",
             "package": "ibexa/fieldtype-page",
             "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-tmp-fix-ci as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/order-management",
+            "package": "ibexa/order-management",
+            "shouldBeAddedAsVCS": true
         }
     ]
 }
