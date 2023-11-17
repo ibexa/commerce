@@ -2,15 +2,33 @@
     "recipesEndpoint": "https://api.github.com/repos/ibexa/recipes-dev/contents/index.json?ref=flex/pull-87",
     "packages": [
         {
+            "requirement": "dev-add-dashboard-suites as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/behat",
+            "package": "ibexa/behat",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-behat as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/dashboard",
+            "package": "ibexa/dashboard",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-revert-hack as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/order-management",
+            "package": "ibexa/order-management",
+            "shouldBeAddedAsVCS": true
+        },
+        {
             "requirement": "dev-ibx-6516-req-ibexa-dashboard as 4.6.x-dev",
             "repositoryUrl": "https://github.com/ibexa/experience",
             "package": "ibexa/experience",
             "shouldBeAddedAsVCS": false
         },
         {
-            "requirement": "dev-revert-hack as 4.6.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/order-management",
-            "package": "ibexa/order-management",
+            "requirement": "dev-added_taxid_field as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/storefront",
+            "package": "ibexa/storefront",
             "shouldBeAddedAsVCS": true
         }
     ]
