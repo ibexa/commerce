@@ -6,6 +6,12 @@
             "repositoryUrl": "https://github.com/ibexa/experience",
             "package": "ibexa/experience",
             "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-revert-hack as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/order-management",
+            "package": "ibexa/order-management",
+            "shouldBeAddedAsVCS": true
         }
     ]
 }
