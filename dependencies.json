@@ -2,7 +2,7 @@
     "recipesEndpoint": "",
     "packages": [
         {
-            "requirement": "dev-IBX-6398-image-picker-base as 4.6.x-dev",
+            "requirement": "dev-IBX-6398-image-picker-base-tests as 4.6.x-dev",
             "repositoryUrl": "https://github.com/ibexa/admin-ui",
             "package": "ibexa/admin-ui",
             "shouldBeAddedAsVCS": false
