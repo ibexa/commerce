@@ -1,0 +1,17 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-encore_render_esi as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/dashboard",
+            "package": "ibexa/dashboard",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-encore_esi_render as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/admin-ui",
+            "package": "ibexa/admin-ui",
+            "shouldBeAddedAsVCS": false
+        }
+    ]
+}
