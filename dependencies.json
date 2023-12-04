@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx-7120-cancel-payment as 4.5.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/payment",
+            "package": "ibexa/payment",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
