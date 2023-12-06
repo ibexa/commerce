@@ -21,7 +21,7 @@ on:
 jobs:
     regression-commerce-setup1:
         name: "PHP 7.3/PostgreSQL/Varnish/Redis/Multirepository"
-        uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@main
+        uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@php8.2
         with:
             project-edition: "commerce"
             project-version: ${{ github.event.inputs.project-version }}
@@ -34,6 +34,7 @@ jobs:
             multirepository: true
             php-image: "ghcr.io/ibexa/docker/php:7.3-node14"
             timeout: 120
+            ci-scripts-branch: add-php8.2-error-handler
         secrets:
             SATIS_NETWORK_KEY: ${{ secrets.SATIS_NETWORK_KEY }}
             SATIS_NETWORK_TOKEN: ${{ secrets.SATIS_NETWORK_TOKEN }}
@@ -41,7 +42,7 @@ jobs:
             SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
     regression-commerce-setup2:
         name: "PHP 7.4/MySQL/Multirepository"
-        uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@main
+        uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@php8.2
         with:
             project-edition: "commerce"
             project-version: ${{ github.event.inputs.project-version }}
@@ -54,14 +55,15 @@ jobs:
             multirepository: true
             php-image: "ghcr.io/ibexa/docker/php:7.4-node16"
             timeout: 120
+            ci-scripts-branch: add-php8.2-error-handler
         secrets:
             SATIS_NETWORK_KEY: ${{ secrets.SATIS_NETWORK_KEY }}
             SATIS_NETWORK_TOKEN: ${{ secrets.SATIS_NETWORK_TOKEN }}
             TRAVIS_GITHUB_TOKEN: ${{ secrets.TRAVIS_GITHUB_TOKEN }}
             SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
     regression-commerce-setup3:
-        name: "PHP 8.1/MySQL/Multirepository"
-        uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@main
+        name: "PHP 8.2/MySQL/Multirepository"
+        uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@php8.2
         with:
             project-edition: "commerce"
             project-version: ${{ github.event.inputs.project-version }}
@@ -72,7 +74,8 @@ jobs:
             send-success-notification: ${{ github.event.inputs.send-success-notification != 'false' }}
             job-count: 4
             multirepository: true
-            php-image: "ghcr.io/ibexa/docker/php:8.1-node18"
+            ci-scripts-branch: add-php8.2-error-handler
+            php-image: "ghcr.io/ibexa/docker/php:8.2-node18"
             timeout: 120
         secrets:
             SATIS_NETWORK_KEY: ${{ secrets.SATIS_NETWORK_KEY }}
