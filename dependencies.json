@@ -1,0 +1,29 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx-6856-passed-mime-types-to-image-field-form as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/image-editor",
+            "package": "ibexa/image-editor",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-ibx-6856-added-mime-types-variable-for-ezimage-field as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/content-forms",
+            "package": "ibexa/content-forms",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-ibx-6856-added-mime-types-field-to-image-form-mapper as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/admin-ui",
+            "package": "ibexa/admin-ui",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-ibx-6856-added-mime-types-limitation-for-ezimage-field-type as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/core",
+            "package": "ibexa/core",
+            "shouldBeAddedAsVCS": false
+        }
+    ]
+}
