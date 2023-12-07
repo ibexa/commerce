@@ -1,0 +1,11 @@
+{
+     "recipesEndpoint": "",
+     "packages": [
+         {
+             "requirement": "dev-ibx-7161-drop-online as 4.6.x-dev",
+             "repositoryUrl": "https://github.com/ibexa/payment",
+             "package": "ibexa/payment",
+             "shouldBeAddedAsVCS": false
+         }
+     ]
+ }
