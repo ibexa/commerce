@@ -1,0 +1,18 @@
+{
+     "recipesEndpoint": "",
+     "packages": [
+         {
+             "requirement": "dev-IBX-7250-sa-missing-tooltip as 4.6.x-dev",
+             "repositoryUrl": "https://github.com/ibexa/admin-ui",
+             "package": "ibexa/admin-ui",
+             "shouldBeAddedAsVCS": false
+         },
+         {
+             "requirement": "dev-IBX-7250-sa-missing-tooltip as 4.6.x-dev",
+             "repositoryUrl": "https://github.com/ibexa/site-context",
+             "package": "ibexa/site-context",
+             "shouldBeAddedAsVCS": false
+         }
+     ]
+ }
+
