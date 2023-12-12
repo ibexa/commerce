@@ -1,0 +1,17 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-cr-wip as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/version-comparison",
+            "package": "ibexa/version-comparison",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-cr-poc as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/core",
+            "package": "ibexa/core",
+            "shouldBeAddedAsVCS": false
+        }
+    ]
+}
