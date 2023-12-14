@@ -30,6 +30,18 @@
             "repositoryUrl": "https://github.com/ibexa/site-factory",
             "package": "ibexa/site-factory",
             "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-ibx_7329 as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/page-builder",
+            "package": "ibexa/page-builder",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-ibx_7329 as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/fieldtype-page",
+            "package": "ibexa/fieldtype-page",
+            "shouldBeAddedAsVCS": true
         }
     ]
 }
