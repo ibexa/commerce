@@ -2,9 +2,9 @@
     "recipesEndpoint": "",
     "packages": [
         {
-            "requirement": "dev-ibx_7329 as 4.6.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/site-context",
-            "package": "ibexa/site-context",
+            "requirement": "dev-focus-mode-behat as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/version-comparison",
+            "package": "ibexa/version-comparison",
             "shouldBeAddedAsVCS": true
         },
         {
