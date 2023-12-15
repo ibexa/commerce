@@ -1,0 +1,12 @@
+{
+     "recipesEndpoint": "",
+     "packages": [
+         {
+             "requirement": "dev-IBX-7302-remove-left-sidebar-when-no-anchor-items as 4.6.x-dev",
+             "repositoryUrl": "https://github.com/ibexa/admin-ui",
+             "package": "ibexa/admin-ui",
+             "shouldBeAddedAsVCS": false
+         }
+     ]
+ }
+
