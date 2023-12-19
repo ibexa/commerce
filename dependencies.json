@@ -1,0 +1,17 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-IBX-7138-gracefully-handle-missing-thumbnail as 4.5.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/product-catalog",
+            "package": "ibexa/product-catalog",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-ibx-7138-gracefully-handle-missing-user-thumbnail as 4.5.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/admin-ui",
+            "package": "ibexa/admin-ui",
+            "shouldBeAddedAsVCS": false
+        }
+    ]
+}
