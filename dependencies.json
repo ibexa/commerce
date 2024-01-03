@@ -1,12 +1,29 @@
 {
-     "recipesEndpoint": "",
-     "packages": [
-         {
-             "requirement": "dev-IBX-7302-remove-left-sidebar-when-no-anchor-items as 4.6.x-dev",
-             "repositoryUrl": "https://github.com/ibexa/admin-ui",
-             "package": "ibexa/admin-ui",
-             "shouldBeAddedAsVCS": false
-         }
-     ]
- }
-
+      "recipesEndpoint": "",
+      "packages": [
+          {
+              "requirement": "dev-IBX-7302-remove-left-sidebar-when-no-anchor-items as 4.6.x-dev",
+              "repositoryUrl": "https://github.com/ibexa/admin-ui",
+              "package": "ibexa/admin-ui",
+              "shouldBeAddedAsVCS": false
+          },
+          {
+              "requirement": "dev-IBX-7302-remove-left-sidebar-when-no-anchor-items as 4.6.x-dev",
+              "repositoryUrl": "https://github.com/ibexa/product-catalog",
+              "package": "ibexa/product-catalog",
+              "shouldBeAddedAsVCS": false
+          },
+          {
+              "requirement": "dev-IBX-7302-remove-left-sidebar-when-no-anchor-items as 4.6.x-dev",
+              "repositoryUrl": "https://github.com/ibexa/payment",
+              "package": "ibexa/payment",
+              "shouldBeAddedAsVCS": false
+          },
+          {
+              "requirement": "dev-IBX-7302-remove-left-sidebar-when-no-anchor-items as 4.6.x-dev",
+              "repositoryUrl": "https://github.com/ibexa/shipping",
+              "package": "ibexa/shipping",
+              "shouldBeAddedAsVCS": false
+          }
+      ]
+  }
