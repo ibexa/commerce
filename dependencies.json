@@ -1,0 +1,17 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx_6262 as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/admin-ui",
+            "package": "ibexa/admin-ui",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-ibx_6262 as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/automated-translation",
+            "package": "ibexa/automated-translation",
+            "shouldBeAddedAsVCS": false
+        }
+    ]
+}
