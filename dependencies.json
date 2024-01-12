@@ -1,0 +1,17 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-notifications as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/user",
+            "package": "ibexa/user",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-user_notifications as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/connector-actito",
+            "package": "ibexa/connector-actito",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
