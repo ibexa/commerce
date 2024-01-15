@@ -1,0 +1,17 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx-7502-added-file-size-validation-for-image-asset as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/core",
+            "package": "ibexa/core",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-ibx-7502-moved-file-validation-to-image-asset-field-type as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/content-forms",
+            "package": "ibexa/content-forms",
+            "shouldBeAddedAsVCS": false
+        }
+    ]
+}
