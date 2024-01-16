@@ -2,10 +2,10 @@
     "recipesEndpoint": "",
     "packages": [
         {
-            "requirement": "dev-fixed-dashboard-creation as 4.6.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/admin-ui",
-            "package": "ibexa/admin-ui",
-            "shouldBeAddedAsVCS": false
+            "requirement": "dev-fixed-creation-of-dashboard as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/dashboard",
+            "package": "ibexa/dashboard",
+            "shouldBeAddedAsVCS": true
         }
     ]
 }
