@@ -1,0 +1,29 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx-7418-added-content-name-criterion as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/core",
+            "package": "ibexa/core",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-ibx-7418-added-criterion-visitior-for-content-name-criterion as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/solr",
+            "package": "ibexa/solr",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-ibx-7418-added-criterion-visitor-for-content-name-criterion as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/elasticsearch",
+            "package": "ibexa/elasticsearch",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-ibx-7418-added-input-parser-for-content-name-criterion as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/rest",
+            "package": "ibexa/rest",
+            "shouldBeAddedAsVCS": false
+        }
+    ]
+}
