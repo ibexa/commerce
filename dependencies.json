@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx-7304-remove-preview-btn-for-non-context-aware as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/site-context",
+            "package": "ibexa/site-context",
+            "shouldBeAddedAsVCS": false
+        }
+    ]
+}
