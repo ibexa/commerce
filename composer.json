@@ -3,22 +3,23 @@
     "type": "metapackage",
     "license": "proprietary",
     "description": "A meta package for installing Ibexa DXP Commerce edition",
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "repositories": [
-        {"type": "composer", "url": "https://updates.ibexa.co"}
+        {
+            "type": "composer",
+            "url": "https://updates.ibexa.co"
+        }
     ],
     "require": {
         "php": "^7.4 || ^8.0",
-        "ibexa/experience": "~4.6.x-dev",
-        "ibexa/cart": "~4.6.x-dev",
-        "ibexa/checkout": "~4.6.x-dev",
-        "ibexa/corporate-account-commerce-bridge": "~4.6.x-dev",
-        "ibexa/storefront": "~4.6.x-dev",
-        "ibexa/order-management": "~4.6.x-dev",
-        "ibexa/payment": "~4.6.x-dev",
-        "ibexa/shipping": "~4.6.x-dev",
-        "ibexa/connector-payum": "~4.6.x-dev"
+        "ibexa/experience": "4.6.0-beta5",
+        "ibexa/cart": "4.6.0-beta5",
+        "ibexa/checkout": "4.6.0-beta5",
+        "ibexa/corporate-account-commerce-bridge": "4.6.0-beta5",
+        "ibexa/storefront": "4.6.0-beta5",
+        "ibexa/order-management": "4.6.0-beta5",
+        "ibexa/payment": "4.6.0-beta5",
+        "ibexa/shipping": "4.6.0-beta5",
+        "ibexa/connector-payum": "4.6.0-beta5"
     },
     "require-dev": {
         "ibexa/ci-scripts": "^0.2@dev"
@@ -27,5 +28,7 @@
         "branch-alias": {
             "dev-master": "4.6.x-dev"
         }
-    }
+    },
+    "prefer-stable": true,
+    "minimum-stability": "beta"
 }
