@@ -1,0 +1,35 @@
+{
+    "recipesEndpoint": "https://api.github.com/repos/ibexa/recipes-dev/contents/index.json?ref=flex/pull-106",
+    "packages": [
+        {
+            "requirement": "dev-IBX-6398-STAGE-2-UDW-as-npm-package as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/admin-ui",
+            "package": "ibexa/admin-ui",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-6398-STAGE-2-UDW-as-npm-package as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/taxonomy",
+            "package": "ibexa/taxonomy",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-6398-STAGE-2-UDW-as-npm-package as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/content-tree",
+            "package": "ibexa/content-tree",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-6398-STAGE-2-UDW-as-npm-package as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/tree-builder",
+            "package": "ibexa/tree-builder",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-6398-STAGE-2-UDW-as-npm-package as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/image-picker",
+            "package": "ibexa/image-picker",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
