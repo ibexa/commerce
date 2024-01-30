@@ -1,0 +1,17 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-limit-content-permissions as 4.5.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/workflow",
+            "package": "ibexa/workflow",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-fix-content-type-limitation as 4.5.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/behat",
+            "package": "ibexa/behat",
+            "shouldBeAddedAsVCS": false
+        }
+    ]
+}
