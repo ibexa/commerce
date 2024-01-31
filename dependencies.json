@@ -12,6 +12,12 @@
             "repositoryUrl": "https://github.com/ibexa/workflow",
             "package": "ibexa/workflow",
             "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-restrict-content-type-policy as 4.5.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/scheduler",
+            "package": "ibexa/scheduler",
+            "shouldBeAddedAsVCS": true
         }
     ]
 }
