@@ -6,6 +6,12 @@
             "repositoryUrl": "https://github.com/ibexa/product-catalog",
             "package": "ibexa/product-catalog",
             "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-ibx-7604-measurement-range-toggle-blocked-for-variants as 4.5.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/admin-ui",
+            "package": "ibexa/admin-ui",
+            "shouldBeAddedAsVCS": false
         }
     ]
 }
