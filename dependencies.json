@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-IBX-7191-preview-should-NOT-be-clickable as 4.5.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/admin-ui",
+            "package": "ibexa/admini-ui",
+            "shouldBeAddedAsVCS": false
+        }
+    ]
+}
