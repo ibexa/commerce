@@ -2,6 +2,12 @@
     "recipesEndpoint": "",
     "packages": [
         {
+            "requirement": "dev-mink-packages-upgrade as 3.3.x-dev",
+            "repositoryUrl": "https://github.com/ezsystems/ezcommerce-shop",
+            "package": "ezsystems/ezcommerce-shop",
+            "shouldBeAddedAsVCS": true
+        },
+        {
             "requirement": "dev-mink-package-upgrades as 8.3.x-dev",
             "repositoryUrl": "https://github.com/ezsystems/BehatBundle",
             "package": "ezsystems/behatbundle",
