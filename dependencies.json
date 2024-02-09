@@ -1,0 +1,17 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx-7364-siteaccess-preview as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/core",
+            "package": "ibexa/core",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-ibx-7364-preview-siteaccess-not-available-front as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/site-context",
+            "package": "ibexa/site-context",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
