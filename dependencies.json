@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-IBX-7083-added-tax-id-value as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/checkout",
+            "package": "ibexa/checkout",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
