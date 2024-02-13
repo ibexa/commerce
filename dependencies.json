@@ -6,6 +6,12 @@
             "repositoryUrl": "https://github.com/ibexa/checkout",
             "package": "ibexa/checkout",
             "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-7083-tax-id-fix as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/storefront",
+            "package": "ibexa/storefront",
+            "shouldBeAddedAsVCS": true
         }
     ]
 }
