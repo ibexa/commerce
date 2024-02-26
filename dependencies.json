@@ -6,6 +6,12 @@
             "repositoryUrl": "https://github.com/ibexa/site-context",
             "package": "ibexa/site-context",
             "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-7690-redirect-to-view-tab as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/admin-ui",
+            "package": "ibexa/admin-ui",
+            "shouldBeAddedAsVCS": false
         }
     ]
 }
