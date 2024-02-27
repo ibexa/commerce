@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx-7753-config-panel-top-clicks-update as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/personalization",
+            "package": "ibexa/personalization",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
