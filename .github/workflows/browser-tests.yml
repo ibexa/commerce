@@ -21,8 +21,9 @@ on:
 jobs:
     regression-commerce-setup1:
         name: "PHP 7.3/PostgreSQL/Varnish/Redis/Multirepository"
-        uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@main
+        uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@ibx-6507
         with:
+            ci-scripts-branch: ibx-6507-es
             project-edition: "commerce"
             project-version: ${{ github.event.inputs.project-version }}
             test-suite: "--profile=regression --suite=commerce"
@@ -41,8 +42,9 @@ jobs:
             SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
     regression-commerce-setup2:
         name: "PHP 7.4/MySQL/Multirepository"
-        uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@main
+        uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@ibx-6507
         with:
+            ci-scripts-branch: ibx-6507-es
             project-edition: "commerce"
             project-version: ${{ github.event.inputs.project-version }}
             test-suite: "--profile=regression --suite=commerce"
@@ -61,8 +63,9 @@ jobs:
             SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
     regression-commerce-setup3:
         name: "PHP 8.2/MySQL/Multirepository"
-        uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@main
+        uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@ibx-6507
         with:
+            ci-scripts-branch: ibx-6507-es
             project-edition: "commerce"
             project-version: ${{ github.event.inputs.project-version }}
             test-suite: "--profile=regression --suite=commerce"
