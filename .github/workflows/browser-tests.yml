@@ -62,7 +62,7 @@ jobs:
             TRAVIS_GITHUB_TOKEN: ${{ secrets.TRAVIS_GITHUB_TOKEN }}
             SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
     regression-commerce-setup3:
-        name: "PHP 8.2/MySQL/Multirepository"
+        name: "PHP 8.2/MySQL/Multirepository/Restart"
         uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@ibx-6507
         with:
             ci-scripts-branch: ibx-6507-es
