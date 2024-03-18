@@ -1,0 +1,17 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-added-get-section-id-to-content-info as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/core",
+            "package": "ibexa/core",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-patch-1 as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/yvh/admin-ui",
+            "package": "ibexa/admin-ui",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
