@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx-7900-not-clicable-label as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/tree-builder",
+            "pakage": "ibexa/tree-builder",
+            "shouldBeAddedAsVCS": false
+        }
+    ]
+}
