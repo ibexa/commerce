@@ -1,0 +1,29 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx-7717-add-getters-for-lookup-limitation-result as 4.5.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/core",
+            "package": "ibexa/core",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-7717-UDW-location-endpoint-additional-permission-info as 4.5.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/admin-ui",
+            "package": "ibexa/admin-ui",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-7717 as 4.5.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/tree-builder",
+            "package": "ibexa/tree-builder",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-7717 as 4.5.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/content-tree",
+            "package": "ibexa/content-tree",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
