@@ -24,12 +24,6 @@
             "repositoryUrl": "https://github.com/ibexa/order-management",
             "package": "ibexa/order-management",
             "shouldBeAddedAsVCS": true
-        },
-        {
-            "requirement": "dev-IBX-7946-Notification-message-timeout-cant-be-configured as 4.6.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/connector-actito",
-            "package": "ibexa/connector-actito",
-            "shouldBeAddedAsVCS": true
         }
     ]
 }
