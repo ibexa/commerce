@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx-7620-filters-labels-and-order as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/activity-log",
+            "package": "ibexa/activity-log",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
