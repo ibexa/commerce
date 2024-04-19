@@ -2,7 +2,7 @@
     "recipesEndpoint": "",
     "packages": [
         {
-            "requirement": "4.6.x-dev",
+            "requirement": "dev-IBX-8016-config-merging as 4.6.x-dev",
             "repositoryUrl": "https://github.com/ibexa/connector-dam",
             "package": "ibexa/connector-dam",
             "shouldBeAddedAsVCS": true
