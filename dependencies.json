@@ -6,6 +6,12 @@
             "repositoryUrl": "https://github.com/ibexa/site-context",
             "package": "ibexa/site-context",
             "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-ibx_7398 as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/product-catalog",
+            "package": "ibexa/product-catalog",
+            "shouldBeAddedAsVCS": false
         }
     ]
 }
