@@ -21,9 +21,8 @@ on:
 jobs:
     regression-commerce-setup1:
         name: "PHP 7.4/Node 18/PostgreSQL/Varnish/Redis/Multirepository"
-        uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@main
+        uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@bump-5.0-default-image
         with:
-            ci-scripts-branch: bump-5.0-default-image
             project-edition: "commerce"
             project-version: ${{ github.event.inputs.project-version }}
             test-suite: "--profile=regression --suite=commerce"
@@ -44,9 +43,8 @@ jobs:
             SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
     regression-commerce-setup2:
         name: "PHP 8.0/Node 18/MySQL/Compatibility layer/Elastic"
-        uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@main
+        uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@bump-5.0-default-image
         with:
-            ci-scripts-branch: bump-5.0-default-image
             project-edition: "commerce"
             project-version: ${{ github.event.inputs.project-version }}
             test-suite: "--profile=regression --suite=commerce"
@@ -64,9 +62,8 @@ jobs:
             SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
     regression-commerce-setup3:
         name: "PHP 8.2/Node 18/MySQL/Multirepository/Solr"
-        uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@main
+        uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@bump-5.0-default-image
         with:
-            ci-scripts-branch: bump-5.0-default-image
             project-edition: "commerce"
             project-version: ${{ github.event.inputs.project-version }}
             test-suite: "--profile=regression --suite=commerce"
