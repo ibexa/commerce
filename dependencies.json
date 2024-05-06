@@ -1,11 +1,3 @@
 {
-    "recipesEndpoint": "https://api.github.com/repos/ibexa/recipes-dev/contents/index.json?ref=flex/pull-115",
-    "packages": [
-        {
-            "requirement": "dev-app-switcher as 4.6.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/admin-ui",
-            "package": "ibexa/admin-ui",
-            "shouldBeAddedAsVCS": false
-        }
-    ]
+    "recipesEndpoint": "https://api.github.com/repos/ibexa/recipes-dev/contents/index.json?ref=flex/pull-115"
 }
