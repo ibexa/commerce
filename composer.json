@@ -21,7 +21,9 @@
         "ibexa/order-management": "~4.6.x-dev",
         "ibexa/payment": "~4.6.x-dev",
         "ibexa/shipping": "~4.6.x-dev",
-        "ibexa/connector-payum": "~4.6.x-dev"
+        "ibexa/connector-payum": "~4.6.x-dev",
+        "ibexa/headless-assets": "~4.6.0@alpha",
+        "ibexa/app-switcher": "~4.6.x-dev"
     },
     "require-dev": {
         "ibexa/ci-scripts": "^0.2@dev"
