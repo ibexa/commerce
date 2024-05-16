@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx-5092_quick_order as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/storefront",
+            "package": "ibexa/storefront",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
