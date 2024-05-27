@@ -1,0 +1,53 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx-7911-drop-magic-getters as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/core",
+            "package": "ibexa/core",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-ibx-7911-drop-magic-getters as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/user",
+            "package": "ibexa/user",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-qa/ibx-7911-8280-content-tree-perf-cumulative-fix as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/admin-ui",
+            "package": "ibexa/admin-ui",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-ibx-7911-drop-magic-getters as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/site-factory",
+            "package": "ibexa/site-factory",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-ibx-7911-drop-magic-getters as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/product-catalog",
+            "package": "ibexa/product-catalog",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-ibx-7911-drop-magic-getters as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/dashboard",
+            "package": "ibexa/dashboard",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-8280-move-previewableTranslations-to-extended-info as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/content-tree",
+            "package": "ibexa/content-tree",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-8280-move-previewableTranslations-to-extended-info as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/image-picker",
+            "package": "ibexa/image-picker",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
