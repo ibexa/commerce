@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-IBX-1856 as 2.3.x-dev",
+            "repositoryUrl": "https://github.com/ezsystems/ezplatform-form-builder",
+            "package": "ezsystems/ezplatform-form-builder",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
