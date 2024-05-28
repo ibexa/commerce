@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-fix-deprecated-namespace-usage as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/migrations",
+            "package": "ibexa/migrations",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
