@@ -39,12 +39,6 @@
         },
         {
             "requirement": "dev-ibx-8139-drop-legacy-class-aliases as 5.0.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/connector-unsplash",
-            "package": "ibexa/connector-unsplash",
-            "shouldBeAddedAsVCS": true
-        },
-        {
-            "requirement": "dev-ibx-8139-drop-legacy-class-aliases as 5.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/content-forms",
             "package": "ibexa/content-forms",
             "shouldBeAddedAsVCS": false
