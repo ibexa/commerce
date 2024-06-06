@@ -1,0 +1,23 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-IBX-8019-Object-state-performance-regression as 1.3.x-dev",
+            "repositoryUrl": "https://github.com/ezsystems/ezplatform-kernel",
+            "package": "ezsystems/ezplatform-kernel",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-8019_Load_location_chidren as 2.1.x-dev",
+            "repositoryUrl": "https://github.com/ezsystems/ezrecommendation-client",
+            "package": "ezsystems/ezrecommendation-client",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-8019_Location_children_refactoring as 2.3.x-dev",
+            "repositoryUrl": "https://github.com/ezsystems/ezplatform-admin-ui",
+            "package": "ezsystems/ezplatform-admin-ui",
+            "shouldBeAddedAsVCS": false
+        }
+    ]
+}
