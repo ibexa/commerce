@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-inactive-button as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/product-embeds",
+            "package": "ibexa/product-embeds",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
