@@ -1,0 +1,23 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-group-icon as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/admin-ui",
+            "package": "ibexa/admin-ui",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-group-icon as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/dashboard",
+            "package": "ibexa/dashboard",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-group-icon as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/corporate-account",
+            "package": "ibexa/corporate-account",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
