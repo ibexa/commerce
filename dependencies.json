@@ -2,13 +2,7 @@
     "recipesEndpoint": "",
     "packages": [
         {
-            "requirement": "dev-ibx-8347-fixed-scenario-edit-in-dev-mode as 4.6.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/personalization",
-            "package": "ibexa/personalization",
-            "shouldBeAddedAsVCS": true
-        },
-        {
-            "requirement": "dev-ibx-6841-handle-dam-exceptions as 4.6.x-dev",
+            "requirement": "dev-IBX-8498-dark-overlay-covers-select-image-asset-modal as 4.6.x-dev",
             "repositoryUrl": "https://github.com/ibexa/connector-dam",
             "package": "ibexa/connector-dam",
             "shouldBeAddedAsVCS": true
