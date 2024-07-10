@@ -3,20 +3,18 @@
     "type": "metapackage",
     "license": "proprietary",
     "description": "A meta package for installing Ibexa DXP Commerce edition",
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "repositories": [
         {"type": "composer", "url": "https://updates.ibexa.co"}
     ],
     "require": {
         "php": "^7.3 || ^8.0",
-        "ibexa/experience": "^3.3.x-dev",
-        "ezsystems/ezcommerce-admin-ui": "^1.2.x-dev",
-        "ezsystems/ezcommerce-erp-admin": "^3.3.x-dev",
-        "ezsystems/ezcommerce-order-history": "^3.3.x-dev",
-        "ezsystems/ezcommerce-page-builder": "^1.2.x-dev",
-        "ezsystems/ezcommerce-rest": "^3.0.x-dev",
-        "ezsystems/ezcommerce-transaction": "^1.0.x-dev"
+        "ibexa/experience": "~3.3.38",
+        "ezsystems/ezcommerce-admin-ui": "~1.2.15",
+        "ezsystems/ezcommerce-erp-admin": "~3.3.7",
+        "ezsystems/ezcommerce-order-history": "~3.3.7",
+        "ezsystems/ezcommerce-page-builder": "~1.2.7",
+        "ezsystems/ezcommerce-rest": "~3.3.8",
+        "ezsystems/ezcommerce-transaction": "~1.0.13"
     },
     "require-dev": {
         "ibexa/ci-scripts": "^0.1@dev"
