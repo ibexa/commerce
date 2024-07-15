@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-IBX-8080_Top_Level_Nodes_links_in_activity_log_throw_exception as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/activity-log",
+            "package": "ibexa/activity-log",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
