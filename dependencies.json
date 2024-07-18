@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-IBX-7862-language-setting as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/user",
+            "package": "ibexa/user",
+            "shouldBeAddedAsVCS": false
+        }
+    ]
+}
