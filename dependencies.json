@@ -1,0 +1,17 @@
+{
+    "recipesEndpoint": "https://api.github.com/repos/ibexa/recipes-dev/contents/index.json?ref=flex/pull-133",
+    "packages": [
+        {
+            "requirement": "dev-ibx-IBX-8656-reworked-oauth2-authorization as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/core",
+            "package": "ibexa/core",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-ibx-IBX-8656-reworked-oauth2-authorization as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/oauth2-client",
+            "package": "ibexa/oauth2-client",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
