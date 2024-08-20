@@ -9,12 +9,6 @@
         },
         {
             "requirement": "dev-ibx-8138-symfony-5-rule-sets as 5.0.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/connector-actito",
-            "package": "ibexa/connector-actito",
-            "shouldBeAddedAsVCS": true
-        },
-        {
-            "requirement": "dev-ibx-8138-symfony-5-rule-sets as 5.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/content-forms",
             "package": "ibexa/content-forms",
             "shouldBeAddedAsVCS": false
