@@ -1,0 +1,17 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx-8804-moved-password-hash-oauth2-to-core as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/core",
+            "package": "ibexa/core",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-ibx-8804-moved-password-hash-oauth2-to-core as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/oauth2-client",
+            "package": "ibexa/oauth2-client",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
