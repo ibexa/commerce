@@ -1,0 +1,29 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx-8811-SA-sessions-sharing as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/core",
+            "package": "ibexa/core",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-ibx-8811-rebranded-session-prefix as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/http-cache",
+            "package": "ibexa/http-cache",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-ibx-8811-rebranded-session-prefix as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/fastly",
+            "package": "ibexa/fastly",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-ibx-8811-SA-sessions-sharing as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/post-install",
+            "package": "ibexa/post-install",
+            "shouldBeAddedAsVCS": false
+        }
+    ]
+}
