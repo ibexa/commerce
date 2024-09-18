@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-block-size-validation as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/connector-qualifio",
+            "package": "ibexa/connector-qualifio",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
