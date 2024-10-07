@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-IBX-7818-fix-index-issue as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/OLTC-fperrin/post-install",
+            "package": "ibexa/post-install",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
