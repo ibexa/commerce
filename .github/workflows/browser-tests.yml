@@ -34,7 +34,7 @@ jobs:
             job-count: 1
             multirepository: true
             php-image: "ghcr.io/ibexa/docker/php:7.4-node18"
-            timeout: 240
+            timeout: 300
         secrets:
             SATIS_NETWORK_KEY: ${{ secrets.SATIS_NETWORK_KEY }}
             SATIS_NETWORK_TOKEN: ${{ secrets.SATIS_NETWORK_TOKEN }}
@@ -59,7 +59,7 @@ jobs:
             job-count: 1
             multirepository: true
             php-image: "ghcr.io/ibexa/docker/php:8.0-node18"
-            timeout: 240
+            timeout: 300
         secrets:
             SATIS_NETWORK_KEY: ${{ secrets.SATIS_NETWORK_KEY }}
             SATIS_NETWORK_TOKEN: ${{ secrets.SATIS_NETWORK_TOKEN }}
@@ -80,7 +80,7 @@ jobs:
             job-count: 1
             multirepository: true
             php-image: "ghcr.io/ibexa/docker/php:8.3-node18"
-            timeout: 240
+            timeout: 300
         secrets:
             SATIS_NETWORK_KEY: ${{ secrets.SATIS_NETWORK_KEY }}
             SATIS_NETWORK_TOKEN: ${{ secrets.SATIS_NETWORK_TOKEN }}
