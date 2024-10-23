@@ -1,0 +1,23 @@
+{
+  "recipesEndpoint": "",
+  "packages": [
+    {
+      "requirement": "dev-ibx8536-resolve-deprecations as 5.0.x-dev",
+      "repositoryUrl": "https://github.com/ibexa/graphql",
+      "package": "ibexa/graphql",
+      "shouldBeAddedAsVCS": false
+    },
+    {
+      "requirement": "dev-ibx-8536-graphql-deprecations as 5.0.x-dev",
+      "repositoryUrl": "https://github.com/ibexa/fieldtype-matrix",
+      "package": "ibexa/fieldtype-matrix",
+      "shouldBeAddedAsVCS": false
+    },
+    {
+      "requirement": "dev-ibx-8536-graphql-deprecations as 5.0.x-dev",
+      "repositoryUrl": "https://github.com/ibexa/fieldtype-query",
+      "package": "ibexa/fieldtype-query",
+      "shouldBeAddedAsVCS": false
+    }
+  ]
+}
