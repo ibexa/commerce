@@ -1,0 +1,11 @@
+{
+  "recipesEndpoint": "",
+  "packages": [
+    {
+      "requirement": "dev-ibx-8534-invalidate-when-adding-relation as 4.6.x-dev",
+      "repositoryUrl": "https://github.com/ibexa/core",
+      "package": "ibexa/core",
+      "shouldBeAddedAsVCS": false
+    }
+  ]
+}
