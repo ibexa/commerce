@@ -6,6 +6,12 @@
             "repositoryUrl": "https://github.com/ibexa/admin-ui",
             "package": "ibexa/admin-ui",
             "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-9136-ALW-UI-language-issue-vs-content-language as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/image-picker",
+            "package": "ibexa/image-picker",
+            "shouldBeAddedAsVCS": false
         }
     ]
 }
