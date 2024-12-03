@@ -48,6 +48,12 @@
       "repositoryUrl": "https://github.com/ibexa/rest",
       "package": "ibexa/rest",
       "shouldBeAddedAsVCS": false
+    },
+    {
+      "requirement": "dev-ibx-8534-image-path as 5.0.x-dev",
+      "repositoryUrl": "https://github.com/ibexa/admin-ui",
+      "package": "ibexa/admin-ui",
+      "shouldBeAddedAsVCS": false
     }
   ]
 }
