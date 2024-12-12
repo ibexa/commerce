@@ -1,0 +1,17 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx-9289-node-factory-performance as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/admin-ui",
+            "package": "ibexa/admin-ui",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-ibx-9289-translations-fetched-from-extended-node-info as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/content-tree",
+            "package": "ibexa/content-tree",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
