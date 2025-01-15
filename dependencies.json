@@ -1,0 +1,29 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-discount-details-in-cart as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/product-catalog",
+            "package": "ibexa/product-catalog",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-discount-details-in-cart as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/cart",
+            "package": "ibexa/cart",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-discount-details-in-cart as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/checkout",
+            "package": "ibexa/checkout",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-discount-details-in-cart as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/storefront",
+            "package": "ibexa/storefront",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
