@@ -1,0 +1,17 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ai-assistant-improvs as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/admin-ui",
+            "package": "ibexa/admin-ui",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-ai-assistant-improvs as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/connector-ai",
+            "package": "ibexa/connector-ai",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
