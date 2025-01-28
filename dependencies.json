@@ -1,0 +1,23 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-IBX-9422-discounts-in-checkout as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/checkout",
+            "package": "ibexa/checkout",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-9422-discounts-in-checkout as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/storefront",
+            "package": "ibexa/storefront",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-improved-discount-data-serialization as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/order-management",
+            "package": "ibexa/order-management",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
