@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx9388_allow_phpstan_composer_plugin as 3.0.x-dev",
+            "repositoryUrl": "https://github.com/ezsystems/ezcommerce-rest",
+            "package": "ezsystems/ezcommerce-rest",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
