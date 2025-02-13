@@ -18,12 +18,6 @@
             "repositoryUrl": "https://github.com/ibexa/taxonomy",
             "package": "ibexa/taxonomy",
             "shouldBeAddedAsVCS": true
-        },
-        {
-            "requirement": "dev-sele-img-25 as 4.6.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/storefront",
-            "package": "ibexa/storefront",
-            "shouldBeAddedAsVCS": true
         }
     ]
 }
