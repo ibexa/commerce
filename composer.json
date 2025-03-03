@@ -13,15 +13,15 @@
     ],
     "require": {
         "php": ">=8.3",
-        "ibexa/experience": "~5.0.x-dev",
-        "ibexa/cart": "~5.0.x-dev",
-        "ibexa/checkout": "~5.0.x-dev",
-        "ibexa/corporate-account-commerce-bridge": "~5.0.x-dev",
-        "ibexa/storefront": "~5.0.x-dev",
-        "ibexa/order-management": "~5.0.x-dev",
-        "ibexa/payment": "~5.0.x-dev",
-        "ibexa/shipping": "~5.0.x-dev",
-        "ibexa/connector-payum": "~5.0.x-dev"
+        "ibexa/experience": "dev-ibx-8471-symfony-7 as 5.0.x-dev",
+        "ibexa/cart": "dev-ibx-8471-symfony-7 as 5.0.x-dev",
+        "ibexa/checkout": "dev-ibx-8471-symfony-7 as 5.0.x-dev",
+        "ibexa/corporate-account-commerce-bridge": "dev-ibx-8471-symfony-7 as 5.0.x-dev",
+        "ibexa/storefront": "dev-ibx-8471-symfony-7 as 5.0.x-dev",
+        "ibexa/order-management": "dev-ibx-8471-symfony-7 as 5.0.x-dev",
+        "ibexa/payment": "dev-ibx-8471-symfony-7 as 5.0.x-dev",
+        "ibexa/shipping": "dev-ibx-8471-symfony-7 as 5.0.x-dev",
+        "ibexa/connector-payum": "dev-ibx-8471-symfony-7 as 5.0.x-dev"
     },
     "require-dev": {
         "ibexa/ci-scripts": "^0.2@dev"
