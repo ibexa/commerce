@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-es-solr-value as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/product-catalog-date-time-attribute",
+            "package": "ibexa/product-catalog-date-time-attribute",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
