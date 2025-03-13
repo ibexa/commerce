@@ -1,0 +1,17 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-IBX-9540-quick-order-with-integer as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/storefront",
+            "package": "ibexa/storefront",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-9540-quick-order-with-integer as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/behat",
+            "package": "ibexa/behat",
+            "shouldBeAddedAsVCS": false
+        }
+    ]
+}
