@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx-9554-added-discounts-sql as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/installer",
+            "package": "ibexa/installer",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
