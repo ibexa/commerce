@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-fix-empty-context-update as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/cart",
+            "package": "ibexa/cart",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
