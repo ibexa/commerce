@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-fix-bc-xml-entities as 2.3.x-dev",
+            "repositoryUrl": "https://github.com/ezsystems/ezplatform-richtext",
+            "package": "ezsystems/ezplatform-richtext",
+            "shouldBeAddedAsVCS": false
+        }
+    ]
+}
