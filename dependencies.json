@@ -1,23 +1,5 @@
 {
     "recipesEndpoint": "",
     "packages": [
-        {
-            "requirement": "dev-ibx-9571/fixed-collection-validation as 4.6.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/discounts",
-            "package": "ibexa/discounts",
-            "shouldBeAddedAsVCS": true
-        },
-        {
-            "requirement": "dev-ibx-9835 as 4.6.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/storefront",
-            "package": "ibexa/storefront",
-            "shouldBeAddedAsVCS": true
-        },
-        {
-            "requirement": "dev-ibx-9804-adjusted-discount-summary as 4.6.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/discounts-codes",
-            "package": "ibexa/discounts-codes",
-            "shouldBeAddedAsVCS": true
-        }
     ]
 }
