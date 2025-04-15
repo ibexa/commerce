@@ -1,0 +1,17 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-IBX-9750-share-dialog-adjustment as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/share",
+            "package": "ibexa/share",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-9750-share-dialog-adjustment as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/admin-ui",
+            "package": "ibexa/admin-ui",
+            "shouldBeAddedAsVCS": false
+        }
+    ]
+}
