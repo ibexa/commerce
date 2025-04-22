@@ -9,14 +9,44 @@
         },
         {
             "requirement": "dev-IBX-9697-refactoring-to-add-twig-components as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/payment",
+            "package": "ibexa/payment",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-9697-refactoring-to-add-twig-components as 4.6.x-dev",
             "repositoryUrl": "https://github.com/ibexa/shipping",
             "package": "ibexa/shipping",
             "shouldBeAddedAsVCS": true
         },
         {
             "requirement": "dev-IBX-9697-refactoring-to-add-twig-components as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/scheduler",
+            "package": "ibexa/scheduler",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-9697-refactoring-to-add-twig-components as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/system-info",
+            "package": "ibexa/system-info",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-9697-refactoring-to-add-twig-components as 4.6.x-dev",
             "repositoryUrl": "https://github.com/ibexa/form-builder",
             "package": "ibexa/form-builder",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-9697-refactoring-to-add-twig-components as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/activity-log",
+            "package": "ibexa/activity-log",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-9697-refactoring-to-add-twig-components as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/site-context",
+            "package": "ibexa/site-context",
             "shouldBeAddedAsVCS": true
         },
         {
@@ -33,8 +63,20 @@
         },
         {
             "requirement": "dev-IBX-9697-refactoring-to-add-twig-components as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/order-management",
+            "package": "ibexa/order-management",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-9697-refactoring-to-add-twig-components as 4.6.x-dev",
             "repositoryUrl": "https://github.com/ibexa/page-builder",
             "package": "ibexa/page-builder",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-9697-refactoring-to-add-twig-components as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/dashboard",
+            "package": "ibexa/dashboard",
             "shouldBeAddedAsVCS": true
         }
     ]
