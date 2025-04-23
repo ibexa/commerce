@@ -120,6 +120,12 @@
             "repositoryUrl": "https://github.com/ibexa/dashboard",
             "package": "ibexa/dashboard",
             "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-9697-refactoring-to-add-twig-components as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/connector-ai",
+            "package": "ibexa/connector-ai",
+            "shouldBeAddedAsVCS": true
         }
     ]
 }
