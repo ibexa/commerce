@@ -21,7 +21,7 @@ on:
 jobs:
     regression-commerce-setup1:
         name: "PHP 8.3/Node 18/PostgreSQL/Varnish/Redis/Multirepository"
-        uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@main
+        uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@ibx-9898
         with:
             ci-scripts-branch: 'ibx-9898'
             project-edition: "commerce"
@@ -45,7 +45,7 @@ jobs:
             SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
     regression-commerce-setup2:
         name: "PHP 8.3/Node 18/MySQL/Elastic"
-        uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@main
+        uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@ibx-9898
         with:
             ci-scripts-branch: 'ibx-9898'
             project-edition: "commerce"
@@ -66,7 +66,7 @@ jobs:
             SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
     regression-commerce-setup3:
         name: "PHP 8.3/Node 18/MySQL/Multirepository/Solr"
-        uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@main
+        uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@ibx-9898
         with:
             ci-scripts-branch: 'ibx-9898'
             project-edition: "commerce"
