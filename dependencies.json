@@ -126,6 +126,18 @@
             "repositoryUrl": "https://github.com/ibexa/connector-ai",
             "package": "ibexa/connector-ai",
             "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-9697-refactoring-to-add-twig-components as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/share",
+            "package": "ibexa/share",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-9697-refactoring-to-add-twig-components as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/discounts-codes",
+            "package": "ibexa/discounts-codes",
+            "shouldBeAddedAsVCS": true
         }
     ]
 }
