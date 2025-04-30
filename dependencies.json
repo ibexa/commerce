@@ -138,6 +138,12 @@
             "repositoryUrl": "https://github.com/ibexa/discounts-codes",
             "package": "ibexa/discounts-codes",
             "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-9697-fixes-and-improvamants as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/twig-components",
+            "package": "ibexa/twig-components",
+            "shouldBeAddedAsVCS": true
         }
     ]
 }
