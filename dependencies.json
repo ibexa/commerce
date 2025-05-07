@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-merge-up/fix-language-choice-type-invalid-extend as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/version-comparison",
+            "package": "ibexa/version-comparison",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
