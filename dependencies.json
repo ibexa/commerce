@@ -6,6 +6,12 @@
             "repositoryUrl": "https://github.com/ibexa/version-comparison",
             "package": "ibexa/version-comparison",
             "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-ibx-9727-fix-rest-abstract-parser-ret-type as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/cart",
+            "package": "ibexa/cart",
+            "shouldBeAddedAsVCS": true
         }
     ]
 }
