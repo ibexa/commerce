@@ -1,0 +1,17 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-fix-language-choice-type-invalid-extend as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/version-comparison",
+            "package": "ibexa/version-comparison",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-temp-4.6 as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/behat",
+            "package": "ibexa/behat",
+            "shouldBeAddedAsVCS": false
+        }
+    ]
+}
