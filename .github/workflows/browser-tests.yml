@@ -20,7 +20,7 @@ on:
 
 jobs:
     regression-commerce-setup1:
-        name: "PHP 7.4/Node 18/PostgreSQL/Varnish/Redis/Multirepository"
+        name: "PHP 7.4/Node 18/PostgreSQL 14.15/Varnish/Redis/Multirepository"
         uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@main
         with:
             project-edition: "commerce"
@@ -43,7 +43,7 @@ jobs:
             AUTOMATION_CLIENT_SECRET: ${{ secrets.AUTOMATION_CLIENT_SECRET }}
             SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
     regression-commerce-setup2:
-        name: "PHP 8.0/Node 18/MySQL/Compatibility layer/Elastic"
+        name: "PHP 8.0/Node 18/MariaDB 10.11/Compatibility layer/Elastic"
         uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@main
         with:
             project-edition: "commerce"
@@ -51,7 +51,7 @@ jobs:
             test-suite: "--profile=regression --suite=commerce"
             test-setup-phase-1: "--profile=regression --suite=setup-commerce --tags=~@part2 --mode=standard"
             test-setup-phase-2: "--profile=regression --suite=setup-commerce --tags=@part2 --mode=standard"
-            setup: "doc/docker/base-dev.yml:doc/docker/elastic.yml:doc/docker/selenium.yml"
+            setup: "doc/docker/base-dev.yml:doc/docker/db-mariadb.yml:doc/docker/elastic.yml:doc/docker/selenium.yml"
             send-success-notification: ${{ github.event.inputs.send-success-notification != 'false' }}
             use-compatibility-layer: true
             job-count: 4
@@ -64,7 +64,7 @@ jobs:
             TRAVIS_GITHUB_TOKEN: ${{ secrets.TRAVIS_GITHUB_TOKEN }}
             SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
     regression-commerce-setup3:
-        name: "PHP 8.3/Node 18/MySQL/Multirepository/Solr"
+        name: "PHP 8.3/Node 18/MySQL 8.4/Multirepository/Solr"
         uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@main
         with:
             project-edition: "commerce"
@@ -72,7 +72,7 @@ jobs:
             test-suite: "--profile=regression --suite=commerce"
             test-setup-phase-1: "--profile=regression --suite=setup-commerce --tags=~@part2 --mode=standard"
             test-setup-phase-2: "--profile=regression --suite=setup-commerce --tags=@part2 --mode=standard"
-            setup: "doc/docker/base-dev.yml:doc/docker/solr.yml:doc/docker/selenium.yml"
+            setup: "doc/docker/base-dev.yml:doc/docker/db-mysql8.4.yml:doc/docker/solr.yml:doc/docker/selenium.yml"
             send-success-notification: ${{ github.event.inputs.send-success-notification != 'false' }}
             job-count: 4
             multirepository: true
