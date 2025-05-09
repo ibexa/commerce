@@ -12,6 +12,78 @@
             "repositoryUrl": "https://github.com/ibexa/admin-ui",
             "package": "ibexa/admin-ui",
             "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-8223-change-limitation-block-prefix as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/cart",
+            "package": "ibexa/cart",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-8223-change-limitation-block-prefix as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/corporate-account",
+            "package": "ibexa/corporate-account",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-8223-change-limitation-block-prefix as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/order-management",
+            "package": "ibexa/order-management",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-8223-change-limitation-block-prefix as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/payment",
+            "package": "ibexa/payment",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-8223-change-limitation-block-prefix as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/permissions",
+            "package": "ibexa/permissions",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-8223-change-limitation-block-prefix as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/personalization",
+            "package": "ibexa/personalization",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-8223-change-limitation-block-prefix as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/product-catalog",
+            "package": "ibexa/product-catalog",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-8223-change-limitation-block-prefix as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/segmentation",
+            "package": "ibexa/segmentation",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-8223-change-limitation-block-prefix as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/shipping",
+            "package": "ibexa/shipping",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-8223-change-limitation-block-prefix as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/taxonomy",
+            "package": "ibexa/taxonomy",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-8223-change-limitation-block-prefix as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/user",
+            "package": "ibexa/user",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-8223-change-limitation-block-prefix as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/workflow",
+            "package": "ibexa/workflow",
+            "shouldBeAddedAsVCS": true
         }
     ]
 }
