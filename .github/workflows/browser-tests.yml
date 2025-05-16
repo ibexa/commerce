@@ -43,7 +43,7 @@ jobs:
             AUTOMATION_CLIENT_SECRET: ${{ secrets.AUTOMATION_CLIENT_SECRET }}
             SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
     regression-commerce-setup2:
-        name: "PHP 8.0/Node 18/MariaDB 10.11/Compatibility layer/Elastic"
+        name: "PHP 8.0/Node 20/MariaDB 10.11/Compatibility layer/Elastic"
         uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@main
         with:
             project-edition: "commerce"
@@ -56,7 +56,7 @@ jobs:
             use-compatibility-layer: true
             job-count: 4
             multirepository: true
-            php-image: "ghcr.io/ibexa/docker/php:8.0-node18"
+            php-image: "ghcr.io/ibexa/docker/php:8.0-node20"
             timeout: 120
         secrets:
             SATIS_NETWORK_KEY: ${{ secrets.SATIS_NETWORK_KEY }}
@@ -64,7 +64,7 @@ jobs:
             TRAVIS_GITHUB_TOKEN: ${{ secrets.TRAVIS_GITHUB_TOKEN }}
             SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
     regression-commerce-setup3:
-        name: "PHP 8.3/Node 18/MySQL 8.4/Multirepository/Solr"
+        name: "PHP 8.3/Node 22/MySQL 8.4/Multirepository/Solr"
         uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@main
         with:
             project-edition: "commerce"
@@ -76,7 +76,7 @@ jobs:
             send-success-notification: ${{ github.event.inputs.send-success-notification != 'false' }}
             job-count: 4
             multirepository: true
-            php-image: "ghcr.io/ibexa/docker/php:8.3-node18"
+            php-image: "ghcr.io/ibexa/docker/php:8.3-node22"
             timeout: 120
         secrets:
             SATIS_NETWORK_KEY: ${{ secrets.SATIS_NETWORK_KEY }}
