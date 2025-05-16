@@ -84,6 +84,12 @@
             "repositoryUrl": "https://github.com/ibexa/headless-assets",
             "package": "ibexa/headless-assets",
             "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-upgrade as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/connector-qualifio",
+            "package": "ibexa/connector-qualifio",
+            "shouldBeAddedAsVCS": true
         }
     ]
 }
