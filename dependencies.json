@@ -1,0 +1,23 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx-9937-handling-workflow-guards-on-errors as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/checkout",
+            "package": "ibexa/checkout",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-ibx-9937-added-unused-code-exception-handling as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/discounts-codes",
+            "package": "ibexa/discounts-codes",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-ibx-9937-added-unused-code-exception-handling as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/storefront",
+            "package": "ibexa/storefront",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
