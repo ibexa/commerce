@@ -9,6 +9,12 @@
         },
         {
             "requirement": "dev-ibx-9937-added-unused-code-exception-handling as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/discounts-codes",
+            "package": "ibexa/discounts-codes",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-ibx-9937-added-unused-code-exception-handling as 4.6.x-dev",
             "repositoryUrl": "https://github.com/ibexa/storefront",
             "package": "ibexa/storefront",
             "shouldBeAddedAsVCS": true
