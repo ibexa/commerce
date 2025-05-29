@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx-10084-moved-end-collaboration-button as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/share",
+            "package": "ibexa/share",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
