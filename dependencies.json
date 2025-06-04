@@ -1,0 +1,23 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-moved_ibexa_get_rest_csrf_token_intention as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/rest",
+            "package": "ibexa/rest",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-moved_ibexa_get_rest_csrf_token_intention as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/admin-ui",
+            "package": "ibexa/admin-ui",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-fixed_csrf_token_intention as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/storefront",
+            "package": "ibexa/storefront",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
