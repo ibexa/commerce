@@ -12,7 +12,7 @@
             "repositoryUrl": "https://github.com/ibexa/discounts",
             "package": "ibexa/discounts",
             "shouldBeAddedAsVCS": true
-        }
+        },
         {
             "requirement": "dev-ibx-9862-behat-coverage-discount-storefront as 4.6.x-dev",
             "repositoryUrl": "https://github.com/ibexa/behat",
