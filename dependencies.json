@@ -20,7 +20,7 @@
             "shouldBeAddedAsVCS": false
         },
         {
-            "requirement": "ibx-xxxx-behat-pagination-next-button as 4.6.x-dev",
+            "requirement": "dev-ibx-xxxx-behat-pagination-next-button as 4.6.x-dev",
             "repositoryUrl": "https://github.com/ibexa/admin-ui",
             "package": "ibexa/admin-ui",
             "shouldBeAddedAsVCS": false
