@@ -2,25 +2,25 @@
   "recipesEndpoint": "",
   "packages": [
     {
-      "requirement": "dev-ibx-9941-contentclass_version as 5.0.x-dev",
+      "requirement": "dev-ibx-9941-contentclassattr as 5.0.x-dev",
       "repositoryUrl": "https://github.com/ibexa/core",
       "package": "ibexa/core",
       "shouldBeAddedAsVCS": false
     },
     {
-      "requirement": "dev-ibx-9941-contentclass-version as 5.0.x-dev",
-      "repositoryUrl": "https://github.com/ibexa/system-info",
-      "package": "ibexa/system-info",
-      "shouldBeAddedAsVCS": false
+      "requirement": "dev-ibx-9941-content_type_field_definition_id as 5.0.x-dev",
+      "repositoryUrl": "https://github.com/ibexa/corporate-account",
+      "package": "ibexa/corporate-account",
+      "shouldBeAddedAsVCS": true
     },
     {
-      "requirement": "dev-ibx-9941-contentclassid as 5.0.x-dev",
+      "requirement": "dev-ibx-9941-contentclassattribute_id as 5.0.x-dev",
       "repositoryUrl": "https://github.com/ibexa/fieldtype-matrix",
       "package": "ibexa/fieldtype-matrix",
       "shouldBeAddedAsVCS": false
     },
     {
-      "requirement": "dev-ibx-9941-rename-content_class_version as 5.0.x-dev",
+      "requirement": "dev-ibx-9941-content_type_field_definition_id as 5.0.x-dev",
       "repositoryUrl": "https://github.com/ibexa/installer",
       "package": "ibexa/installer",
       "shouldBeAddedAsVCS": true
