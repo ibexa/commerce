@@ -1,0 +1,65 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-fix-layout-issues as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/admin-ui-assets-cb0bb1b6",
+            "package": "ibexa/admin-ui-assets",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-fix-layout-issues as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/fieldtype-richtext-5e31d47f",
+            "package": "ibexa/fieldtype-richtext",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-fix-layout-issues as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/admin-ui-04937afc",
+            "package": "ibexa/admin-ui",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-fix-layout-issues as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/form-builder",
+            "package": "ibexa/form-builder",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-fix-layout-issues as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/site-factory",
+            "package": "ibexa/site-factory",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-fix-layout-issues as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/segmentation",
+            "package": "ibexa/segmentation",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-fix-layout-issues as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/workflow",
+            "package": "ibexa/workflow",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-fix-layout-issues as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/content-tree",
+            "package": "ibexa/content-tree",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-fix-layout-issues as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/shipping",
+            "package": "ibexa/shipping",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-fix-layout-issues as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/product-catalog",
+            "package": "ibexa/product-catalog",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
