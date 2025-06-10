@@ -38,7 +38,7 @@
             "shouldBeAddedAsVCS": true
         },
         {
-            "requirement": "dev-fix-layout-issues as 5.3.x-dev",
+            "requirement": "dev-fix-layout-issues--from-tag as 5.3.x-dev",
             "repositoryUrl": "https://github.com/ezsystems/ezplatform-admin-ui-assets-cb0bb1b6",
             "package": "ezsystems/ezplatform-admin-ui-assets",
             "shouldBeAddedAsVCS": true
