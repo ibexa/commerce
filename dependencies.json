@@ -1,0 +1,11 @@
+{
+  "recipesEndpoint": "",
+  "packages": [
+    {
+      "requirement": "dev-fixed_csrf_token_intention_part_2 as 5.0.x-dev",
+      "repositoryUrl": "https://github.com/ibexa/storefront",
+      "package": "ibexa/storefront",
+      "shouldBeAddedAsVCS": true
+    }
+  ]
+}
