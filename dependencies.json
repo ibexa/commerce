@@ -1,0 +1,23 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx-10058-adjusted-discounts-with-codes-priority as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/discounts",
+            "package": "ibexa/discounts",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-ibx-10058-adjusted-discounts-with-codes-priority as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/discounts-codes",
+            "package": "ibexa/discounts-codes",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-ibx-10058-upgrade-script as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/installer",
+            "package": "ibexa/installer",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
