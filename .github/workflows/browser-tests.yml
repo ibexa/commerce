@@ -23,7 +23,7 @@ jobs:
         name: "PHP 8.3/Node 22/PostgreSQL 14.15/Varnish/Redis/Multirepository"
         uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@main
         with:
-            ci-scripts-branch: upgrade-test-v5
+            ci-scripts-branch: upgrade-test
             project-edition: "commerce"
             project-version: ${{ github.event.inputs.project-version }}
             test-suite: "--profile=regression --suite=commerce"
@@ -47,7 +47,7 @@ jobs:
         name: "PHP 8.3/Node 22/MariaDB 10.11/Elastic"
         uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@main
         with:
-            ci-scripts-branch: upgrade-test-v5
+            ci-scripts-branch: upgrade-test
             project-edition: "commerce"
             project-version: ${{ github.event.inputs.project-version }}
             test-suite: "--profile=regression --suite=commerce"
@@ -68,7 +68,7 @@ jobs:
         name: "PHP 8.3/Node 22/MySQL 8.4/Multirepository/Solr"
         uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@main
         with:
-            ci-scripts-branch: upgrade-test-v5
+            ci-scripts-branch: upgrade-test
             project-edition: "commerce"
             project-version: ${{ github.event.inputs.project-version }}
             test-suite: "--profile=regression --suite=commerce"
