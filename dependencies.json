@@ -1,0 +1,17 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx-9807-adjusted-time-filters as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/admin-ui",
+            "package": "ibexa/admin-ui",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-ibx-9807-adjusted-time-filters as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/discounts",
+            "package": "ibexa/discounts",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
