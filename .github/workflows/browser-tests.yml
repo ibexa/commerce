@@ -32,7 +32,7 @@ jobs:
             setup: "doc/docker/base-dev.yml:doc/docker/db-postgresql.yml:doc/docker/varnish.yml:doc/docker/redis.yml:doc/docker/selenium.yml"
             send-success-notification: ${{ github.event.inputs.send-success-notification != 'false' }}
             job-count: 4
-            multirepository: true
+            multirepository: false
             php-image: "ghcr.io/ibexa/docker/php:8.3-node22"
             timeout: 120
         secrets:
@@ -56,7 +56,7 @@ jobs:
             setup: "doc/docker/base-dev.yml:doc/docker/db-mariadb.yml:doc/docker/elastic.yml:doc/docker/selenium.yml"
             send-success-notification: ${{ github.event.inputs.send-success-notification != 'false' }}
             job-count: 4
-            multirepository: true
+            multirepository: false
             php-image: "ghcr.io/ibexa/docker/php:8.3-node22"
             timeout: 120
         secrets:
