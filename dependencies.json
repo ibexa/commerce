@@ -6,6 +6,48 @@
             "repositoryUrl": "https://github.com/ibexa/core",
             "package": "ibexa/core",
             "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-ibx-9727-add-missing-type-hints-to-content-vo as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/migrations",
+            "package": "ibexa/migrations",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-ibx-9727-add-missing-type-hints-to-content-vo as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/admin-ui",
+            "package": "ibexa/admin-ui",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-ibx-9727-add-missing-type-hints-to-content-vo as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/graphql",
+            "package": "ibexa/graphql",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-ibx-9727-add-missing-type-hints-to-content-vo as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/corporate-account",
+            "package": "ibexa/corporate-account",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-ibx-9727-add-missing-type-hints-to-content-vo as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/rest",
+            "package": "ibexa/rest",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-ibx-9727-add-missing-type-hints-to-content-vo as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/version-comparison",
+            "package": "ibexa/version-comparison",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-ibx-9727-add-missing-type-hints-to-content-vo as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/segmentation",
+            "package": "ibexa/segmentation",
+            "shouldBeAddedAsVCS": true
         }
     ]
 }
