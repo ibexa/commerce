@@ -6,12 +6,6 @@
             "repositoryUrl": "https://github.com/ibexa/product-catalog",
             "package": "ibexa/product-catalog",
             "shouldBeAddedAsVCS": true
-        },
-        {
-            "requirement": "dev-fix-container as 5.0.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/corporate-account",
-            "package": "ibexa/corporate-account",
-            "shouldBeAddedAsVCS": true
         }
     ]
 }
