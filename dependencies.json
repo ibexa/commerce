@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx-10219-fixed-handling-relationship as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/core-persistence",
+            "package": "ibexa/core-persistence",
+            "shouldBeAddedAsVCS": false
+        }
+    ]
+}
