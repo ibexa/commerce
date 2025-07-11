@@ -3,8 +3,6 @@
     "type": "metapackage",
     "license": "proprietary",
     "description": "A meta package for installing Ibexa DXP Commerce edition",
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "repositories": [
         {
             "type": "composer",
@@ -13,21 +11,23 @@
     ],
     "require": {
         "php": ">=8.3",
-        "ibexa/experience": "~5.0.x-dev",
-        "ibexa/cart": "~5.0.x-dev",
-        "ibexa/checkout": "~5.0.x-dev",
-        "ibexa/corporate-account-commerce-bridge": "~5.0.x-dev",
-        "ibexa/discounts": "~5.0.x-dev",
-        "ibexa/discounts-codes": "~5.0.x-dev",
-        "ibexa/storefront": "~5.0.x-dev",
-        "ibexa/order-management": "~5.0.x-dev",
-        "ibexa/payment": "~5.0.x-dev",
-        "ibexa/shipping": "~5.0.x-dev",
-        "ibexa/connector-payum": "~5.0.x-dev"
+        "ibexa/experience": "5.0.0-rc1",
+        "ibexa/cart": "5.0.0-rc1",
+        "ibexa/checkout": "5.0.0-rc1",
+        "ibexa/corporate-account-commerce-bridge": "5.0.0-rc1",
+        "ibexa/discounts": "5.0.0-rc1",
+        "ibexa/discounts-codes": "5.0.0-rc1",
+        "ibexa/storefront": "5.0.0-rc1",
+        "ibexa/order-management": "5.0.0-rc1",
+        "ibexa/payment": "5.0.0-rc1",
+        "ibexa/shipping": "5.0.0-rc1",
+        "ibexa/connector-payum": "5.0.0-rc1"
     },
     "extra": {
         "branch-alias": {
             "dev-master": "5.0.x-dev"
         }
-    }
+    },
+    "prefer-stable": true,
+    "minimum-stability": "RC"
 }
