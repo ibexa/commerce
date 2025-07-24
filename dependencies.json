@@ -6,12 +6,6 @@
             "repositoryUrl": "https://github.com/ibexa/fieldtype-richtext-rte",
             "package": "ibexa/fieldtype-richtext-rte",
             "shouldBeAddedAsVCS": true
-        },
-        {
-            "requirement": "dev-fixed-build-node-18 as 4.6.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/ckeditor-premium",
-            "package": "ibexa/ckeditor-premium",
-            "shouldBeAddedAsVCS": true
         }
     ]
 }
