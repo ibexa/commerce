@@ -1,0 +1,17 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-IBX-10132-order-details-table as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/discounts",
+            "package": "ibexa/discounts",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-10132-order-details-table as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/storefront",
+            "package": "ibexa/storefront",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
