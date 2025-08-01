@@ -20,7 +20,7 @@
             "shouldBeAddedAsVCS": true
         },
         {
-            "requirement": "ibx-10354-missing-admin-check as 5.0.x-dev",
+            "requirement": "dev-ibx-10354-missing-admin-check as 5.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/page-builder",
             "package": "ibexa/page-builder",
             "shouldBeAddedAsVCS": true
