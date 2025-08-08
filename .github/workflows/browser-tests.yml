@@ -64,7 +64,7 @@ jobs:
             TRAVIS_GITHUB_TOKEN: ${{ secrets.TRAVIS_GITHUB_TOKEN }}
             SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
     regression-commerce-setup3:
-        name: "PHP 8.3/Node 22/MySQL 8.4/Multirepository/Solr"
+        name: "PHP 8.3/Node 22/MySQL 8.4/Multirepository/Solr 8"
         uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@main
         with:
             project-edition: "commerce"
@@ -72,7 +72,7 @@ jobs:
             test-suite: "--profile=regression --suite=commerce"
             test-setup-phase-1: "--profile=regression --suite=setup-commerce --tags=~@part2 --mode=standard"
             test-setup-phase-2: "--profile=regression --suite=setup-commerce --tags=@part2 --mode=standard"
-            setup: "doc/docker/base-dev.yml:doc/docker/db-mysql8.4.yml:doc/docker/solr.yml:doc/docker/selenium.yml"
+            setup: "doc/docker/base-dev.yml:doc/docker/db-mysql8.4.yml:doc/docker/solr8.yml:doc/docker/selenium.yml"
             send-success-notification: ${{ github.event.inputs.send-success-notification != 'false' }}
             job-count: 4
             multirepository: true
