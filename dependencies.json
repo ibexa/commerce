@@ -1,0 +1,17 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-added-end-collaboration-controller as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/collaboration",
+            "package": "ibexa/collaboration",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-added-end-content-session-redirect-provider as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/share",
+            "package": "ibexa/share",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
