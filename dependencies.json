@@ -8,7 +8,7 @@
             "shouldBeAddedAsVCS": false
         },
         {
-            "requirement": "dev-product-reindex-queue as 4.6.x-dev",
+            "requirement": "dev-reindex-p2 as 4.6.x-dev",
             "repositoryUrl": "https://github.com/ibexa/discounts",
             "package": "ibexa/discounts",
             "shouldBeAddedAsVCS": true
