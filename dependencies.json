@@ -6,6 +6,12 @@
             "repositoryUrl": "https://github.com/ibexa/storefront",
             "package": "ibexa/storefront",
             "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-ibx-10196-adjust-discount-info-ui as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/discounts",
+            "package": "ibexa/discounts",
+            "shouldBeAddedAsVCS": true
         }
     ]
 }
