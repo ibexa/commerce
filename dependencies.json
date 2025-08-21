@@ -1,0 +1,17 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx-10276-real-time-update as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/share",
+            "package": "ibexa/share",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-ibx-10276-real-time-updates as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/collaboration",
+            "package": "ibexa/collaboration",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
