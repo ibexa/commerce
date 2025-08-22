@@ -30,10 +30,10 @@ jobs:
             test-setup-phase-2: "--profile=regression --suite=setup-commerce --tags=@part2 --mode=standard"
             setup: "doc/docker/base-dev.yml:doc/docker/db-postgresql.yml:doc/docker/varnish.yml:doc/docker/redis.yml:doc/docker/selenium.yml"
             send-success-notification: ${{ github.event.inputs.send-success-notification != 'false' }}
-            job-count: 4
+            job-count: 1
             multirepository: true
             php-image: "ghcr.io/ibexa/docker/php:8.3-node22"
-            timeout: 120
+            timeout: 1200
         secrets:
             SATIS_NETWORK_KEY: ${{ secrets.SATIS_NETWORK_KEY }}
             SATIS_NETWORK_TOKEN: ${{ secrets.SATIS_NETWORK_TOKEN }}
@@ -53,10 +53,10 @@ jobs:
             test-setup-phase-2: "--profile=regression --suite=setup-commerce --tags=@part2 --mode=standard"
             setup: "doc/docker/base-dev.yml:doc/docker/db-mariadb.yml:doc/docker/elastic.yml:doc/docker/selenium.yml"
             send-success-notification: ${{ github.event.inputs.send-success-notification != 'false' }}
-            job-count: 4
+            job-count: 1
             multirepository: true
             php-image: "ghcr.io/ibexa/docker/php:8.3-node22"
-            timeout: 120
+            timeout: 1200
         secrets:
             SATIS_NETWORK_KEY: ${{ secrets.SATIS_NETWORK_KEY }}
             SATIS_NETWORK_TOKEN: ${{ secrets.SATIS_NETWORK_TOKEN }}
@@ -73,10 +73,10 @@ jobs:
             test-setup-phase-2: "--profile=regression --suite=setup-commerce --tags=@part2 --mode=standard"
             setup: "doc/docker/base-dev.yml:doc/docker/db-mysql8.4.yml:doc/docker/solr8.yml:doc/docker/selenium.yml"
             send-success-notification: ${{ github.event.inputs.send-success-notification != 'false' }}
-            job-count: 4
+            job-count: 1
             multirepository: true
             php-image: "ghcr.io/ibexa/docker/php:8.3-node22"
-            timeout: 120
+            timeout: 1200
         secrets:
             SATIS_NETWORK_KEY: ${{ secrets.SATIS_NETWORK_KEY }}
             SATIS_NETWORK_TOKEN: ${{ secrets.SATIS_NETWORK_TOKEN }}
