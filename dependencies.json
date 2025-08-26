@@ -2,12 +2,6 @@
     "recipesEndpoint": "",
     "packages": [
         {
-            "requirement": "dev-initial-implementation as 4.6.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/messenger",
-            "package": "ibexa/messenger",
-            "shouldBeAddedAsVCS": false
-        },
-        {
             "requirement": "dev-reindex-p2 as 4.6.x-dev",
             "repositoryUrl": "https://github.com/ibexa/discounts",
             "package": "ibexa/discounts",
