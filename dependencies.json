@@ -1,0 +1,23 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx_9060 as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/scheduler",
+            "package": "ibexa/scheduler",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-ibx_9060 as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/workflow",
+            "package": "ibexa/workflow",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-ibx_9060 as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/admin-ui",
+            "package": "ibexa/admin-ui",
+            "shouldBeAddedAsVCS": false
+        }
+    ]
+}
