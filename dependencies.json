@@ -8,6 +8,12 @@
             "shouldBeAddedAsVCS": true
         },
         {
+            "requirement": "dev-initial-implementation as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/messenger",
+            "package": "ibexa/messenger",
+            "shouldBeAddedAsVCS": true
+        },
+        {
             "requirement": "dev-ibx-10160/messenger-discount-queue as 4.6.x-dev",
             "repositoryUrl": "https://github.com/ibexa/installer",
             "package": "ibexa/installer",
