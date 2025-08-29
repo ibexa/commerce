@@ -24,6 +24,12 @@
             "repositoryUrl": "https://github.com/ibexa/installer",
             "package": "ibexa/installer",
             "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-fix-connection as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/discounts-codes",
+            "package": "ibexa/discounts-codes",
+            "shouldBeAddedAsVCS": true
         }
     ]
 }
