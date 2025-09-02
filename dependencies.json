@@ -1,0 +1,35 @@
+{
+  "recipesEndpoint": "",
+  "packages": [
+    {
+      "requirement": "dev-introduced-type-hints-lib as 5.0.x-dev",
+      "repositoryUrl": "https://github.com/ibexa/admin-ui",
+      "package": "ibexa/admin-ui",
+      "shouldBeAddedAsVCS": false
+    },
+    {
+      "requirement": "dev-adjusted-limitation-typehints as 5.0.x-dev",
+      "repositoryUrl": "https://github.com/ibexa/product-catalog",
+      "package": "ibexa/product-catalog",
+      "shouldBeAddedAsVCS": false
+    },
+    {
+      "requirement": "dev-adjusted-limitation-typehints as 5.0.x-dev",
+      "repositoryUrl": "https://github.com/ibexa/corporate-account",
+      "package": "ibexa/corporate-account",
+      "shouldBeAddedAsVCS": false
+    },
+    {
+      "requirement": "dev-adjusted-limitation-typehints as 5.0.x-dev",
+      "repositoryUrl": "https://github.com/ibexa/permissions",
+      "package": "ibexa/permissions",
+      "shouldBeAddedAsVCS": false
+    },
+    {
+      "requirement": "dev-adjusted-limitation-typehints as 5.0.x-dev",
+      "repositoryUrl": "https://github.com/ibexa/workflow",
+      "package": "ibexa/workflow",
+      "shouldBeAddedAsVCS": false
+    }
+  ]
+}
