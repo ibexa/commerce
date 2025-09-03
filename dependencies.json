@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx-10603-site-context-selecting-error as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/site-context",
+            "package": "ibexa/site-context",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
