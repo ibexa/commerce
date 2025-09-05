@@ -1,0 +1,23 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-extenable_preview_url as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/admin-ui",
+            "package": "ibexa/admin-ui",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-resolve-version-preview as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/share",
+            "package": "ibexa/share",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-ibx-10525-added-security-layer as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/collaboration",
+            "package": "ibexa/collaboration",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
