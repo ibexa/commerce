@@ -1,0 +1,11 @@
+{
+  "recipesEndpoint": "",
+  "packages": [
+    {
+      "requirement": "dev-php8 as 5.0.x-dev",
+      "repositoryUrl": "https://github.com/ibexa/site-context",
+      "package": "ibexa/site-context",
+      "shouldBeAddedAsVCS": false
+    }
+  ]
+}
