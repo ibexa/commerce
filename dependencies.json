@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx-10460/fix-category-rest as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/discounts",
+            "package": "ibexa/discounts",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
