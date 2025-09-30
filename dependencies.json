@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx-9488-fixed-richtext-specialchars-encoding as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/seo",
+            "package": "ibexa/seo",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
