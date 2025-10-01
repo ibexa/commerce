@@ -1,0 +1,17 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx-10706 as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/messenger",
+            "package": "ibexa/messenger",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-ibx-10598-added-image-variation-properties-defaults as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/core",
+            "package": "ibexa/core",
+            "shouldBeAddedAsVCS": false
+        }
+    ]
+}
