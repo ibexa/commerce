@@ -2,6 +2,12 @@
     "recipesEndpoint": "",
     "packages": [
         {
+            "requirement": "dev-IBX-10429-behat-fix as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/corporate-account",
+            "package": "ibexa/corporate-account",
+            "shouldBeAddedAsVCS": true
+        },
+        {
             "requirement": "dev-IBX-10429 as 4.6.x-dev",
             "repositoryUrl": "https://github.com/ibexa/admin-ui",
             "package": "ibexa/admin-ui",
