@@ -1,0 +1,17 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-fix-translation-content-tree as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/automated-translation",
+            "package": "ibexa/automated-translation",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-fix-translation-content-tree as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/admin-ui",
+            "package": "ibexa/admin-ui",
+            "shouldBeAddedAsVCS": false
+        }
+    ]
+}
