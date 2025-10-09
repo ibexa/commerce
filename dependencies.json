@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-fix_for_csrf as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/cart",
+            "package": "ibexa/cart",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
