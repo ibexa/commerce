@@ -21,7 +21,7 @@ on:
 jobs:
     regression-commerce-setup1:
         name: "PHP 7.3/Node 14/PostgreSQL/Varnish/Redis/Multirepository"
-        uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@main
+        uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@3.3-secrets
         with:
             project-edition: "commerce"
             project-version: ${{ github.event.inputs.project-version }}
