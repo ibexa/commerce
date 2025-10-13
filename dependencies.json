@@ -1,0 +1,17 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-fix-dropdown-issues as 4.3.x-dev",
+            "repositoryUrl": "https://github.com/ezsystems/date-based-publisher",
+            "package": "ezsystems/date-based-publisher",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-fix-dropdown-issues as 2.3.x-dev",
+            "repositoryUrl": "https://github.com/ezsystems/ezplatform-admin-ui-fd766a1c",
+            "package": "ezsystems/ezplatform-admin-ui",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
