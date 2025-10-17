@@ -3,8 +3,6 @@
     "type": "metapackage",
     "license": "proprietary",
     "description": "A meta package for installing Ibexa DXP Commerce edition",
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "repositories": [
         {
             "type": "composer",
@@ -13,17 +11,17 @@
     ],
     "require": {
         "php": ">=8.3",
-        "ibexa/experience": "~5.0.x-dev",
-        "ibexa/cart": "~5.0.x-dev",
-        "ibexa/checkout": "~5.0.x-dev",
-        "ibexa/corporate-account-commerce-bridge": "~5.0.x-dev",
-        "ibexa/discounts": "~5.0.x-dev",
-        "ibexa/discounts-codes": "~5.0.x-dev",
-        "ibexa/storefront": "~5.0.x-dev",
-        "ibexa/order-management": "~5.0.x-dev",
-        "ibexa/payment": "~5.0.x-dev",
-        "ibexa/shipping": "~5.0.x-dev",
-        "ibexa/connector-payum": "~5.0.x-dev"
+        "ibexa/experience": "5.0.3",
+        "ibexa/cart": "5.0.3",
+        "ibexa/checkout": "5.0.3",
+        "ibexa/corporate-account-commerce-bridge": "5.0.3",
+        "ibexa/discounts": "5.0.3",
+        "ibexa/discounts-codes": "5.0.3",
+        "ibexa/storefront": "5.0.3",
+        "ibexa/order-management": "5.0.3",
+        "ibexa/payment": "5.0.3",
+        "ibexa/shipping": "5.0.3",
+        "ibexa/connector-payum": "5.0.3"
     },
     "extra": {
         "branch-alias": {
