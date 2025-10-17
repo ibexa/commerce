@@ -24,6 +24,12 @@
             "repositoryUrl": "https://github.com/ibexa/behat",
             "package": "ibexa/behat",
             "shouldBeAddedAsVCS": false
+        },
+        {
+          "requirement": "dev-tmp-branch-before-ibx-5078 as 4.6.x-dev",
+          "repositoryUrl": "https://github.com/ibexa/page-builder",
+          "package": "ibexa/page-builder",
+          "shouldBeAddedAsVCS": false
         }
     ]
 }
