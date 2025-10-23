@@ -1,0 +1,23 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx-10739-fix-default as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/fieldtype-page",
+            "package": "ibexa/fieldtype-page",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-ibx-10739-added-block-translations as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/form-builder",
+            "package": "ibexa/form-builder",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-ibx-10739-targeting-block-translations as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/segmentation",
+            "package": "ibexa/segmentation",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
