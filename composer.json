@@ -23,7 +23,8 @@
         "ibexa/order-management": "~5.0.x-dev",
         "ibexa/payment": "~5.0.x-dev",
         "ibexa/shipping": "~5.0.x-dev",
-        "ibexa/connector-payum": "~5.0.x-dev"
+        "ibexa/connector-payum": "~5.0.x-dev",
+        "doctrine/orm": "2.20.6"
     },
     "extra": {
         "branch-alias": {
