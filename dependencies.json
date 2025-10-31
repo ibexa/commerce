@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "https://api.github.com/repos/ibexa/recipes-dev/contents/index.json?ref=flex/pull-219",
+    "packages": [
+        {
+            "requirement": "dev-IBX-10711-license as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/fieldtype-richtext-rte",
+            "package": "ibexa/fieldtype-richtext-rte",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
