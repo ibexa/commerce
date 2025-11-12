@@ -1,7 +1,7 @@
 name: Scan Branch Regression Errors (via gh-workflows)
 
 on:
-  workflow_dispatch:
+  workflow_call:
     inputs:
       branch:
         description: 'Branch to scan (e.g., feature.ie-branch)'
