@@ -1,4 +1,4 @@
-name: Scan Branch Regression Errors (via gh-workflows)
+name: test
 
 on:
   workflow_call:
@@ -20,7 +20,7 @@ jobs:
   scan:
     uses: ibexa/gh-workflows/.github/workflows/regression-summary.yml@copilot-regression-summary-poc
     with:
-      branch: ${{ inputs.branch }}
-      since: ${{ inputs.since }}
-      until: ${{ inputs.until }}
+      branch: main
+      since: 2025-11-01
+      until: 2025-11-07
     secrets: inherit
