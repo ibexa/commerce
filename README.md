@@ -1,3 +1,4 @@
+test
 # Ibexa DXP Commerce Symfony Flex metapackage
 
 This is a metapackage for Symfony Flex-based Ibexa DXP Commerce installation. 
