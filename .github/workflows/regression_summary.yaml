@@ -18,7 +18,7 @@ on:
 
 jobs:
   scan:
-    uses: ibexa/gh-workflows/.github/workflows/regression_summary.yml@copilot-regression-summary-poc
+    uses: ibexa/gh-workflows/.github/workflows/regression-summary.yml@copilot-regression-summary-poc
     with:
       branch: ${{ inputs.branch }}
       since: ${{ inputs.since }}
