@@ -1,69 +1,26 @@
-name: Browser tests
+name: Scan Branch Regression Errors (via gh-workflows)
+
 on:
-    workflow_dispatch:
-        inputs:
-            send-success-notification:
-                description: 'Send a notification when the tests pass'     
-                required: false
-                type: boolean
-                default: false
-            project-version:
-                description: 'Fill only when the tests should run on a stable release'
-                required: false
-                type: string
-                default: ''
-    push:
-        branches:
-            - master
-            - "[0-9]+.[0-9]+"
-    pull_request: ~
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: 'Branch to scan (e.g., feature.ie-branch)'
+        required: true
+        type: string
+      since:
+        description: 'Start date (YYYY-MM-DD)'
+        required: false
+        type: string
+      until:
+        description: 'End date (YYYY-MM-DD)'
+        required: false
+        type: string
 
 jobs:
-    regression-commerce-setup1:
-        name: "PHP 8.3/Node 22/PostgreSQL 18.0/Varnish/Redis 7.2/Multirepository"
-        uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@main
-        with:
-            project-edition: "commerce"
-            project-version: ${{ github.event.inputs.project-version }}
-            test-suite: "--profile=regression --suite=commerce"
-            test-setup-phase-1: "--profile=regression --suite=setup-commerce --tags=~@part2 --mode=standard"
-            test-setup-phase-2: "--profile=regression --suite=setup-commerce --tags=@part2 --mode=standard"
-            setup: "doc/docker/base-dev.yml:doc/docker/db-postgresql18.yml:doc/docker/varnish.yml:doc/docker/redis7.2.yml:doc/docker/selenium.yml"
-            send-success-notification: ${{ github.event.inputs.send-success-notification != 'false' }}
-            job-count: 4
-            multirepository: true
-            php-image: "ghcr.io/ibexa/docker/php:8.3-node22"
-            timeout: 120
-        secrets: inherit
-    regression-commerce-setup2:
-        name: "PHP 8.3/Node 22/MariaDB 10.11/Elastic"
-        uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@main
-        with:
-            project-edition: "commerce"
-            project-version: ${{ github.event.inputs.project-version }}
-            test-suite: "--profile=regression --suite=commerce"
-            test-setup-phase-1: "--profile=regression --suite=setup-commerce --tags=~@part2 --mode=standard"
-            test-setup-phase-2: "--profile=regression --suite=setup-commerce --tags=@part2 --mode=standard"
-            setup: "doc/docker/base-dev.yml:doc/docker/db-mariadb.yml:doc/docker/elastic.yml:doc/docker/selenium.yml"
-            send-success-notification: ${{ github.event.inputs.send-success-notification != 'false' }}
-            job-count: 4
-            multirepository: true
-            php-image: "ghcr.io/ibexa/docker/php:8.3-node22"
-            timeout: 120
-        secrets: inherit
-    regression-commerce-setup3:
-        name: "PHP 8.3/Node 22/MySQL 8.4/Multirepository/Solr 8"
-        uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@main
-        with:
-            project-edition: "commerce"
-            project-version: ${{ github.event.inputs.project-version }}
-            test-suite: "--profile=regression --suite=commerce"
-            test-setup-phase-1: "--profile=regression --suite=setup-commerce --tags=~@part2 --mode=standard"
-            test-setup-phase-2: "--profile=regression --suite=setup-commerce --tags=@part2 --mode=standard"
-            setup: "doc/docker/base-dev.yml:doc/docker/db-mysql8.4.yml:doc/docker/solr8.yml:doc/docker/selenium.yml"
-            send-success-notification: ${{ github.event.inputs.send-success-notification != 'false' }}
-            job-count: 4
-            multirepository: true
-            php-image: "ghcr.io/ibexa/docker/php:8.3-node22"
-            timeout: 120
-        secrets: inherit
+  scan:
+    uses: ibexa/gh-workflows/.github/workflows/regression-summary.yml@copilot-regression-summary-poc
+    with:
+      branch: ${{ inputs.branch }}
+      since: ${{ inputs.since }}
+      until: ${{ inputs.until }}
+    secrets: inherit
