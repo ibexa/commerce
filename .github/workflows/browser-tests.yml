@@ -20,7 +20,7 @@ jobs:
   scan:
     uses: ibexa/gh-workflows/.github/workflows/regression-summary.yml@copilot-regression-summary-poc
     with:
-      branch: main
+      branch: master
       since: 2025-11-01
       until: 2025-11-07
     secrets: inherit
