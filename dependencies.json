@@ -1,0 +1,23 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-adding-global-settings as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/integrated-help",
+            "package": "ibexa/integrated-help",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-10932-btn as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/admin-ui",
+            "package": "ibexa/admin-ui",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-10932-btn as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/integrated-help",
+            "package": "ibexa/integrated-help",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
