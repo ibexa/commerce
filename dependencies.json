@@ -2,9 +2,9 @@
     "recipesEndpoint": "",
     "packages": [
         {
-            "requirement": "dev-adding-global-settings as 4.6.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/integrated-help",
-            "package": "ibexa/integrated-help",
+            "requirement": "dev-IBX-10932 as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/dashboard",
+            "package": "ibexa/dashboard",
             "shouldBeAddedAsVCS": true
         },
         {
