@@ -8,7 +8,7 @@
             "shouldBeAddedAsVCS": true
         },
         {
-            "requirement": "dev-IBX-10932-btn as 4.6.x-dev",
+            "requirement": "dev-temp-IBX-10932-btn as 4.6.x-dev",
             "repositoryUrl": "https://github.com/ibexa/admin-ui",
             "package": "ibexa/admin-ui",
             "shouldBeAddedAsVCS": false
