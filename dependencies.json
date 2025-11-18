@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-IBX-10707_Editing_Tag_Contenttype_with_Taxonomy_entry_field_causes_exception as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/taxonomy",
+            "package": "ibexa/taxonomy",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
