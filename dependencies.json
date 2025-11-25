@@ -1,0 +1,17 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx-9663-added-share-button as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/share",
+            "package": "ibexa/share",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-ibx-9663-extending-content-edit-event as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/admin-ui",
+            "package": "ibexa/admin-ui",
+            "shouldBeAddedAsVCS": false
+        }
+    ]
+}
