@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-merge-ibx-10667-4_6-to-main as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/share",
+            "package": "ibexa/share",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
