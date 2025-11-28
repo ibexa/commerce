@@ -18,6 +18,12 @@
             "repositoryUrl": "https://github.com/ibexa/notifications",
             "package": "ibexa/notifications",
             "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-ibx-10592-cover-notifications-feature as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/behat",
+            "package": "ibexa/behat",
+            "shouldBeAddedAsVCS": true
         }
     ]
 }
