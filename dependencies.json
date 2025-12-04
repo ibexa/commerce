@@ -6,7 +6,7 @@
             "repositoryUrl": "https://github.com/ibexa/integrated-help",
             "package": "ibexa/integrated-help",
             "shouldBeAddedAsVCS": true
-        }.
+        },
         {
             "requirement": "dev-IBX-11035 as 4.6.x-dev",
             "repositoryUrl": "https://github.com/ibexa/admin-ui",
