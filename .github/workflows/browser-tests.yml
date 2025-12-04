@@ -34,6 +34,7 @@ jobs:
             multirepository: true
             php-image: "ghcr.io/ibexa/docker/php:8.3-node22"
             timeout: 120
+            ci-scripts-branch: ibx-10967-added-connector-anthropic-to-ci-script
         secrets: inherit
     regression-commerce-setup2:
         name: "PHP 8.3/Node 22/MariaDB 11.4/Elastic"
@@ -50,6 +51,7 @@ jobs:
             multirepository: true
             php-image: "ghcr.io/ibexa/docker/php:8.3-node22"
             timeout: 120
+            ci-scripts-branch: ibx-10967-added-connector-anthropic-to-ci-script
         secrets: inherit
     regression-commerce-setup3:
         name: "PHP 8.3/Node 22/MySQL 8.4/Multirepository/Solr 8"
@@ -66,4 +68,5 @@ jobs:
             multirepository: true
             php-image: "ghcr.io/ibexa/docker/php:8.3-node22"
             timeout: 120
+            ci-scripts-branch: ibx-10967-added-connector-anthropic-to-ci-script
         secrets: inherit
