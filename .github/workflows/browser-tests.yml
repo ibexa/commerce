@@ -48,10 +48,10 @@ jobs:
             setup: "doc/docker/base-dev.yml:doc/docker/db-mariadb11.4.yml:doc/docker/elastic.yml:doc/docker/selenium.yml"
             send-success-notification: ${{ github.event.inputs.send-success-notification != 'false' }}
             job-count: 4
-            ci-scripts-branch: ibx-10967-added-connector-anthropic-to-ci-script
             multirepository: true
             php-image: "ghcr.io/ibexa/docker/php:8.3-node22"
             timeout: 120
+            ci-scripts-branch: ibx-10967-added-connector-anthropic-to-ci-script
         secrets: inherit
     regression-commerce-setup3:
         name: "PHP 8.3/Node 22/MySQL 8.4/Multirepository/Solr 8"
@@ -65,8 +65,8 @@ jobs:
             setup: "doc/docker/base-dev.yml:doc/docker/db-mysql8.4.yml:doc/docker/solr8.yml:doc/docker/selenium.yml"
             send-success-notification: ${{ github.event.inputs.send-success-notification != 'false' }}
             job-count: 4
-            ci-scripts-branch: ibx-10967-added-connector-anthropic-to-ci-script
             multirepository: true
             php-image: "ghcr.io/ibexa/docker/php:8.3-node22"
             timeout: 120
+            ci-scripts-branch: ibx-10967-added-connector-anthropic-to-ci-script
         secrets: inherit
