@@ -5,7 +5,7 @@
             "requirement": "dev-merge-up/ibx-10592-cover-notifications-feature as 5.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/admin-ui",
             "package": "ibexa/admin-ui",
-            "shouldBeAddedAsVCS": false
+            "shouldBeAddedAsVCS": true
         },
         {
             "requirement": "dev-merge-up/ibx-10592-cover-notifications-feature as 5.0.x-dev",
@@ -17,13 +17,13 @@
             "requirement": "dev-merge-up/ibx-10592-cover-notifications-feature as 5.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/behat",
             "package": "ibexa/behat",
-            "shouldBeAddedAsVCS": false
+            "shouldBeAddedAsVCS": true
         },
         {
             "requirement": "dev-merge-up/ibx-10592-cover-notifications-feature as 5.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/notifications",
             "package": "ibexa/notifications",
-            "shouldBeAddedAsVCS": false
+            "shouldBeAddedAsVCS": true
         }
     ]
 }
