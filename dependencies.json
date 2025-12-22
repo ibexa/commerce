@@ -1,5 +1,5 @@
 {
-    "recipesEndpoint": "",
+    "recipesEndpoint": "https://api.github.com/repos/ibexa/recipes-dev/contents/index.json?ref=flex/pull-231",
     "packages": [
         {
             "requirement": "dev-ibx-11096-refactored-behat-tests as 4.6.x-dev",
