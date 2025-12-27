@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx-10862-security-fix as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/user-f1b039ed",
+            "package": "ibexa/user",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
