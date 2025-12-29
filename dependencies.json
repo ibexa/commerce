@@ -1,0 +1,23 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx_7492 as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/admin-ui",
+            "package": "ibexa/admin-ui",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-ibx_7492 as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/content-forms",
+            "package": "ibexa/content-forms",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-ibx_7492 as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/image-editor",
+            "package": "ibexa/image-editor",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
