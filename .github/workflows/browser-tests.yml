@@ -21,7 +21,7 @@ on:
 jobs:
     regression-commerce-setup1:
         name: "PHP 8.3/Node 22/PostgreSQL 18.0/Varnish/Redis 7.2/Multirepository"
-        uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@main
+        uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@ibx-10495
         with:
             ci-scripts-branch: 'ibx-10495'
             project-edition: "commerce"
@@ -38,7 +38,7 @@ jobs:
         secrets: inherit
     regression-commerce-setup2:
         name: "PHP 8.3/Node 22/MariaDB 11.4/Elastic 8/Valkey latest"
-        uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@main
+        uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@ibx-10495
         with:
             ci-scripts-branch: 'ibx-10495'
             project-edition: "commerce"
@@ -55,7 +55,7 @@ jobs:
         secrets: inherit
     regression-commerce-setup3:
         name: "PHP 8.3/Node 22/MySQL 8.4/Multirepository/Solr 8/Redis latest"
-        uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@main
+        uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@ibx-10495
         with:
             ci-scripts-branch: 'ibx-10495'
             project-edition: "commerce"
