@@ -6,6 +6,12 @@
             "repositoryUrl": "https://github.com/ibexa/product-catalog",
             "package": "ibexa/product-catalog",
             "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-fix-remote-pim as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/admin-ui",
+            "package": "ibexa/admin-ui",
+            "shouldBeAddedAsVCS": true
         }
     ]
 }
