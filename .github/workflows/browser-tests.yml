@@ -23,6 +23,7 @@ jobs:
         name: "PHP 8.3/Node 22/PostgreSQL 18.0/Varnish/Redis 7.2/Multirepository"
         uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@main
         with:
+            ci-scripts-branch: upgrade-test
             project-edition: "commerce"
             project-version: ${{ github.event.inputs.project-version }}
             test-suite: "--profile=regression --suite=commerce"
@@ -31,7 +32,7 @@ jobs:
             setup: "doc/docker/base-dev.yml:doc/docker/db-postgresql18.yml:doc/docker/varnish.yml:doc/docker/redis7.2.yml:doc/docker/selenium.yml"
             send-success-notification: ${{ github.event.inputs.send-success-notification != 'false' }}
             job-count: 4
-            multirepository: true
+            multirepository: false
             php-image: "ghcr.io/ibexa/docker/php:8.3-node22"
             timeout: 120
         secrets: inherit
@@ -39,6 +40,7 @@ jobs:
         name: "PHP 8.3/Node 22/MariaDB 11.4/Elastic/Valkey latest"
         uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@main
         with:
+            ci-scripts-branch: upgrade-test
             project-edition: "commerce"
             project-version: ${{ github.event.inputs.project-version }}
             test-suite: "--profile=regression --suite=commerce"
@@ -47,7 +49,7 @@ jobs:
             setup: "doc/docker/base-dev.yml:doc/docker/db-mariadb11.4.yml:doc/docker/elastic.yml:doc/docker/valkey-latest.yml:doc/docker/selenium.yml"
             send-success-notification: ${{ github.event.inputs.send-success-notification != 'false' }}
             job-count: 4
-            multirepository: true
+            multirepository: false
             php-image: "ghcr.io/ibexa/docker/php:8.3-node22"
             timeout: 120
         secrets: inherit
@@ -55,6 +57,7 @@ jobs:
         name: "PHP 8.3/Node 22/MySQL 8.4/Multirepository/Solr 8/Redis latest"
         uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@main
         with:
+            ci-scripts-branch: upgrade-test
             project-edition: "commerce"
             project-version: ${{ github.event.inputs.project-version }}
             test-suite: "--profile=regression --suite=commerce"
@@ -63,7 +66,6 @@ jobs:
             setup: "doc/docker/base-dev.yml:doc/docker/db-mysql8.4.yml:doc/docker/solr8.yml:doc/docker/redis-latest.yml:doc/docker/selenium.yml"
             send-success-notification: ${{ github.event.inputs.send-success-notification != 'false' }}
             job-count: 4
-            multirepository: true
             php-image: "ghcr.io/ibexa/docker/php:8.3-node22"
             timeout: 120
         secrets: inherit
