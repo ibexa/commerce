@@ -1,0 +1,11 @@
+{
+  "recipesEndpoint": "",
+  "packages": [
+    {
+      "requirement": "dev-ibx-11272-fix-is-very-laconic as 5.0.x-dev",
+      "repositoryUrl": "https://github.com/ibexa/core-f51653cc",
+      "package": "ibexa/core",
+      "shouldBeAddedAsVCS": true
+    }
+  ]
+}
