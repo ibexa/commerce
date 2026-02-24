@@ -1,0 +1,23 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-config-provider-contract as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/product-catalog",
+            "package": "ibexa/product-catalog",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-config-provider-contract as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/storefront",
+            "package": "ibexa/storefront",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-config-provider-contract as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/shipping",
+            "package": "ibexa/shipping",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
