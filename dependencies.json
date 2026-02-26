@@ -6,12 +6,6 @@
             "repositoryUrl": "https://github.com/ezsystems/BehatBundle",
             "package": "ezsystems/behatbundle",
             "shouldBeAddedAsVCS": false
-        },
-        {
-            "requirement": "dev-phpspreadsheet-ghsa as 3.3.x-dev",
-            "repositoryUrl": "https://github.com/ezsystems/ezcommerce-rest",
-            "package": "ezsystems/ezcommerce-rest",
-            "shouldBeAddedAsVCS": true
         }
     ]
 }
