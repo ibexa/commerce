@@ -12,6 +12,12 @@
             "repositoryUrl": "https://github.com/ibexa/design-system-twig",
             "package": "ibexa/design-system-twig",
             "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-5.0-next as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/admin-ui-assets",
+            "package": "ibexa/admin-ui-assets",
+            "shouldBeAddedAsVCS": false
         }
     ]
 }
