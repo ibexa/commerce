@@ -14,7 +14,7 @@
             "shouldBeAddedAsVCS": true
         },
         {
-            "requirement": "dev-5.0-next as 5.0.x-dev",
+            "requirement": "dev-IBX-11236-use-ds-btn-component as 5.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/admin-ui-assets",
             "package": "ibexa/admin-ui-assets",
             "shouldBeAddedAsVCS": false
