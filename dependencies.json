@@ -24,12 +24,6 @@
             "repositoryUrl": "https://github.com/ibexa/taxonomy",
             "package": "ibexa/taxonomy",
             "shouldBeAddedAsVCS": true
-        },
-        {
-            "requirement": "dev-IBX-11236-use-ds-btn-component as 5.0.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/segmentation",
-            "package": "ibexa/segmentation",
-            "shouldBeAddedAsVCS": true
         }
     ]
 }
