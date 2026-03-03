@@ -39,12 +39,6 @@
         },
         {
             "requirement": "dev-IBX-11236-use-ds-btn-component as 5.0.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/version-comparison",
-            "package": "ibexa/version-comparison",
-            "shouldBeAddedAsVCS": true
-        },
-        {
-            "requirement": "dev-IBX-11236-use-ds-btn-component as 5.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/workflow",
             "package": "ibexa/workflow",
             "shouldBeAddedAsVCS": true
