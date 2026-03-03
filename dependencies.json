@@ -30,12 +30,6 @@
             "repositoryUrl": "https://github.com/ibexa/segmentation",
             "package": "ibexa/segmentation",
             "shouldBeAddedAsVCS": true
-        },
-        {
-            "requirement": "dev-IBX-11236-use-ds-btn-component as 5.0.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/site-factory",
-            "package": "ibexa/site-factory",
-            "shouldBeAddedAsVCS": true
         }
     ]
 }
