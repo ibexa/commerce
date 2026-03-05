@@ -3,109 +3,109 @@
     "packages": [
         {
             "requirement": "dev-IBX-11236-use-ds-btn-component as 5.0.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/admin-ui",
+            "repositoryUrl": "git@github.com:ibexa/admin-ui.git",
             "package": "ibexa/admin-ui",
             "shouldBeAddedAsVCS": false
         },
         {
             "requirement": "dev-IBX-11332-link-c as 5.0.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/design-system-twig",
+            "repositoryUrl": "git@github.com:ibexa/design-system-twig.git",
             "package": "ibexa/design-system-twig",
             "shouldBeAddedAsVCS": true
         },
         {
             "requirement": "dev-IBX-11236-use-ds-btn-component as dev-5.0-next",
-            "repositoryUrl": "https://github.com/ibexa/admin-ui-assets",
+            "repositoryUrl": "git@github.com:ibexa/admin-ui-assets.git",
             "package": "ibexa/admin-ui-assets",
             "shouldBeAddedAsVCS": false
         },
         {
             "requirement": "dev-IBX-11236-use-ds-btn-component as 5.0.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/scheduler",
+            "repositoryUrl": "git@github.com:ibexa/scheduler.git",
             "package": "ibexa/scheduler",
             "shouldBeAddedAsVCS": true
         },
         {
             "requirement": "dev-IBX-11236-use-ds-btn-component as 5.0.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/segmentation",
+            "repositoryUrl": "git@github.com:ibexa/segmentation.git",
             "package": "ibexa/segmentation",
             "shouldBeAddedAsVCS": true
         },
         {
             "requirement": "dev-IBX-11236-use-ds-btn-component as 5.0.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/site-factory",
+            "repositoryUrl": "git@github.com:ibexa/site-factory.git",
             "package": "ibexa/site-factory",
             "shouldBeAddedAsVCS": true
         },
         {
             "requirement": "dev-IBX-11236-use-ds-btn-component as 5.0.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/taxonomy",
+            "repositoryUrl": "git@github.com:ibexa/taxonomy.git",
             "package": "ibexa/taxonomy",
             "shouldBeAddedAsVCS": true
         },
         {
             "requirement": "dev-IBX-11236-use-ds-btn-component as 5.0.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/version-comparison",
+            "repositoryUrl": "git@github.com:ibexa/version-comparison.git",
             "package": "ibexa/version-comparison",
             "shouldBeAddedAsVCS": true
         },
         {
             "requirement": "dev-IBX-11236-use-ds-btn-component as 5.0.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/workflow",
+            "repositoryUrl": "git@github.com:ibexa/workflow.git",
             "package": "ibexa/workflow",
             "shouldBeAddedAsVCS": true
         },
                 {
             "requirement": "dev-IBX-11236-use-ds-btn-component as 5.0.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/product-catalog",
+            "repositoryUrl": "git@github.com:ibexa/product-catalog.git",
             "package": "ibexa/product-catalog",
             "shouldBeAddedAsVCS": true
         },
         {
             "requirement": "dev-IBX-11236-use-ds-btn-component as 5.0.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/payment",
+            "repositoryUrl": "git@github.com:ibexa/payment.git",
             "package": "ibexa/payment",
             "shouldBeAddedAsVCS": true
         },
         {
             "requirement": "dev-IBX-11236-use-ds-btn-component as 5.0.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/order-management",
+            "repositoryUrl": "git@github.com:ibexa/order-management.git",
             "package": "ibexa/order-management",
             "shouldBeAddedAsVCS": true
         },
         {
             "requirement": "dev-IBX-11236-use-ds-btn-component as 5.0.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/image-editor",
+            "repositoryUrl": "git@github.com:ibexa/image-editor.git",
             "package": "ibexa/image-editor",
             "shouldBeAddedAsVCS": true
         },
         {
             "requirement": "dev-IBX-11236-use-ds-btn-component as 5.0.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/form-builder",
+            "repositoryUrl": "git@github.com:ibexa/form-builder.git",
             "package": "ibexa/form-builder",
             "shouldBeAddedAsVCS": true
         },
         {
             "requirement": "dev-IBX-11236-use-ds-btn-component as 5.0.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/fieldtype-matrix",
+            "repositoryUrl": "git@github.com:ibexa/fieldtype-matrix.git",
             "package": "ibexa/fieldtype-matrix",
             "shouldBeAddedAsVCS": false
         },
         {
             "requirement": "dev-IBX-11236-use-ds-btn-component as 5.0.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/dashboard",
+            "repositoryUrl": "git@github.com:ibexa/dashboard.git",
             "package": "ibexa/dashboard",
             "shouldBeAddedAsVCS": true
         },
         {
             "requirement": "dev-IBX-11236-use-ds-btn-component as 5.0.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/corporate-account",
+            "repositoryUrl": "git@github.com:ibexa/corporate-account.git",
             "package": "ibexa/corporate-account",
             "shouldBeAddedAsVCS": true
         },
         {
             "requirement": "dev-IBX-11236-use-ds-btn-component as 5.0.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/collaboration",
+            "repositoryUrl": "git@github.com:ibexa/collaboration.git",
             "package": "ibexa/collaboration",
             "shouldBeAddedAsVCS": true
         }
