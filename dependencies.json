@@ -2,7 +2,7 @@
     "recipesEndpoint": "",
     "packages": [
         {
-            "requirement": "dev-storefront-shopping-list-adjustments as 5.0.x-dev",
+            "requirement": "dev-ibx-xxxx-storefront-shopping-list-adjustments as 5.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/storefront",
             "package": "ibexa/storefront",
             "shouldBeAddedAsVCS": true
