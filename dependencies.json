@@ -108,6 +108,18 @@
             "repositoryUrl": "git@github.com:ibexa/collaboration.git",
             "package": "ibexa/collaboration",
             "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-11236-use-ds-btn-component as 5.0.x-dev",
+            "repositoryUrl": "git@github.com:ibexa/shipping.git",
+            "package": "ibexa/shipping",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-11236-use-ds-btn-component as 5.0.x-dev",
+            "repositoryUrl": "git@github.com:ibexa/page-builder.git",
+            "package": "ibexa/page-builder",
+            "shouldBeAddedAsVCS": true
         }
     ]
 }
