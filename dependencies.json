@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-IBX-11099-extra-space-issue-in-custom-tag as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/fieldtype-richtext",
+            "package": "ibexa/fieldtype-richtext",
+            "shouldBeAddedAsVCS": false
+        }
+    ]
+}
