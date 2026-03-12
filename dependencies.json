@@ -15,12 +15,6 @@
         },
         {
             "requirement": "dev-merge-up/IBX-11273-anchor-links-translations-fix as 5.0.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/admin-ui",
-            "package": "ibexa/admin-ui",
-            "shouldBeAddedAsVCS": false
-        },
-        {
-            "requirement": "dev-merge-up/IBX-11273-anchor-links-translations-fix as 5.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/personalization",
             "package": "ibexa/personalization",
             "shouldBeAddedAsVCS": true
