@@ -21,7 +21,7 @@
         },
         {
             "requirement": "dev-IBX-11417-chip-ds as 5.0.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/workflow",
+            "repositoryUrl": "git@github.com:ibexa/workflow.git",
             "package": "ibexa/workflow",
             "shouldBeAddedAsVCS": true
         }
