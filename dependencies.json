@@ -8,6 +8,12 @@
             "shouldBeAddedAsVCS": false
         },
         {
+            "requirement": "dev-IBX-11332-link-c as 5.0.x-dev",
+            "repositoryUrl": "git@github.com:ibexa/design-system-twig.git",
+            "package": "ibexa/design-system-twig",
+            "shouldBeAddedAsVCS": true
+        },
+        {
             "requirement": "dev-IBX-11417-chip-ds as 5.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/admin-ui",
             "package": "ibexa/admin-ui",
