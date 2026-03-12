@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-dont-merge-ci-fix as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/integrated-help",
+            "package": "ibexa/integrated-help",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
