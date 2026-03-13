@@ -8,7 +8,7 @@
             "shouldBeAddedAsVCS": false
         },
         {
-            "requirement": "~5.0.x-dev",
+            "requirement": "dev-IBX-11416-tag-ds as 5.0.x-dev",
             "repositoryUrl": "git@github.com:ibexa/design-system-twig.git",
             "package": "ibexa/design-system-twig",
             "shouldBeAddedAsVCS": true
