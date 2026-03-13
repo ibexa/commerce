@@ -2,6 +2,18 @@
     "recipesEndpoint": "",
     "packages": [
         {
+            "requirement": "dev-IBX-11236-use-ds-btn-component as dev-5.0-next",
+            "repositoryUrl": "git@github.com:ibexa/admin-ui-assets.git",
+            "package": "ibexa/admin-ui-assets",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-11416-tag-ds as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/corporate-account",
+            "package": "ibexa/corporate-account",
+            "shouldBeAddedAsVCS": true
+        },
+        {
             "requirement": "dev-IBX-11236-use-ds-label-component as 5.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/taxonomy",
             "package": "ibexa/taxonomy",
