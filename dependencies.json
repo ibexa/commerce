@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-remove-attribute-catalogs-menu-entries as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/connector-quable",
+            "package": "ibexa/connector-quable",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
