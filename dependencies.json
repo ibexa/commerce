@@ -120,6 +120,54 @@
             "repositoryUrl": "git@github.com:ibexa/page-builder.git",
             "package": "ibexa/page-builder",
             "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-11236-use-ds-btn-component as 5.0.x-dev",
+            "repositoryUrl": "git@github.com:ibexa/site-context.git",
+            "package": "ibexa/site-context",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-11236-use-ds-btn-component as 5.0.x-dev",
+            "repositoryUrl": "git@github.com:ibexa/discounts.git",
+            "package": "ibexa/discounts",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-11236-use-ds-btn-component as 5.0.x-dev",
+            "repositoryUrl": "git@github.com:ibexa/connector-ai.git",
+            "package": "ibexa/connector-ai",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-11236-use-ds-btn-component as 5.0.x-dev",
+            "repositoryUrl": "git@github.com:ibexa/core.git",
+            "package": "ibexa/core",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-11236-use-ds-btn-component as 5.0.x-dev",
+            "repositoryUrl": "git@github.com:ibexa/activity-log.git",
+            "package": "ibexa/activity-log.git",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-11236-use-ds-btn-component as 5.0.x-dev",
+            "repositoryUrl": "git@github.com:ibexa/connector-dam.git",
+            "package": "ibexa/connector-dam",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-11236-use-ds-btn-component as 5.0.x-dev",
+            "repositoryUrl": "git@github.com:ibexa/share.git",
+            "package": "ibexa/share",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-11236-use-ds-btn-component as 5.0.x-dev",
+            "repositoryUrl": "git@github.com:ibexa/personalization.git",
+            "package": "ibexa/personalization",
+            "shouldBeAddedAsVCS": true
         }
     ]
 }
