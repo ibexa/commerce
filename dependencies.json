@@ -148,7 +148,7 @@
         {
             "requirement": "dev-IBX-11236-use-ds-btn-component as 5.0.x-dev",
             "repositoryUrl": "git@github.com:ibexa/activity-log.git",
-            "package": "ibexa/activity-log.git",
+            "package": "ibexa/activity-log",
             "shouldBeAddedAsVCS": true
         },
         {
