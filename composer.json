@@ -8,11 +8,7 @@
     "repositories": [
         {
             "type": "composer",
-            "url": "https://updates.ibexa.co"
-        },
-	{
-            "type": "vcs",
-            "url": "https://github.com/ibexa/design-system-twig"
+            "url": "https://satis.services.ibexa.co"
         }
     ],
     "require": {
