@@ -1,0 +1,23 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-fixed-phpdoc-in-field-name-resolver as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/core",
+            "package": "ibexa/core",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-ibx-9650-used-tagged-iterator-to-inject-criterion-visitors as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/solr",
+            "package": "ibexa/solr",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-ibx-9650-fixed-seraching-companies-by-prahse as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/corporate-account",
+            "package": "ibexa/corporate-account",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
