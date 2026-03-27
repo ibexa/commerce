@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx-11489 as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/core-1376da8d",
+            "package": "ibexa/core",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
