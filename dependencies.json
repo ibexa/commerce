@@ -12,6 +12,12 @@
             "repositoryUrl": "https://github.com/ibexa/admin-ui",
             "package": "ibexa/admin-ui",
             "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-11506-use-ds-checkbox-component as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/design-system-twig",
+            "package": "ibexa/design-system-twig",
+            "shouldBeAddedAsVCS": true
         }
     ]
 }
