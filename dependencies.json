@@ -96,6 +96,24 @@
             "repositoryUrl": "https://github.com/ibexa/image-picker",
             "package": "ibexa/image-picker",
             "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-11506-use-ds-checkbox-component as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/order-management",
+            "package": "ibexa/order-management",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-11506-use-ds-checkbox-component as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/payment",
+            "package": "ibexa/payment",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-11506-use-ds-checkbox-component as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/personalization",
+            "package": "ibexa/personalization",
+            "shouldBeAddedAsVCS": false
         }
     ]
 }
