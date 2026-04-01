@@ -105,6 +105,12 @@
         },
         {
             "requirement": "dev-IBX-11506-use-ds-checkbox-component as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/page-builder",
+            "package": "ibexa/page-builder",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-11506-use-ds-checkbox-component as 5.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/payment",
             "package": "ibexa/payment",
             "shouldBeAddedAsVCS": false
@@ -113,6 +119,48 @@
             "requirement": "dev-IBX-11506-use-ds-checkbox-component as 5.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/personalization",
             "package": "ibexa/personalization",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-11506-use-ds-checkbox-component as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/scheduler",
+            "package": "ibexa/scheduler",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-11506-use-ds-checkbox-component as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/segmentation",
+            "package": "ibexa/segmentation",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-11506-use-ds-checkbox-component as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/share",
+            "package": "ibexa/share",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-11506-use-ds-checkbox-component as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/shipping",
+            "package": "ibexa/shipping",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-11506-use-ds-checkbox-component as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/site-context",
+            "package": "ibexa/site-context",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-11506-use-ds-checkbox-component as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/site-factory",
+            "package": "ibexa/site-factory",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-11506-use-ds-checkbox-component as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/storefront",
+            "package": "ibexa/storefront",
             "shouldBeAddedAsVCS": false
         }
     ]
