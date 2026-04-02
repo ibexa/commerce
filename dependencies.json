@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx-11555-fixed-rendering-single-provider as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/translations-management",
+            "package": "ibexa/translations-management",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
