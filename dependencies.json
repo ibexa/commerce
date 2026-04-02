@@ -23,13 +23,13 @@
             "requirement": "dev-IBX-11417-chip-ds as 5.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/personalization",
             "package": "ibexa/personalization",
-            "shouldBeAddedAsVCS": true
+            "shouldBeAddedAsVCS": false
         },
         {
             "requirement": "dev-IBX-11417-chip-ds as 5.0.x-dev",
             "repositoryUrl": "git@github.com:ibexa/workflow.git",
             "package": "ibexa/workflow",
-            "shouldBeAddedAsVCS": true
+            "shouldBeAddedAsVCS": false
         }
     ]
 }
