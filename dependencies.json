@@ -11,7 +11,7 @@
             "requirement": "dev-IBX-11416-tag-ds as 5.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/corporate-account",
             "package": "ibexa/corporate-account",
-            "shouldBeAddedAsVCS": true
+            "shouldBeAddedAsVCS": false
         },
         {
             "requirement": "dev-IBX-11416-tag-ds as 5.0.x-dev",
@@ -23,55 +23,55 @@
             "requirement": "dev-IBX-11416-tag-ds as 5.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/connector-ai",
             "package": "ibexa/connector-ai",
-            "shouldBeAddedAsVCS": true
+            "shouldBeAddedAsVCS": false
         },
         {
             "requirement": "dev-IBX-11416-tag-ds as 5.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/discounts",
             "package": "ibexa/discounts",
-            "shouldBeAddedAsVCS": true
+            "shouldBeAddedAsVCS": false
         },
         {
             "requirement": "dev-IBX-11416-tag-ds as 5.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/payment",
             "package": "ibexa/payment",
-            "shouldBeAddedAsVCS": true
+            "shouldBeAddedAsVCS": false
         },
         {
             "requirement": "dev-IBX-11416-tag-ds as 5.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/personalization",
             "package": "ibexa/personalization",
-            "shouldBeAddedAsVCS": true
+            "shouldBeAddedAsVCS": false
         },
         {
             "requirement": "dev-IBX-11416-tag-ds as 5.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/product-catalog",
             "package": "ibexa/product-catalog",
-            "shouldBeAddedAsVCS": true
+            "shouldBeAddedAsVCS": false
         },
         {
             "requirement": "dev-IBX-11416-tag-ds as 5.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/scheduler",
             "package": "ibexa/scheduler",
-            "shouldBeAddedAsVCS": true
+            "shouldBeAddedAsVCS": false
         },
         {
             "requirement": "dev-IBX-11416-tag-ds as 5.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/shipping",
             "package": "ibexa/shipping",
-            "shouldBeAddedAsVCS": true
+            "shouldBeAddedAsVCS": false
         },
         {
             "requirement": "dev-IBX-11416-tag-ds as 5.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/workflow",
             "package": "ibexa/workflow",
-            "shouldBeAddedAsVCS": true
+            "shouldBeAddedAsVCS": false
         },
         {
             "requirement": "dev-IBX-11416-tag-ds as 5.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/design-system-twig",
             "package": "ibexa/design-system-twig",
-            "shouldBeAddedAsVCS": false
+            "shouldBeAddedAsVCS": true
         }
     ]
 }
