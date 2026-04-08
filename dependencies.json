@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-merge-up/ibx-10730-product-tour-feature as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/integrated-help",
+            "package": "ibexa/integrated-help",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
