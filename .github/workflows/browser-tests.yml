@@ -68,3 +68,4 @@ jobs:
             php-image: "ghcr.io/ibexa/docker/php:8.4-node22"
             timeout: 120
         secrets: inherit
+
