@@ -1,0 +1,35 @@
+{
+  "recipesEndpoint": "",
+  "packages": [
+    {
+      "requirement": "dev-ibx-11606-bump-trhirdparty-due-to-security as 4.6.x-dev",
+      "repositoryUrl": "git@github.com:ibexa/graphql.git",
+      "package": "ibexa/graphql",
+      "shouldBeAddedAsVCS": false
+    },
+    {
+      "requirement": "dev-ibx-11606-replaced-deprecated-graphql-resolver as 4.6.x-dev",
+      "repositoryUrl": "git@github.com:ibexa/fieldtype-query.git",
+      "package": "ibexa/fieldtype-query",
+      "shouldBeAddedAsVCS": false
+    },
+    {
+      "requirement": "dev-ibx-11606-bump-trhirdparty-due-to-security as 4.6.x-dev",
+      "repositoryUrl": "git@github.com:ibexa/fieldtype-matrix.git",
+      "package": "ibexa/fieldtype-matrix",
+      "shouldBeAddedAsVCS": false
+    },
+    {
+      "requirement": "dev-ibx-11606-replaced-deprecated-graphql-resolver as 4.6.x-dev",
+      "repositoryUrl": "git@github.com:ibexa/fieldtype-page.git",
+      "package": "ibexa/fieldtype-page",
+      "shouldBeAddedAsVCS": false
+    },
+    {
+      "requirement": "dev-ibx-11606-replaced-deprecated-graphql-resolver as 4.6.x-dev",
+      "repositoryUrl": "git@github.com:ibexa/product-catalog.git",
+      "package": "ibexa/product-catalog",
+      "shouldBeAddedAsVCS": false
+    }
+  ]
+}
