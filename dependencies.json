@@ -2,7 +2,7 @@
     "recipesEndpoint": "",
     "packages": [
         {
-            "requirement": "dev-IBX-11236-use-ds-btn-component as dev-5.0-next",
+            "requirement": "dev-IBX-11416-tag-ds as dev-5.0-next",
             "repositoryUrl": "git@github.com:ibexa/admin-ui-assets.git",
             "package": "ibexa/admin-ui-assets",
             "shouldBeAddedAsVCS": false
