@@ -23,7 +23,6 @@ jobs:
         name: "PHP 7.4/Node 18/PostgreSQL 18.0/Varnish/Redis 7.2/Multirepository"
         uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@ibx-11577
         with:
-            restore-integrated-help-config: true
             project-edition: "commerce"
             project-version: ${{ github.event.inputs.project-version }}
             test-suite: "--profile=regression --suite=commerce"
