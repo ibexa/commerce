@@ -168,6 +168,36 @@
             "repositoryUrl": "git@github.com:ibexa/personalization.git",
             "package": "ibexa/personalization",
             "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-11236-use-ds-btn-component as 5.0.x-dev",
+            "repositoryUrl": "git@github.com:ibexa/content-tree.git",
+            "package": "ibexa/content-tree",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-11236-use-ds-btn-component as 5.0.x-dev",
+            "repositoryUrl": "git@github.com:ibexa/fieldtype-richtext.git",
+            "package": "ibexa/fieldtype-richtext",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-11236-use-ds-btn-component as 5.0.x-dev",
+            "repositoryUrl": "git@github.com:ibexa/image-picker.git",
+            "package": "ibexa/image-picker",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-11236-use-ds-btn-component as 5.0.x-dev",
+            "repositoryUrl": "git@github.com:ibexa/tree-builder.git",
+            "package": "ibexa/tree-builder",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-11236-use-ds-btn-component as 5.0.x-dev",
+            "repositoryUrl": "git@github.com:ibexa/calendar.git",
+            "package": "ibexa/calendar",
+            "shouldBeAddedAsVCS": false
         }
     ]
 }
