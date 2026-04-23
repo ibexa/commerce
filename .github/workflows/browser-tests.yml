@@ -70,8 +70,8 @@ jobs:
             ci-scripts-branch: "ibx-11657"
             timeout: 120
         secrets: inherit
-    install-connector-quable:
-        name: "Install connector-quable/PHP 8.4/PostgreSQL"
+    admin-ui-connector-quable:
+        name: "Connector-quable tests/PHP 8.4/Node 22/PostgreSQL 18.0"
         uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@ibx-11657
         with:
             project-edition: "commerce"
