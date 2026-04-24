@@ -17,19 +17,19 @@
             "requirement": "dev-IBX-11635-input-text-ds as 5.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/product-catalog",
             "package": "ibexa/product-catalog",
-            "shouldBeAddedAsVCS": true
+            "shouldBeAddedAsVCS": false
         },
         {
             "requirement": "dev-IBX-11635-input-text-ds as 5.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/design-system-twig",
             "package": "ibexa/design-system-twig",
-            "shouldBeAddedAsVCS": false
+            "shouldBeAddedAsVCS": true
         },
         {
             "requirement": "dev-IBX-11635-input-text-ds as 5.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/personalization",
             "package": "ibexa/personalization",
-            "shouldBeAddedAsVCS": true
+            "shouldBeAddedAsVCS": false
         }
     ]
 }
