@@ -2,7 +2,7 @@
     "recipesEndpoint": "",
     "packages": [
 	{
-            "requirement": "dev-IBX-11635-input-text-ds as 5.0.x-dev",
+            "requirement": "dev-IBX-11635-input-text-ds as dev-5.0-next",
             "repositoryUrl": "https://github.com/ibexa/admin-ui-assets",
             "package": "ibexa/admin-ui-assets",
             "shouldBeAddedAsVCS": false
