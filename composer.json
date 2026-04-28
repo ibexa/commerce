@@ -13,17 +13,17 @@
     ],
     "require": {
         "php": ">=8.3",
-        "ibexa/experience": "~5.0.x-dev",
-        "ibexa/cart": "~5.0.x-dev",
-        "ibexa/checkout": "~5.0.x-dev",
-        "ibexa/corporate-account-commerce-bridge": "~5.0.x-dev",
-        "ibexa/discounts": "~5.0.x-dev",
-        "ibexa/discounts-codes": "~5.0.x-dev",
-        "ibexa/storefront": "~5.0.x-dev",
-        "ibexa/order-management": "~5.0.x-dev",
-        "ibexa/payment": "~5.0.x-dev",
-        "ibexa/shipping": "~5.0.x-dev",
-        "ibexa/connector-payum": "~5.0.x-dev"
+        "ibexa/experience": "~6.0.x-dev",
+        "ibexa/cart": "~6.0.x-dev",
+        "ibexa/checkout": "~6.0.x-dev",
+        "ibexa/corporate-account-commerce-bridge": "~6.0.x-dev",
+        "ibexa/discounts": "~6.0.x-dev",
+        "ibexa/discounts-codes": "~6.0.x-dev",
+        "ibexa/storefront": "~6.0.x-dev",
+        "ibexa/order-management": "~6.0.x-dev",
+        "ibexa/payment": "~6.0.x-dev",
+        "ibexa/shipping": "~6.0.x-dev",
+        "ibexa/connector-payum": "~6.0.x-dev"
     },
     "extra": {
         "branch-alias": {
