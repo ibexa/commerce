@@ -8,7 +8,7 @@
     "repositories": [
         {
             "type": "composer",
-            "url": "https://updates.ibexa.co"
+            "url": "https://satis.services.ibexa.co"
         }
     ],
     "require": {
@@ -28,6 +28,13 @@
     "extra": {
         "branch-alias": {
             "dev-master": "6.0.x-dev"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true,
+            "symfony/flex": true,
+            "ibexa/post-install": true
         }
     }
 }
