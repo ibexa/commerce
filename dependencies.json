@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-IBX-10425-return-XML-in-a-translated-string as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/automated-translation",
+            "package": "ibexa/automated-translation",
+            "shouldBeAddedAsVCS": false
+        }
+    ]
+}
