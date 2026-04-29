@@ -8,7 +8,7 @@
     "repositories": [
         {
             "type": "composer",
-            "url": "https://updates.ibexa.co"
+            "url": "https://satis.services.ibexa.co"
         }
     ],
     "require": {
