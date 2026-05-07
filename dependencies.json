@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-fixed-user-register-form-to-work-with-allowed_field_definitions_identifiers-config as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/user",
+            "package": "ibexa/user",
+            "shouldBeAddedAsVCS": false
+        }
+    ]
+}
