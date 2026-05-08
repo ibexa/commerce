@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-error-when-sending-form-data-without-not-required-fields as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/fieldtype-address",
+            "package": "ibexa/fieldtype-address",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
