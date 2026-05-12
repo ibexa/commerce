@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-enhance-ci-4.6 as 4.6.x-dev",
+            "repositoryUrl": "git@github.com:ibexa/permissions.git",
+            "package": "ibexa/permissions",
+            "shouldBeAddedAsVCS": false 
+        }
+    ]
+}
