@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-IBX-11613-excluded-paths-fix as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/site-context",
+            "package": "ibexa/site-context",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
