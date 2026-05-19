@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-IBX-11775-v5 as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/admin-ui-41ff88ff",
+            "package": "ibexa/admin-ui",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
