@@ -105,6 +105,12 @@
         },
         {
             "requirement": "dev-IBX-11695 as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/corporate-account",
+            "package": "ibexa/corporate-account",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-11695 as 6.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/connector-ai",
             "package": "ibexa/connector-ai",
             "shouldBeAddedAsVCS": false
