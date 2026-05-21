@@ -135,6 +135,12 @@
         },
         {
             "requirement": "dev-IBX-11695 as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/personalization",
+            "package": "ibexa/personalization",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-11695 as 6.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/admin-ui",
             "package": "ibexa/admin-ui",
             "shouldBeAddedAsVCS": false
