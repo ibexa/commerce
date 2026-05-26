@@ -20,9 +20,10 @@ on:
 
 jobs:
     regression-commerce-setup1:
-        name: "PHP 7.3/Node 14/PostgreSQL/Varnish/Redis/Multirepository"
+        name: "PHP 7.3/Node 20/PostgreSQL/Varnish/Redis/Multirepository"
         uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@main
         with:
+            ci-scripts-branch: 'ibx-11797-v3.3'
             project-edition: "commerce"
             project-version: ${{ github.event.inputs.project-version }}
             test-suite: "--profile=regression --suite=commerce"
@@ -32,13 +33,14 @@ jobs:
             send-success-notification: ${{ github.event.inputs.send-success-notification != 'false' }}
             job-count: 4
             multirepository: true
-            php-image: "ghcr.io/ibexa/docker/php:7.3-node14"
+            php-image: "ghcr.io/ibexa/docker/php:7.3-node20"
             timeout: 120
         secrets: inherit
     regression-commerce-setup2:
-        name: "PHP 7.4/Node 16/MySQL/Multirepository"
+        name: "PHP 7.4/Node 20/MySQL/Multirepository"
         uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@main
         with:
+            ci-scripts-branch: 'ibx-11797-v3.3'
             project-edition: "commerce"
             project-version: ${{ github.event.inputs.project-version }}
             test-suite: "--profile=regression --suite=commerce"
@@ -48,13 +50,14 @@ jobs:
             send-success-notification: ${{ github.event.inputs.send-success-notification != 'false' }}
             job-count: 4
             multirepository: true
-            php-image: "ghcr.io/ibexa/docker/php:7.4-node16"
+            php-image: "ghcr.io/ibexa/docker/php:7.4-node20"
             timeout: 120
         secrets: inherit
     regression-commerce-setup3:
-        name: "PHP 8.3/Node 18/MySQL/Multirepository"
+        name: "PHP 8.3/Node 20/MySQL/Multirepository"
         uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@main
         with:
+            ci-scripts-branch: 'ibx-11797-v3.3'
             project-edition: "commerce"
             project-version: ${{ github.event.inputs.project-version }}
             test-suite: "--profile=regression --suite=commerce"
@@ -64,6 +67,6 @@ jobs:
             send-success-notification: ${{ github.event.inputs.send-success-notification != 'false' }}
             job-count: 4
             multirepository: true
-            php-image: "ghcr.io/ibexa/docker/php:8.3-node18"
+            php-image: "ghcr.io/ibexa/docker/php:8.3-node20"
             timeout: 120
         secrets: inherit
