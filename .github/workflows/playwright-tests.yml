@@ -26,7 +26,7 @@ jobs:
         with:
             project-edition: "commerce"
             project-version: ${{ github.event.inputs.project-version }}
-            test-suite: "--project=commerce"
+            test-suite: "--project=commerce --grep @IbexaCommerce"
             setup: "doc/docker/base-dev.yml:doc/docker/db-postgresql18.yml:doc/docker/varnish.yml:doc/docker/redis7.2.yml"
             send-success-notification: ${{ github.event.inputs.send-success-notification != 'false' }}
             php-image: "ghcr.io/ibexa/docker/php:8.3-node22"
@@ -39,7 +39,7 @@ jobs:
         with:
             project-edition: "commerce"
             project-version: ${{ github.event.inputs.project-version }}
-            test-suite: "--project=commerce"
+            test-suite: "--project=commerce --grep @IbexaCommerce"
             setup: "doc/docker/base-dev.yml:doc/docker/db-mariadb11.4.yml:doc/docker/elastic8.yml:doc/docker/valkey-latest.yml"
             send-success-notification: ${{ github.event.inputs.send-success-notification != 'false' }}
             php-image: "ghcr.io/ibexa/docker/php:8.4-node22"
@@ -52,7 +52,7 @@ jobs:
         with:
             project-edition: "commerce"
             project-version: ${{ github.event.inputs.project-version }}
-            test-suite: "--project=commerce"
+            test-suite: "--project=commerce --grep @IbexaCommerce"
             setup: "doc/docker/base-dev.yml:doc/docker/db-mysql8.4.yml:doc/docker/solr8.yml:doc/docker/redis-latest.yml"
             send-success-notification: ${{ github.event.inputs.send-success-notification != 'false' }}
             php-image: "ghcr.io/ibexa/docker/php:8.4-node22"
