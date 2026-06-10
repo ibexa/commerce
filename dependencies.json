@@ -27,12 +27,6 @@
         },
         {
             "requirement": "dev-ds-development as 6.0.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/commerce",
-            "package": "ibexa/commerce",
-            "shouldBeAddedAsVCS": false
-        },
-        {
-            "requirement": "dev-ds-development as 6.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/connect",
             "package": "ibexa/connect",
             "shouldBeAddedAsVCS": false
@@ -77,12 +71,6 @@
             "requirement": "dev-ds-development as 6.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/dashboard",
             "package": "ibexa/dashboard",
-            "shouldBeAddedAsVCS": false
-        },
-        {
-            "requirement": "dev-ds-development as 6.0.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/design-system",
-            "package": "ibexa/design-system",
             "shouldBeAddedAsVCS": false
         },
         {
@@ -215,12 +203,6 @@
             "requirement": "dev-ds-development as 6.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/site-factory",
             "package": "ibexa/site-factory",
-            "shouldBeAddedAsVCS": false
-        },
-        {
-            "requirement": "dev-ds-development as 6.0.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/storefront",
-            "package": "ibexa/storefront",
             "shouldBeAddedAsVCS": false
         },
         {
