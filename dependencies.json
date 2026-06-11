@@ -78,6 +78,18 @@
             "repositoryUrl": "https://github.com/ibexa/content-tree",
             "package": "ibexa/content-tree",
             "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-11413-use-ds-dropdown as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/page-builder",
+            "package": "ibexa/page-builder",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-11413-use-ds-dropdown as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/version-comparison",
+            "package": "ibexa/version-comparison",
+            "shouldBeAddedAsVCS": false
         }
     ]
 }
