@@ -1,0 +1,17 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-IBX-10776-add-language-paris-tab-visual-fixes as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/translations-management",
+            "package": "ibexa/translations-management",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-10776-add-language-tabs-visual-fixes as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/admin-ui",
+            "package": "ibexa/admin-ui",
+            "shouldBeAddedAsVCS": false
+        }
+    ]
+}
