@@ -1,0 +1,23 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-IBX-11832_Let_Ibexa_DXP_support_psr_log_at_least_version_2.0 as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/elasticsearch",
+            "package": "ibexa/elasticsearch",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-11832_Let_Ibexa_DXP_support_psr_log_at_least_version_2.0 as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/fieldtype-query",
+            "package": "ibexa/fieldtype-query",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-11832_Let_Ibexa_DXP_support_psr_log_at_least_version_2.0 as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/corporate-account-commerce-bridge",
+            "package": "ibexa/corporate-account-commerce-bridge",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
