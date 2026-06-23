@@ -83,4 +83,5 @@ jobs:
             test-setup-phase-2: '--profile=setup --suite=content-translation --mode=standard'
             send-success-notification: false
             php-image: "ghcr.io/ibexa/docker/php:8.4-node22"
+            ci-scripts-branch: ibx-xxxx-add-translations-management-to-ci-script
         secrets: inherit
