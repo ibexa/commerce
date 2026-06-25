@@ -14,7 +14,7 @@
             "shouldBeAddedAsVCS": false
         },
         {
-            "requirement": "dev-ds-development as 6.0.x-dev",
+            "requirement": "dev-ds-development-fixes as 6.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/calendar",
             "package": "ibexa/calendar",
             "shouldBeAddedAsVCS": false
@@ -68,7 +68,7 @@
             "shouldBeAddedAsVCS": false
         },
         {
-            "requirement": "dev-ds-development as 6.0.x-dev",
+            "requirement": "dev-ds-development-fixes as 6.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/dashboard",
             "package": "ibexa/dashboard",
             "shouldBeAddedAsVCS": false
@@ -80,7 +80,7 @@
             "shouldBeAddedAsVCS": true
         },
         {
-            "requirement": "dev-ds-development as 6.0.x-dev",
+            "requirement": "dev-ds-development-fixes as 6.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/discounts",
             "package": "ibexa/discounts",
             "shouldBeAddedAsVCS": false
@@ -122,7 +122,7 @@
             "shouldBeAddedAsVCS": false
         },
         {
-            "requirement": "dev-ds-development as 6.0.x-dev",
+            "requirement": "dev-ds-development-fixes as 6.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/image-picker",
             "package": "ibexa/image-picker",
             "shouldBeAddedAsVCS": false
