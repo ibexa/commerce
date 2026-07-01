@@ -8,6 +8,12 @@
             "shouldBeAddedAsVCS": false
         },
         {
+            "requirement": "dev-ds-development-fixes as dev-6.0-next",
+            "repositoryUrl": "https://github.com/ibexa/admin-ui-assets",
+            "package": "ibexa/admin-ui-assets",
+            "shouldBeAddedAsVCS": false
+        },
+        {
             "requirement": "dev-ds-development-fixes as 6.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/admin-ui",
             "package": "ibexa/admin-ui",
@@ -50,7 +56,7 @@
             "shouldBeAddedAsVCS": false
         },
         {
-            "requirement": "dev-ds-development as 6.0.x-dev",
+            "requirement": "dev-ds-development-fixes as 6.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/content-tree",
             "package": "ibexa/content-tree",
             "shouldBeAddedAsVCS": false
@@ -104,7 +110,7 @@
             "shouldBeAddedAsVCS": false
         },
         {
-            "requirement": "dev-ds-development as 6.0.x-dev",
+            "requirement": "dev-ds-development-fixes as 6.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/fieldtype-richtext",
             "package": "ibexa/fieldtype-richtext",
             "shouldBeAddedAsVCS": false
