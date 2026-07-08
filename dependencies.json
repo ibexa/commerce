@@ -14,7 +14,7 @@
             "shouldBeAddedAsVCS": false
         },
         {
-            "requirement": "dev-ds-development as 6.0.x-dev",
+            "requirement": "dev-ds-development-fixes-2 as 6.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/admin-ui",
             "package": "ibexa/admin-ui",
             "shouldBeAddedAsVCS": false
@@ -146,7 +146,7 @@
             "shouldBeAddedAsVCS": false
         },
         {
-            "requirement": "dev-ds-development as 6.0.x-dev",
+            "requirement": "dev-ds-development-fixes-2 as 6.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/page-builder",
             "package": "ibexa/page-builder",
             "shouldBeAddedAsVCS": false
@@ -164,7 +164,7 @@
             "shouldBeAddedAsVCS": false
         },
         {
-            "requirement": "dev-ds-development as 6.0.x-dev",
+            "requirement": "dev-ds-development-fixes-2 as 6.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/product-catalog",
             "package": "ibexa/product-catalog",
             "shouldBeAddedAsVCS": false
