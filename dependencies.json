@@ -116,7 +116,7 @@
             "shouldBeAddedAsVCS": false
         },
         {
-            "requirement": "dev-ds-development as 6.0.x-dev",
+            "requirement": "dev-ds-development-fixes-2 as 6.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/form-builder",
             "package": "ibexa/form-builder",
             "shouldBeAddedAsVCS": false
