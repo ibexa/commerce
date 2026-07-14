@@ -2,9 +2,9 @@
     "recipesEndpoint": "",
     "packages": [
         {
-            "requirement": "dev-IBX-11832_Let_Ibexa_DXP_support_psr_log_at_least_version_2.0 as 4.6.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/elasticsearch",
-            "package": "ibexa/elasticsearch",
+            "requirement": "dev-ibx-11832-psr-log-ver-2-support as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/elasticsearch8",
+            "package": "ibexa/elasticsearch8",
             "shouldBeAddedAsVCS": true
         },
         {
