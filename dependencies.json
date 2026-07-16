@@ -74,13 +74,13 @@
             "shouldBeAddedAsVCS": false
         },
         {
-            "requirement": "dev-ds-development as 6.0.x-dev",
+            "requirement": "dev-ds-development-fixes-2 as 6.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/dashboard",
             "package": "ibexa/dashboard",
             "shouldBeAddedAsVCS": false
         },
         {
-            "requirement": "dev-ds-development as 6.0.x-dev",
+            "requirement": "dev-ds-development-fixes-2 as 6.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/design-system-twig",
             "package": "ibexa/design-system-twig",
             "shouldBeAddedAsVCS": true
