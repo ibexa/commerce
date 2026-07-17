@@ -2,15 +2,9 @@
   "recipesEndpoint": "",
   "packages": [
     {
-      "requirement": "dev-playwright-ts-setup as 5.0.x-dev",
+      "requirement": "dev-ibx-11739 as 5.0.x-dev",
       "repositoryUrl": "https://github.com/ibexa/admin-ui",
       "package": "ibexa/admin-ui",
-      "shouldBeAddedAsVCS": true
-    },
-    {
-      "requirement": "dev-playwright-ts-setup as 5.0.x-dev",
-      "repositoryUrl": "https://github.com/ibexa/activity-log",
-      "package": "ibexa/activity-log",
       "shouldBeAddedAsVCS": true
     },
     {
