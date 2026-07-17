@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx-12054-language-pair-provider-preselection as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/translations-management",
+            "package": "ibexa/translations-management",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
