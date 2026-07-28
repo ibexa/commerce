@@ -1,0 +1,29 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-regression-tests as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/admin-ui-d202b170",
+            "package": "ibexa/admin-ui",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-11983 as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/product-catalog",
+            "package": "ibexa/product-catalog",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-12082 as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/storefront",
+            "package": "ibexa/storefront",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-11953-fixed-image-editor as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/image-editor-ee5f767b",
+            "package": "ibexa/image-editor",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
