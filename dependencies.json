@@ -20,6 +20,12 @@
             "shouldBeAddedAsVCS": true
         },
         {
+            "requirement": "dev-ibx-12043-orm3-migrations-schema-filter as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/migrations",
+            "package": "ibexa/migrations",
+            "shouldBeAddedAsVCS": true
+        },
+        {
             "requirement": "7.4.14",
             "repositoryUrl": "",
             "package": "symfony/serializer",
