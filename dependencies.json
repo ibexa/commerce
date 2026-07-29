@@ -20,6 +20,12 @@
             "shouldBeAddedAsVCS": true
         },
         {
+            "requirement": "dev-IBX-12081 as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/version-comparison",
+            "package": "ibexa/version-comparison",
+            "shouldBeAddedAsVCS": true
+        },
+        {
             "requirement": "dev-IBX-11953-fixed-image-editor as 4.6.x-dev",
             "repositoryUrl": "https://github.com/ibexa/image-editor-ee5f767b",
             "package": "ibexa/image-editor",
