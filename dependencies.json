@@ -18,6 +18,12 @@
             "repositoryUrl": "https://github.com/ibexa/connector-payum",
             "package": "ibexa/connector-payum",
             "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "7.4.14",
+            "repositoryUrl": "",
+            "package": "symfony/serializer",
+            "shouldBeAddedAsVCS": false
         }
     ]
 }
