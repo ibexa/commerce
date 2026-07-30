@@ -30,6 +30,12 @@
             "repositoryUrl": "https://github.com/ibexa/installer",
             "package": "ibexa/installer",
             "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-ibx-12043-schema-assets-filter-bypass as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/doctrine-schema",
+            "package": "ibexa/doctrine-schema",
+            "shouldBeAddedAsVCS": false
         }
     ]
 }
