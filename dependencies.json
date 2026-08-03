@@ -96,6 +96,12 @@
             "repositoryUrl": "https://github.com/ibexa/version-comparison",
             "package": "ibexa/version-comparison",
             "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-11413-use-ds-dropdown as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/order-management",
+            "package": "ibexa/order-management",
+            "shouldBeAddedAsVCS": false
         }
     ]
 }
