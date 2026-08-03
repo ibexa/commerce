@@ -1,0 +1,17 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-IBX-12083-DAM-one-tab-issue as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/connector-dam",
+            "package": "ibexa/connector-dam",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-12083-DAM-one-tab-issue as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/admin-ui",
+            "package": "ibexa/admin-ui",
+            "shouldBeAddedAsVCS": false
+        }
+    ]
+}
