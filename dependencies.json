@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx-11682-site-access as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/messenger",
+            "package": "ibexa/messenger",
+            "shouldBeAddedAsVCS": false
+        }
+    ]
+}
