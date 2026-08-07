@@ -5,19 +5,19 @@
             "requirement": "dev-dbal-4-upgrade as 6.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/core",
             "package": "ibexa/core",
-            "shouldBeAddedAsVCS": true
+            "shouldBeAddedAsVCS": false
         },
         {
             "requirement": "dev-dbal-4-upgrade as 6.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/core-persistence",
             "package": "ibexa/core-persistence",
-            "shouldBeAddedAsVCS": true
+            "shouldBeAddedAsVCS": false
         },
         {
             "requirement": "dev-dbal-4-upgrade as 6.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/doctrine-schema",
             "package": "ibexa/doctrine-schema",
-            "shouldBeAddedAsVCS": true
+            "shouldBeAddedAsVCS": false
         },
         {
             "requirement": "dev-dbal-4-upgrade as 6.0.x-dev",
@@ -29,7 +29,7 @@
             "requirement": "dev-dbal-4-upgrade as 6.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/doctrine-migrations",
             "package": "ibexa/doctrine-migrations",
-            "shouldBeAddedAsVCS": true
+            "shouldBeAddedAsVCS": false
         },
         {
             "requirement": "dev-dbal-4-upgrade as 6.0.x-dev",
