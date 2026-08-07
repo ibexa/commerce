@@ -8,7 +8,7 @@
             "shouldBeAddedAsVCS": false
         },
         {
-            "requirement": "dev-IBX-11685-ids-tags-missing as 6.0.x-dev",
+            "requirement": "dev-IBX-11685-ids-tags-missing as dev-6.0-next",
             "repositoryUrl": "https://github.com/ibexa/admin-ui-assets",
             "package": "ibexa/admin-ui-assets",
             "shouldBeAddedAsVCS": false
