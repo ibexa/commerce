@@ -1,0 +1,65 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-dbal-4-upgrade as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/core",
+            "package": "ibexa/core",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-dbal-4-upgrade as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/core-persistence",
+            "package": "ibexa/core-persistence",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-dbal-4-upgrade as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/doctrine-schema",
+            "package": "ibexa/doctrine-schema",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-dbal-4-upgrade as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/installer",
+            "package": "ibexa/installer",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-dbal-4-upgrade as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/doctrine-migrations",
+            "package": "ibexa/doctrine-migrations",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-dbal-4-upgrade as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/migrations",
+            "package": "ibexa/migrations",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-dbal-4-upgrade as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/taxonomy",
+            "package": "ibexa/taxonomy",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-dbal-4-upgrade as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/product-catalog",
+            "package": "ibexa/product-catalog",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-dbal-4-upgrade as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/fieldtype-page",
+            "package": "ibexa/fieldtype-page",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-dbal-4-upgrade as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/connector-payum",
+            "package": "ibexa/connector-payum",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
