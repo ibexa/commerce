@@ -6,12 +6,6 @@
             "repositoryUrl": "https://github.com/ibexa/admin-ui",
             "package": "ibexa/admin-ui",
             "shouldBeAddedAsVCS": false
-        },
-        {
-            "requirement": "dev-fix-audience-picker-button-types as 6.0.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/segmentation",
-            "package": "ibexa/segmentation",
-            "shouldBeAddedAsVCS": false
         }
     ]
 }
