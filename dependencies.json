@@ -1,0 +1,17 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx-11952-fixed-locale-overriding as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/admin-ui",
+            "package": "ibexa/admin-ui",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-ibx-11952-fixed-locale-overriding as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/core",
+            "package": "ibexa/core",
+            "shouldBeAddedAsVCS": false
+        }
+    ]
+}
