@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-IBX-11464-Adding-custom-attributes-to-link-breaks-the-RichText-field as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/fieldtype-richtext",
+            "package": "ibexa/fieldtype-richtext",
+            "shouldBeAddedAsVCS": false
+        }
+    ]
+}
