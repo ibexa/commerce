@@ -1,0 +1,29 @@
+{
+    "recipesEndpoint": "https://api.github.com/repos/ibexa/recipes-dev/contents/index.json?ref=flex/pull-256",
+    "packages": [
+        {
+            "requirement": "dev-IBX-11964-app-switcher as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/admin-ui",
+            "package": "ibexa/admin-ui",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-11964-remove-app-switcher as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/headless",
+            "package": "ibexa/headless",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-11964-remove-app-switcher as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/engage",
+            "package": "ibexa/engage",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-11964-app-switcher as dev-6.0-next",
+            "repositoryUrl": "https://github.com/ibexa/admin-ui-assets",
+            "package": "ibexa/admin-ui-assets",
+            "shouldBeAddedAsVCS": false
+        }
+    ]
+}
