@@ -60,6 +60,12 @@
             "repositoryUrl": "https://github.com/ibexa/connector-payum",
             "package": "ibexa/connector-payum",
             "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-dbal-4-upgrade as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/measurement",
+            "package": "ibexa/measurement",
+            "shouldBeAddedAsVCS": true
         }
     ]
 }
