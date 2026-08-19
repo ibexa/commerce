@@ -72,6 +72,24 @@
             "repositoryUrl": "https://github.com/ibexa/workflow",
             "package": "ibexa/workflow",
             "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-dbal-4-upgrade as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/system-info",
+            "package": "ibexa/system-info",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-dbal-4-upgrade as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/discounts",
+            "package": "ibexa/discounts",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-dbal-4-upgrade as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/site-factory",
+            "package": "ibexa/site-factory",
+            "shouldBeAddedAsVCS": true
         }
     ]
 }
