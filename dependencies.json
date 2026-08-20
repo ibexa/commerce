@@ -99,12 +99,6 @@
         },
         {
             "requirement": "dev-dbal-4-upgrade as 6.0.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/oauth2-server",
-            "package": "ibexa/oauth2-server",
-            "shouldBeAddedAsVCS": false
-        },
-        {
-            "requirement": "dev-dbal-4-upgrade as 6.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/page-builder",
             "package": "ibexa/page-builder",
             "shouldBeAddedAsVCS": false
