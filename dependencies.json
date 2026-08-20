@@ -96,6 +96,42 @@
             "repositoryUrl": "https://github.com/ibexa/order-management",
             "package": "ibexa/order-management",
             "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-dbal-4-upgrade as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/oauth2-server",
+            "package": "ibexa/oauth2-server",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-dbal-4-upgrade as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/page-builder",
+            "package": "ibexa/page-builder",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-dbal-4-upgrade as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/fieldtype-matrix",
+            "package": "ibexa/fieldtype-matrix",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-dbal-4-upgrade as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/shopping-list",
+            "package": "ibexa/shopping-list",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-dbal-4-upgrade as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/site-context",
+            "package": "ibexa/site-context",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-dbal-4-upgrade as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/user",
+            "package": "ibexa/user",
+            "shouldBeAddedAsVCS": false
         }
     ]
 }
