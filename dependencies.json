@@ -138,6 +138,12 @@
             "repositoryUrl": "https://github.com/ibexa/activity-log",
             "package": "ibexa/activity-log",
             "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-dbal-4-upgrade as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/collaboration",
+            "package": "ibexa/collaboration",
+            "shouldBeAddedAsVCS": false
         }
     ]
 }
