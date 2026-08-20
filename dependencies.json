@@ -90,6 +90,12 @@
             "repositoryUrl": "https://github.com/ibexa/site-factory",
             "package": "ibexa/site-factory",
             "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-dbal-4-upgrade as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/order-management",
+            "package": "ibexa/order-management",
+            "shouldBeAddedAsVCS": true
         }
     ]
 }
