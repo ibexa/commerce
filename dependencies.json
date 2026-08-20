@@ -132,6 +132,12 @@
             "repositoryUrl": "https://github.com/ibexa/discounts-codes",
             "package": "ibexa/discounts-codes",
             "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-dbal-4-upgrade as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/activity-log",
+            "package": "ibexa/activity-log",
+            "shouldBeAddedAsVCS": false
         }
     ]
 }
