@@ -1,0 +1,23 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx-7785-ibexa-news-parameter as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/dashboard",
+            "package": "ibexa/dashboard",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-ibx-7785-prepend-block-parameters as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/personalization",
+            "package": "ibexa/personalization",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-ibx-7785-prepend-block-parameters as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/product-catalog",
+            "package": "ibexa/product-catalog",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
