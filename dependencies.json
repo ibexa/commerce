@@ -7,6 +7,7 @@
             "package": "ibexa/admin-ui",
             "shouldBeAddedAsVCS": false
         },
+        {
             "requirement": "dev-IBX-12207-input-dark-mode as dev-6.0-next",
             "repositoryUrl": "https://github.com/ibexa/admin-ui-assets",
             "package": "ibexa/admin-ui-assets",
