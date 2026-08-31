@@ -150,6 +150,12 @@
             "repositoryUrl": "https://github.com/ibexa/segmentation",
             "package": "ibexa/segmentation",
             "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-dbal-4-upgrade as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/corporate-account",
+            "package": "ibexa/corporate-account",
+            "shouldBeAddedAsVCS": false
         }
     ]
 }
