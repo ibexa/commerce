@@ -5,7 +5,7 @@
             "requirement": "dev-IBX-12322-neutral-shadow-color as 6.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/activity-log",
             "package": "ibexa/activity-log",
-            "shouldBeAddedAsVCS": true
+            "shouldBeAddedAsVCS": false
         },
         {
             "requirement": "dev-IBX-12322-neutral-shadow-color as 6.0.x-dev",
@@ -23,19 +23,19 @@
             "requirement": "dev-IBX-12322-neutral-shadow-color as 6.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/calendar",
             "package": "ibexa/calendar",
-            "shouldBeAddedAsVCS": true
+            "shouldBeAddedAsVCS": false
         },
         {
             "requirement": "dev-IBX-12322-neutral-shadow-color as 6.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/order-management",
             "package": "ibexa/order-management",
-            "shouldBeAddedAsVCS": true
+            "shouldBeAddedAsVCS": false
         },
         {
             "requirement": "dev-IBX-12322-neutral-shadow-color as 6.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/personalization",
             "package": "ibexa/personalization",
-            "shouldBeAddedAsVCS": true
+            "shouldBeAddedAsVCS": false
         }
     ]
 }
