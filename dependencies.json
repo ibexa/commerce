@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-IBX-12311-updated-buttons-styling as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/design-system-twig",
+            "package": "ibexa/design-system-twig",
+            "shouldBeAddedAsVCS": false
+        }
+    ]
+}
