@@ -14,6 +14,12 @@
             "shouldBeAddedAsVCS": false
         },
         {
+            "requirement": "dev-IBX-12322-neutral-shadow-color as dev-6.0-next",
+            "repositoryUrl": "https://github.com/ibexa/admin-ui-assets",
+            "package": "ibexa/admin-ui-assets",
+            "shouldBeAddedAsVCS": false
+        },
+        {
             "requirement": "dev-IBX-12322-neutral-shadow-color as 6.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/calendar",
             "package": "ibexa/calendar",
