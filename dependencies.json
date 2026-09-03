@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-IBX-12299-measurement-number-input-decimal-separator as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/measurement",
+            "package": "ibexa/measurement",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
