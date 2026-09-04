@@ -14,7 +14,7 @@
             "shouldBeAddedAsVCS": false
         },
         {
-            "requirement": "dev-IBX-12311-updated-buttons-styling as dev-6.0-next",
+            "requirement": "dev-IBX-12311-updated-buttons-styling as 6.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/admin-ui",
             "package": "ibexa/admin-ui",
             "shouldBeAddedAsVCS": false
