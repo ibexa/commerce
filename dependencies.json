@@ -1,0 +1,17 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-IBX-12110-ui-consistency-fixes as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/admin-ui",
+            "package": "ibexa/admin-ui",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-12110-ui-consistency-fixes as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/calendar",
+            "package": "ibexa/calendar",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
