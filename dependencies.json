@@ -1,0 +1,17 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx-12336-language-pair-identifier-model as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/translations-management",
+            "package": "ibexa/translations-management",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-ibx-12270-language-pair-disabled-provider-conflict as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/translations-management",
+            "package": "ibexa/translations-management",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
