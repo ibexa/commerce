@@ -30,9 +30,6 @@ jobs:
         with:
             project-edition: "commerce"
             project-version: ${{ inputs.project-version }}
-            # TODO: verify on the first run that localhost:8080 is served by Varnish
-            # (check X-Varnish/Via response headers). Playwright runs on the runner host —
-            # if Varnish publishes a different host port, set app-url to it explicitly.
             setup: "doc/docker/base-dev.yml:doc/docker/db-postgresql18.yml:doc/docker/varnish.yml:doc/docker/redis7.2.yml"
             send-success-notification: ${{ github.event_name != 'workflow_dispatch' || inputs.send-success-notification }}
             php-image: "ghcr.io/ibexa/docker/php:8.3-node22"
