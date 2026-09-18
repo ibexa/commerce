@@ -1,0 +1,35 @@
+{
+    "recipesEndpoint": "https://api.github.com/repos/ibexa/recipes-dev/contents/index.json?ref=flex/pull-265",
+    "packages": [
+        {
+            "requirement": "dev-IBX-12262-product-page-component as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/admin-ui-extras",
+            "package": "ibexa/admin-ui-extras",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-12262-featured-promo-pages as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/featured",
+            "package": "ibexa/featured",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-12262-personalization-activated-page as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/connector-raptor",
+            "package": "ibexa/connector-raptor",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-12262-engagement-activated-page as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/connector-qualifio",
+            "package": "ibexa/connector-qualifio",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-12262-require-featured as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/headless",
+            "package": "ibexa/headless",
+            "shouldBeAddedAsVCS": false
+        }
+    ]
+}
