@@ -5,13 +5,13 @@
             "requirement": "dev-IBX-12262-product-page-component as 6.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/admin-ui-extras",
             "package": "ibexa/admin-ui-extras",
-            "shouldBeAddedAsVCS": false
+            "shouldBeAddedAsVCS": true
         },
         {
             "requirement": "dev-IBX-12262-featured-promo-pages as 6.0.x-dev",
             "repositoryUrl": "https://github.com/ibexa/featured",
             "package": "ibexa/featured",
-            "shouldBeAddedAsVCS": false
+            "shouldBeAddedAsVCS": true
         },
         {
             "requirement": "dev-IBX-12262-personalization-activated-page as 6.0.x-dev",
