@@ -14,7 +14,6 @@ on:
                 default: ''
     push:
         branches:
-            - master
             - "[0-9]+.[0-9]+"
     pull_request: ~
 
