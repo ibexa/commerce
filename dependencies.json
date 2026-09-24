@@ -6,6 +6,18 @@
             "repositoryUrl": "https://github.com/ibexa/measurement",
             "package": "ibexa/measurement",
             "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-ibx-12675-remove-personalization-integration as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/product-catalog",
+            "package": "ibexa/product-catalog",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-ibx-12674-drop-personalization-require as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/headless",
+            "package": "ibexa/headless",
+            "shouldBeAddedAsVCS": false
         }
     ]
 }
