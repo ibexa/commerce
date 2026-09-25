@@ -18,6 +18,12 @@
             "repositoryUrl": "https://github.com/ibexa/headless",
             "package": "ibexa/headless",
             "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-ibx-12675-remove-personalization-subscriber as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/segmentation",
+            "package": "ibexa/segmentation",
+            "shouldBeAddedAsVCS": true
         }
     ]
 }
