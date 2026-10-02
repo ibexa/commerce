@@ -1,0 +1,137 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-IBX-12046-symfony-8-dual as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/fieldtype-page",
+            "package": "ibexa/fieldtype-page",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-12046-symfony-8-dual as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/page-builder",
+            "package": "ibexa/page-builder",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-12046-symfony-8-dual as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/site-factory",
+            "package": "ibexa/site-factory",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-12046-symfony-8-dual as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/activity-log",
+            "package": "ibexa/activity-log",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-12046-symfony-8-dual as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/permissions",
+            "package": "ibexa/permissions",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-12046-symfony-8-dual as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/fieldtype-address",
+            "package": "ibexa/fieldtype-address",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-12046-symfony-8-dual as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/segmentation",
+            "package": "ibexa/segmentation",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-12046-symfony-8-dual as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/corporate-account",
+            "package": "ibexa/corporate-account",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-12046-symfony-8-dual as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/dashboard",
+            "package": "ibexa/dashboard",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-12046-symfony-8-dual as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/connector-qualifio",
+            "package": "ibexa/connector-qualifio",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-12046-symfony-8-dual as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/form-builder",
+            "package": "ibexa/form-builder",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-12046-symfony-8-dual as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/cart",
+            "package": "ibexa/cart",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-12046-symfony-8-dual as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/order-management",
+            "package": "ibexa/order-management",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-12046-symfony-8-dual as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/payment",
+            "package": "ibexa/payment",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-12046-symfony-8-dual as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/shipping",
+            "package": "ibexa/shipping",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-12046-symfony-8-dual as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/discounts-codes",
+            "package": "ibexa/discounts-codes",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-12046-symfony-8-dual as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/checkout",
+            "package": "ibexa/checkout",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-12046-symfony-8-dual as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/storefront",
+            "package": "ibexa/storefront",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-12046-symfony-8-dual as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/discounts",
+            "package": "ibexa/discounts",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-12046-symfony-8-dual as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/connector-payum",
+            "package": "ibexa/connector-payum",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-12046-symfony-8-dual as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/corporate-account-commerce-bridge",
+            "package": "ibexa/corporate-account-commerce-bridge",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-12046-symfony-8-dual as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/shopping-list",
+            "package": "ibexa/shopping-list",
+            "shouldBeAddedAsVCS": false
+        }
+    ]
+}
