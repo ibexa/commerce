@@ -30,12 +30,6 @@
             "repositoryUrl": "https://github.com/ibexa/taxonomy",
             "package": "ibexa/taxonomy",
             "shouldBeAddedAsVCS": true
-        },
-        {
-            "requirement": "dev-IBX-12267-elasticsearch-9 as 6.0.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/product-catalog-date-time-attribute",
-            "package": "ibexa/product-catalog-date-time-attribute",
-            "shouldBeAddedAsVCS": true
         }
     ]
 }
