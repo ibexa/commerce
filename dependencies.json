@@ -1,0 +1,47 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx-12811-as-tagged-item-action-handlers as 6.0.x-dev",
+            "repositoryUrl": "git@github.com:ibexa/connector-ai.git",
+            "package": "ibexa/connector-ai",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-ibx-12811-as-tagged-item-action-handlers as 6.0.x-dev",
+            "repositoryUrl": "git@github.com:ibexa/connector-openai.git",
+            "package": "ibexa/connector-openai",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-ibx-12811-as-tagged-item-action-handlers as 6.0.x-dev",
+            "repositoryUrl": "git@github.com:ibexa/connector-anthropic.git",
+            "package": "ibexa/connector-anthropic",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-ibx-12811-as-tagged-item-action-handlers as 6.0.x-dev",
+            "repositoryUrl": "git@github.com:ibexa/connector-gemini.git",
+            "package": "ibexa/connector-gemini",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-ibx-12811-as-tagged-item-action-handlers as 6.0.x-dev",
+            "repositoryUrl": "git@github.com:ibexa/connect.git",
+            "package": "ibexa/connect",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-ibx-12811-as-tagged-item-action-handlers as 6.0.x-dev",
+            "repositoryUrl": "git@github.com:ibexa/taxonomy.git",
+            "package": "ibexa/taxonomy",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-ibx-12811-as-tagged-item-action-handlers as 6.0.x-dev",
+            "repositoryUrl": "git@github.com:ibexa/translations-management.git",
+            "package": "ibexa/translations-management",
+            "shouldBeAddedAsVCS": false
+        }
+    ]
+}
