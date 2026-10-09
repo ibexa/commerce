@@ -1,0 +1,17 @@
+{
+  "recipesEndpoint": "",
+  "packages": [
+    {
+      "requirement": "dev-ibx-11739-v6 as 6.0.x-dev",
+      "repositoryUrl": "https://github.com/ibexa/admin-ui",
+      "package": "ibexa/admin-ui",
+      "shouldBeAddedAsVCS": true
+    },
+    {
+      "requirement": "dev-fix/ids-btn-selectors as 6.0.x-dev",
+      "repositoryUrl": "https://github.com/ibexa/cohesivo-playwright",
+      "package": "ibexa/cohesivo-playwright",
+      "shouldBeAddedAsVCS": true
+    }
+  ]
+}
