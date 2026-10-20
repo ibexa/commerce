@@ -1,7 +1,10 @@
 name: Playwright tests (PHP)
 
-# PoC: admin-ui's PHP Playwright suite across the same 3 infra stacks as
-# this repo's Behat regression jobs (browser-tests.yml).
+# PoC: PHP Playwright tests across the same 3 infra stacks as this repo's
+# Behat regression jobs (browser-tests.yml). Edition mode (no test-package)
+# like Behat's own 3 "--suite=commerce" regression jobs — every installed
+# package's Playwright-PHP tests tagged "commerce" run together, not just
+# admin-ui's (today the only one that exists, but this isn't scoped to it).
 #
 # dependencies.json pins both ibexa/cohesivo-playwright and ibexa/admin-ui to
 # this PR's own branches (ci-scripts only swaps in ibexa/commerce itself, the
@@ -29,7 +32,6 @@ jobs:
         uses: ibexa/gh-workflows/.github/workflows/playwright-browser-tests.yml@playwright-php-poc
         with:
             project-edition: "commerce"
-            test-package: "admin-ui"
             setup: "doc/docker/base-dev.yml:doc/docker/db-postgresql18.yml:doc/docker/varnish.yml:doc/docker/redis7.2.yml"
             send-success-notification: ${{ github.event.inputs.send-success-notification != 'false' }}
             php-image: 'ghcr.io/ibexa/docker/php:8.5-node22'
@@ -41,7 +43,6 @@ jobs:
         uses: ibexa/gh-workflows/.github/workflows/playwright-browser-tests.yml@playwright-php-poc
         with:
             project-edition: "commerce"
-            test-package: "admin-ui"
             setup: "doc/docker/base-dev.yml:doc/docker/db-mariadb11.4.yml:doc/docker/elastic8.yml:doc/docker/valkey-latest.yml"
             send-success-notification: ${{ github.event.inputs.send-success-notification != 'false' }}
             php-image: 'ghcr.io/ibexa/docker/php:8.5-node22'
@@ -66,7 +67,6 @@ jobs:
         uses: ibexa/gh-workflows/.github/workflows/playwright-browser-tests.yml@playwright-php-poc
         with:
             project-edition: "commerce"
-            test-package: "admin-ui"
             setup: "doc/docker/base-dev.yml:doc/docker/db-mysql8.4.yml:doc/docker/solr8.yml:doc/docker/redis-latest.yml"
             send-success-notification: ${{ github.event.inputs.send-success-notification != 'false' }}
             php-image: 'ghcr.io/ibexa/docker/php:8.5-node22'
