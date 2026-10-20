@@ -46,6 +46,19 @@ jobs:
             send-success-notification: ${{ github.event.inputs.send-success-notification != 'false' }}
             php-image: 'ghcr.io/ibexa/docker/php:8.5-node22'
             timeout: 60
+            # TEST HARNESS, temporary: same pattern this repo's own Behat
+            # workflow (browser-tests.yml) already uses in production
+            # (hardcoded job-count: 4, no dispatch-input indirection) — just
+            # validating ParaTest's --shard + the --group pre-filter
+            # workaround for real here, not just locally. Only one file
+            # (TrashTest.php) matches the "commerce" group today, so 2
+            # produces an uneven 1-file/0-file split — still enough to prove
+            # the mechanism itself (the <file>-based config, --shard running
+            # without the --group bug, the right scenarios still passing),
+            # just not a meaningful load-balance test yet. Remove this line
+            # once confirmed (or keep it if it turns out useful going
+            # forward as more packages ship Playwright tests).
+            job-count: 2
         secrets: inherit
 
     playwright-php-setup3:
