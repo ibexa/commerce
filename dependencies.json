@@ -1,0 +1,17 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-playwright-php-poc as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/cohesivo-playwright",
+            "package": "ibexa/cohesivo-playwright",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-playwright-php-poc as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/admin-ui",
+            "package": "ibexa/admin-ui",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}

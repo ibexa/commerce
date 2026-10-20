@@ -1,0 +1,74 @@
+name: Playwright tests (PHP)
+
+# PoC: PHP Playwright tests across the same 3 infra stacks as this repo's
+# Behat regression jobs (browser-tests.yml). Edition mode (no test-package)
+# like Behat's own 3 "--suite=commerce" regression jobs — every installed
+# package's Playwright-PHP tests tagged "commerce" run together, not just
+# admin-ui's (today the only one that exists, but this isn't scoped to it).
+#
+# dependencies.json pins both ibexa/cohesivo-playwright and ibexa/admin-ui to
+# this PR's own branches (ci-scripts only swaps in ibexa/commerce itself, the
+# repo this workflow runs from, so admin-ui would otherwise come from its
+# normal released version, which doesn't have tests/playwright-tests-php yet)
+# — drop both pins once everything is merged.
+
+on:
+    workflow_dispatch:
+        inputs:
+            send-success-notification:
+                description: 'Send a notification when the tests pass'
+                required: false
+                type: boolean
+                default: false
+    push:
+        branches:
+            - master
+            - "[0-9]+.[0-9]+"
+    pull_request: ~
+
+jobs:
+    playwright-php-setup1:
+        name: "Playwright (PHP)/PostgreSQL 18/Varnish/Redis 7.2"
+        uses: ibexa/gh-workflows/.github/workflows/playwright-browser-tests.yml@playwright-php-poc
+        with:
+            project-edition: "commerce"
+            setup: "doc/docker/base-dev.yml:doc/docker/db-postgresql18.yml:doc/docker/varnish.yml:doc/docker/redis7.2.yml"
+            send-success-notification: ${{ github.event.inputs.send-success-notification != 'false' }}
+            php-image: 'ghcr.io/ibexa/docker/php:8.5-node22'
+            timeout: 60
+        secrets: inherit
+
+    playwright-php-setup2:
+        name: "Playwright (PHP)/MariaDB 11.4/Elastic 8/Valkey latest"
+        uses: ibexa/gh-workflows/.github/workflows/playwright-browser-tests.yml@playwright-php-poc
+        with:
+            project-edition: "commerce"
+            setup: "doc/docker/base-dev.yml:doc/docker/db-mariadb11.4.yml:doc/docker/elastic8.yml:doc/docker/valkey-latest.yml"
+            send-success-notification: ${{ github.event.inputs.send-success-notification != 'false' }}
+            php-image: 'ghcr.io/ibexa/docker/php:8.5-node22'
+            timeout: 60
+            # TEST HARNESS, temporary: same pattern this repo's own Behat
+            # workflow (browser-tests.yml) already uses in production
+            # (hardcoded job-count: 4, no dispatch-input indirection) — just
+            # validating ParaTest's --shard + the --group pre-filter
+            # workaround for real here, not just locally. Only one file
+            # (TrashTest.php) matches the "commerce" group today, so 2
+            # produces an uneven 1-file/0-file split — still enough to prove
+            # the mechanism itself (the <file>-based config, --shard running
+            # without the --group bug, the right scenarios still passing),
+            # just not a meaningful load-balance test yet. Remove this line
+            # once confirmed (or keep it if it turns out useful going
+            # forward as more packages ship Playwright tests).
+            job-count: 2
+        secrets: inherit
+
+    playwright-php-setup3:
+        name: "Playwright (PHP)/MySQL 8.4/Solr 8/Redis latest"
+        uses: ibexa/gh-workflows/.github/workflows/playwright-browser-tests.yml@playwright-php-poc
+        with:
+            project-edition: "commerce"
+            setup: "doc/docker/base-dev.yml:doc/docker/db-mysql8.4.yml:doc/docker/solr8.yml:doc/docker/redis-latest.yml"
+            send-success-notification: ${{ github.event.inputs.send-success-notification != 'false' }}
+            php-image: 'ghcr.io/ibexa/docker/php:8.5-node22'
+            timeout: 60
+        secrets: inherit
