@@ -53,7 +53,7 @@ jobs:
         secrets: inherit
     regression-commerce-setup3:
         name: "PHP 8.5/Node 22/MySQL 8.4/Multirepository/Solr 10/Redis latest"
-        uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@main
+        uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@ibx-12271-solr10
         with:
             project-edition: "commerce"
             project-version: ${{ github.event.inputs.project-version }}
