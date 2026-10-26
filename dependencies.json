@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-IBX-12339_notifier_does_not_log_when_unconfigured as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/admin-ui",
+            "package": "ibexa/admin-ui",
+            "shouldBeAddedAsVCS": false
+        }
+    ]
+}
