@@ -1,0 +1,53 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-IBX-11843-remove-error-bg as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/admin-ui",
+            "package": "ibexa/admin-ui",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-11843-remove-error-bg as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/fieldtype-richtext",
+            "package": "ibexa/fieldtype-richtext",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-11843-remove-error-bg as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/taxonomy",
+            "package": "ibexa/taxonomy",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-11843-remove-error-bg as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/page-builder",
+            "package": "ibexa/page-builder",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-11843-remove-error-bg as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/site-factory",
+            "package": "ibexa/site-factory",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-11843-remove-error-bg as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/form-builder",
+            "package": "ibexa/form-builder",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-11843-remove-error-bg as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/share",
+            "package": "ibexa/share",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-12545-input-error-state as dev-6.0-next",
+            "repositoryUrl": "https://github.com/ibexa/admin-ui-assets",
+            "package": "ibexa/admin-ui-assets",
+            "shouldBeAddedAsVCS": false
+        }
+    ]
+}
