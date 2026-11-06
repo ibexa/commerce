@@ -1,0 +1,29 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx-12599-gemini-model-declared-options as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/connector-gemini",
+            "package": "ibexa/connector-gemini",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-ibx-12598-openai-model-declared-options as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/connector-openai",
+            "package": "ibexa/connector-openai",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-ibx-12611-anthropic-model-declared-options as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/connector-anthropic",
+            "package": "ibexa/connector-anthropic",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-ibx-12597-stored-model-options-commands as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/connector-ai",
+            "package": "ibexa/connector-ai",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
