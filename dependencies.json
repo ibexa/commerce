@@ -24,6 +24,12 @@
             "repositoryUrl": "https://github.com/ibexa/connector-ai",
             "package": "ibexa/connector-ai",
             "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-ibx-12597-auto-translate-declared-model-options as 5.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/translations-management",
+            "package": "ibexa/translations-management",
+            "shouldBeAddedAsVCS": true
         }
     ]
 }
