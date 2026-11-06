@@ -1,0 +1,41 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-IBX-13070-reentrant-schema-builder as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/doctrine-schema",
+            "package": "ibexa/doctrine-schema",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-13070-schema-builder-orm-listener as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/core",
+            "package": "ibexa/core",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-13070-drop-schema-filter-bypass as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/installer",
+            "package": "ibexa/installer",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-13070-drop-schema-filter-bypass as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/migrations",
+            "package": "ibexa/migrations",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-13070-drop-schema-filter-bypass as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/site-context",
+            "package": "ibexa/site-context",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-13070-drop-schema-filter-bypass as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/doctrine-migrations",
+            "package": "ibexa/doctrine-migrations",
+            "shouldBeAddedAsVCS": false
+        }
+    ]
+}
