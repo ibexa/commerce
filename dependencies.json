@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-IBX-13086-explicit-ibexa-prefix as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/api-platform",
+            "package": "ibexa/api-platform",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
