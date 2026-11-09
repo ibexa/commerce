@@ -2,9 +2,9 @@
     "recipesEndpoint": "",
     "packages": [
         {
-            "requirement": "dev-IBX-12963-richtext-focus-without-click as 6.0.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/admin-ui",
-            "package": "ibexa/admin-ui",
+            "requirement": "dev-merge/5.0-to-6.0 as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/http-cache",
+            "package": "ibexa/http-cache",
             "shouldBeAddedAsVCS": false
         },
         {
