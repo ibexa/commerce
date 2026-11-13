@@ -1,0 +1,17 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-IBX-13117-Loading-content-with-an-image-asset-thumbnail-fails-with-403-when-the-user-cannot-read-the-image as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/core",
+            "package": "ibexa/core",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-13117-Loading-content-with-an-image-asset-thumbnail-fails-with-403-when-the-user-cannot-read-the-image as 4.6.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/rest",
+            "package": "ibexa/rest",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
