@@ -1,0 +1,17 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx-11704-ai-guidelines as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/connector-anthropic",
+            "package": "ibexa/connector-anthropic",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-ibx-11704-ai-guidelines as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/connector-gemini",
+            "package": "ibexa/connector-gemini",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
