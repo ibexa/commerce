@@ -1,0 +1,29 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-IBX-13092-category-tooltips as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/fieldtype-page",
+            "package": "ibexa/fieldtype-page",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-13092-category-tooltips as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/page-builder",
+            "package": "ibexa/page-builder",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-13092-category-tooltips as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/connector-raptor",
+            "package": "ibexa/connector-raptor",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-13090-category-thumbnails as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/admin-ui",
+            "package": "ibexa/admin-ui",
+            "shouldBeAddedAsVCS": false
+        }
+    ]
+}
