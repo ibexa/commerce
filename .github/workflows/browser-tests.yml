@@ -24,6 +24,7 @@ jobs:
         uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@main
         with:
             project-edition: "commerce"
+            ci-scripts-branch: "IBX-13043-remove-collaboration-packages"
             project-version: ${{ github.event.inputs.project-version }}
             test-suite: "--profile=regression --suite=commerce"
             test-setup-phase-1: "--profile=regression --suite=setup-commerce --tags=~@part2 --mode=standard"
@@ -40,6 +41,7 @@ jobs:
         uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@main
         with:
             project-edition: "commerce"
+            ci-scripts-branch: "IBX-13043-remove-collaboration-packages"
             project-version: ${{ github.event.inputs.project-version }}
             test-suite: "--profile=regression --suite=commerce"
             test-setup-phase-1: "--profile=regression --suite=setup-commerce --tags=~@part2 --mode=standard"
@@ -57,6 +59,7 @@ jobs:
         uses: ibexa/gh-workflows/.github/workflows/browser-tests.yml@main
         with:
             project-edition: "commerce"
+            ci-scripts-branch: "IBX-13043-remove-collaboration-packages"
             project-version: ${{ github.event.inputs.project-version }}
             test-suite: "--profile=regression --suite=commerce"
             test-setup-phase-1: "--profile=regression --suite=setup-commerce --tags=~@part2 --mode=standard"
