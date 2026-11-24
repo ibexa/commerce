@@ -1,35 +1,41 @@
 {
     "recipesEndpoint": "",
     "packages": [
-        {
-            "requirement": "dev-feature/language-renumber-6.0 as 6.0.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/core",
-            "package": "ibexa/core",
-            "shouldBeAddedAsVCS": true
-        },
-        {
-            "requirement": "dev-tmp_regression_IBX-13142 as 6.0.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/translations-management",
-            "package": "ibexa/translations-management",
-            "shouldBeAddedAsVCS": true
-        },
-        {
-            "requirement": "dev-feature/language-foreign-keys-6.0 as 6.0.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/product-catalog",
-            "package": "ibexa/product-catalog",
-            "shouldBeAddedAsVCS": true
-        },
-        {
-            "requirement": "dev-feature/language-foreign-keys-6.0 as 6.0.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/share",
-            "package": "ibexa/share",
-            "shouldBeAddedAsVCS": true
-        },
-        {
-            "requirement": "dev-feature/language-join-tables-cleanup-6.0 as 6.0.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/installer",
-            "package": "ibexa/installer",
-            "shouldBeAddedAsVCS": true
-        }
+      {
+        "requirement": "dev-feature/language-renumber-6.0 as 6.0.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/core",
+        "package": "ibexa/core",
+        "shouldBeAddedAsVCS": true
+      },
+      {
+        "requirement": "dev-tmp_regression_IBX-13142 as 6.0.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/translations-management",
+        "package": "ibexa/translations-management",
+        "shouldBeAddedAsVCS": true
+      },
+      {
+        "requirement": "dev-feature/language-foreign-keys-6.0 as 6.0.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/product-catalog",
+        "package": "ibexa/product-catalog",
+        "shouldBeAddedAsVCS": true
+      },
+      {
+        "requirement": "dev-feature/language-foreign-keys-6.0 as 6.0.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/share",
+        "package": "ibexa/share",
+        "shouldBeAddedAsVCS": true
+      },
+      {
+        "requirement": "dev-feature/language-join-tables-cleanup-6.0 as 6.0.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/installer",
+        "package": "ibexa/installer",
+        "shouldBeAddedAsVCS": true
+      },
+      {
+        "requirement": "dev-tmp_regression_IBX-13142 as 6.0.x-dev",
+        "repositoryUrl": "https://github.com/ibexa/connector-ai",
+        "package": "ibexa/connector-ai",
+        "shouldBeAddedAsVCS": true
+      }
     ]
 }
