@@ -1,0 +1,17 @@
+{
+    "recipesEndpoint": "https://api.github.com/repos/ibexa/recipes-dev/contents/index.json?ref=flex/pull-292",
+    "packages": [
+        {
+            "requirement": "dev-IBX-13288-merge-collaboration-into-share as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/share.git",
+            "package": "ibexa/share",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-13288-merge-collaboration-into-share as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/headless.git",
+            "package": "ibexa/headless",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
