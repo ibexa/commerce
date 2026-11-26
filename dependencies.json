@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-ibx-13207 as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/data-intelligence-layer",
+            "package": "ibexa/data-intelligence-layer",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
