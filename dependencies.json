@@ -1,0 +1,11 @@
+{
+    "recipesEndpoint": "https://api.github.com/repos/ibexa/recipes-dev/contents/index.json?ref=flex/pull-287",
+    "packages": [
+        {
+            "requirement": "dev-ibx-13132-exclude-content-types-from-block-usage as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/fieldtype-page",
+            "package": "ibexa/fieldtype-page",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
