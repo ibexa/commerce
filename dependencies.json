@@ -6,12 +6,6 @@
             "repositoryUrl": "https://github.com/ibexa/translations-management",
             "package": "ibexa/translations-management",
             "shouldBeAddedAsVCS": true
-        },
-        {
-            "requirement": "dev-merge/5.0-to-6.0 as 6.0.x-dev",
-            "repositoryUrl": "https://github.com/ibexa/discounts",
-            "package": "ibexa/discounts",
-            "shouldBeAddedAsVCS": true
         }
     ]
 }
