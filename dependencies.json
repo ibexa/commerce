@@ -1,0 +1,41 @@
+{
+    "recipesEndpoint": "",
+    "packages": [
+        {
+            "requirement": "dev-IBX-13332-init-added-ds-components as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/design-system-twig",
+            "package": "ibexa/design-system-twig",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-13332-init-added-ds-components as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/admin-ui",
+            "package": "ibexa/admin-ui",
+            "shouldBeAddedAsVCS": false
+        },
+        {
+            "requirement": "dev-IBX-13332-init-added-ds-components as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/fieldtype-address",
+            "package": "ibexa/fieldtype-address",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-13332-init-added-ds-components as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/form-builder",
+            "package": "ibexa/form-builder",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-13332-init-added-ds-components as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/site-factory",
+            "package": "ibexa/site-factory",
+            "shouldBeAddedAsVCS": true
+        },
+        {
+            "requirement": "dev-IBX-13332-init-added-ds-components as 6.0.x-dev",
+            "repositoryUrl": "https://github.com/ibexa/corporate-account",
+            "package": "ibexa/corporate-account",
+            "shouldBeAddedAsVCS": true
+        }
+    ]
+}
