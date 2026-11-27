@@ -19,7 +19,7 @@ on:
 
 jobs:
   preparation:
-    runs-on: ubuntu-26.04
+    runs-on: blacksmith-4vcpu-ubuntu-2604
     # This should allow parallel runs in a chain, e.g. OSS->Headless->Experience->Commerce
     # whilst allowing Satis to process (rebuilt by cron every 5 minutes;
     # the retry schedule re-checks for up to ~28.5 minutes)
@@ -38,10 +38,10 @@ jobs:
 
   action:
     needs: preparation
-    runs-on: ubuntu-26.04
+    runs-on: blacksmith-4vcpu-ubuntu-2604
 
     steps:
-      - uses: actions/checkout@v7
+      - uses: useblacksmith/checkout@v1
         with:
           persist-credentials: false
 
